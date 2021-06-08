@@ -70,6 +70,7 @@ public:
 private:
 
     void file_save();
+    void file_save_and_export();
     void file_save_as();
     void remove_selected_images();
 
@@ -91,9 +92,11 @@ private:
     void on_overlay_rect_selected(const dlib::image_display::overlay_rect& orect);
 
     void display_about();
-    void executeChipping();
+    void chipToXML();
     void refresh();
     void toSet();
+    void chipImage();
+
     std::string filename;
     std::vector<std::string> folderList;
     dlib::image_dataset_metadata::dataset metadata;

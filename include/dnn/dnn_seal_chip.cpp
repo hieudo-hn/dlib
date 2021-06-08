@@ -127,18 +127,18 @@ int main(int argc, char** argv) try
             int right = face_chip_details.rect.right() / UPSCALE, bottom = face_chip_details.rect.bottom() / UPSCALE;
             extract_image_chip(img, face_chip_details, face_chip); //Img, rectangle for each chip, chip destination
 
-            //remove the .jpg part of the curImg
-            int dotIdx = curImg.find(".");
-            if (dotIdx != std::string::npos) curImg = curImg.substr(0, dotIdx);
+            // //remove the .jpg part of the curImg
+            // int dotIdx = curImg.find(".");
+            // if (dotIdx != std::string::npos) curImg = curImg.substr(0, dotIdx);
 
-            // save the face chip
-            // the name of the chipped photo will be in the format:
-            // <count>_<original_photo>_ChippedAt_<top_left_coordinate_of_the_chipped_photo_within_the_original_photo>.jpeg
-            // located in the folder <original_folder>Chips
-            string location = "(" + to_string(left) + "," + to_string(top) + "),(" + to_string(right) + "," + to_string(bottom) + ")";
-            string filename = to_string(num_chips) + "_" + curImg + "_ChippedAt_" + location + ".jpeg";
-            string filedir = chipFolder + "/" + filename;
-            save_jpeg(face_chip, filedir, 100); 
+            // // save the face chip
+            // // the name of the chipped photo will be in the format:
+            // // <count>_<original_photo>_ChippedAt_<top_left_coordinate_of_the_chipped_photo_within_the_original_photo>.jpeg
+            // // located in the folder <original_folder>Chips
+            // string location = "(" + to_string(left) + "," + to_string(top) + "),(" + to_string(right) + "," + to_string(bottom) + ")";
+            // string filename = to_string(num_chips) + "_" + curImg + "_ChippedAt_" + location + ".jpeg";
+            // string filedir = chipFolder + "/" + filename;
+            // save_jpeg(face_chip, filedir, 100); 
             
             //insert the box
             const rectangle rect(left, top, right, bottom);
@@ -149,7 +149,7 @@ int main(int argc, char** argv) try
                 }
             }
 
-            cout << filename << " saved to " << chipFolder << endl;
+            //cout << filename << " saved to " << chipFolder << endl;
         }
         save_image_dataset_metadata(metadata, xmlfile);
     }
