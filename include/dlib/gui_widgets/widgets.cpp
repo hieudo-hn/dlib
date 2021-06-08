@@ -2836,7 +2836,32 @@ namespace dlib
             show();
         }
 
+        void blocking_box_win::
+        myinitialize (
+        )
+        {
+            msg.set_pos(20,20);
+            msg.set_text(message);
+            rectangle msg_rect = msg.get_rect();
+            //btn_ok.set_name("CANCEL");
+            //btn_ok.set_size(60,btn_ok.height());
+            //if (msg_rect.width() >= 60)
+             //   btn_ok.set_pos(msg_rect.width()/2+msg_rect.left()-btn_ok.width()/2,msg_rect.bottom()+15);
+            //else
+             //   btn_ok.set_pos(20,msg_rect.bottom()+15);
+            //btn_ok.set_click_handler(*this,&box_win::myon_click);
+
+            rectangle size = msg_rect;
+            set_size(size.right()+20,size.bottom()+20);
+
+
+            show();
+            set_title(title);
+        }
     // ------------------------------------------------------------------------------------
+
+
+
 
         blocking_box_win::
         blocking_box_win (

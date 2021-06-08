@@ -1562,7 +1562,8 @@ namespace dlib
         {
             void initialize (
             );
-
+            void myinitialize (
+            );
         public:
             blocking_box_win (
                 const std::string& title_,
@@ -1578,9 +1579,15 @@ namespace dlib
                 const dlib::ustring& title_,
                 const dlib::ustring& message_
             );
+            blocking_box_win (
+                const std::string& title_,
+                const std::string& message_,
+                int mybox
+            );
 
             ~blocking_box_win (
             );
+           
 
         private:
 
