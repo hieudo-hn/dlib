@@ -1499,6 +1499,8 @@ namespace dlib
         {
             void initialize (
             );
+            void myinitialize (
+            );
         public:
             box_win (
                 const std::string& title_,
@@ -1513,6 +1515,11 @@ namespace dlib
             box_win (
                 const dlib::ustring& title_,
                 const dlib::ustring& message_
+            );
+            box_win (
+                const std::string& title_,
+                const std::string& message_,
+                int mybox
             );
 
             ~box_win (
@@ -1530,6 +1537,11 @@ namespace dlib
 
             static void deleter_thread (
                 void* param
+            );
+            static void mydeleter_thread (
+                void* param
+            );
+            void myon_click(
             );
 
             void on_click (
@@ -1607,7 +1619,35 @@ namespace dlib
         box_win* win = new box_win(title,message);
         win->set_click_handler(event_handler);
     }
+    template <
+        typename T
+        >
+    void mymessage_box (
+        const std::string& title,
+        const std::string& message,
+        int mybox,
+        T& object,
+        void (T::*event_handler)() 
+    )
+    {
+        using namespace message_box_helper;
+        box_win* win = new box_win(title,message,mybox);
+        win->set_click_handler(make_mfp(object,event_handler));
+    }
 
+    inline void mymessage_box (
+        const std::string& title,
+        const std::string& message,
+        int mybox,
+        const any_function<void()>& event_handler
+    )
+    {
+        using namespace message_box_helper;
+        box_win* win = new box_win(title,message,mybox);
+        win->set_click_handler(event_handler);
+    }
+
+ 
     inline void message_box (
         const std::string& title,
         const std::string& message

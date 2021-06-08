@@ -2647,7 +2647,28 @@ namespace dlib
             show();
             set_title(title);
         }
+        void box_win::
+        myinitialize (
+        )
+        {
+            msg.set_pos(20,20);
+            msg.set_text(message);
+            rectangle msg_rect = msg.get_rect();
+            //btn_ok.set_name("CANCEL");
+            //btn_ok.set_size(60,btn_ok.height());
+            //if (msg_rect.width() >= 60)
+             //   btn_ok.set_pos(msg_rect.width()/2+msg_rect.left()-btn_ok.width()/2,msg_rect.bottom()+15);
+            //else
+             //   btn_ok.set_pos(20,msg_rect.bottom()+15);
+            //btn_ok.set_click_handler(*this,&box_win::myon_click);
 
+            rectangle size = msg_rect;
+            set_size(size.right()+20,size.bottom()+20);
+
+
+            show();
+            set_title(title);
+        }
     // ------------------------------------------------------------------------------------
 
         box_win::
@@ -2663,6 +2684,22 @@ namespace dlib
         {
             initialize();
         }
+        box_win::
+        box_win (
+            const std::string& title_,
+            const std::string& message_,
+            int mybox
+        ) : 
+            drawable_window(false),
+            title(convert_mbstring_to_wstring(title_)),
+            message(convert_mbstring_to_wstring(message_)),
+            msg(*this),
+            btn_ok(*this)
+        {
+            myinitialize();
+            create_new_thread(&mydeleter_thread,this);
+        }
+
 
     // ------------------------------------------------------------------------------------
 
@@ -2723,7 +2760,30 @@ namespace dlib
                 event_handler(); 
         }
 
-    // ------------------------------------------------------------------------------------
+        void box_win::
+        mydeleter_thread (
+            void* param
+        )
+        {
+            // The point of this extra event_handler stuff is to allow the user
+            // to end the program from within the callback.  So we want to destroy the 
+            // window *before* we call their callback.
+            box_win& w = *static_cast<box_win*>(param);
+            any_function<void()> event_handler(w.event_handler);
+            if (event_handler.is_set())
+                event_handler();
+            w.close_window();
+            delete &w;
+        }
+
+    // --void box_win::
+        void box_win::
+        myon_click (
+        )
+        {
+            create_new_thread(&mydeleter_thread,this);
+        }
+        //----------------------------------------------------------------------------------
 
         void box_win::
         on_click (

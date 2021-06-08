@@ -207,6 +207,13 @@ namespace dlib
         const std::string& message,
         const any_function<void()>& event_handler
     );
+
+    void mymessage_box (
+        const std::string& title,
+        const std::string& message,
+        int mybox,
+        const any_function<void()>& event_handler
+    );
     /*!
         ensures
             - Displays a message box with the given title and message.  It will have a 

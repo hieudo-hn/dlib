@@ -1,0 +1,6 @@
+%compile_commands.json
+%c -std=c17
+%cpp -std=c++17
+%c %cpp -pthread
+%h %hpp --include=Global.h
+-Iinc
