@@ -92,7 +92,8 @@ private:
 
     void display_about();
     void executeChipping();
-
+    void refresh();
+    void toSet();
     std::string filename;
     std::vector<std::string> folderList;
     dlib::image_dataset_metadata::dataset metadata;

@@ -674,7 +674,47 @@ display_about()
 
 // ----------------------------------------------------------------------------------------
 
-void toSet(){
+void metadata_editor::refresh(){
+  load_image_dataset_metadata(metadata, filename);
+
+  dlib::array<std::string>::expand_1a files;
+  files.resize(metadata.images.size());
+  for (unsigned long i = 0; i < metadata.images.size(); ++i)
+  {
+    files[i] = metadata.images[i].filename;
+  }
+  lb_images.load(files);
+  lb_images.enable_multiple_select();
+
+  lb_images.set_click_handler(*this, &metadata_editor::on_lb_images_clicked);
+
+  overlay_label_name.set_text("Next Label: ");
+  overlay_label.set_width(200);
+
+  display.set_image_clicked_handler(*this, &metadata_editor::on_image_clicked);
+  display.set_overlay_rects_changed_handler(*this, &metadata_editor::on_overlay_rects_changed);
+  display.set_overlay_rect_selected_handler(*this, &metadata_editor::on_overlay_rect_selected);
+  overlay_label.set_text_modified_handler(*this, &metadata_editor::on_overlay_label_changed);
+
+  on_window_resized();
+  load_image_and_set_size(0);
+  on_window_resized();
+  if (image_pos < lb_images.size())
+    lb_images.select(image_pos);
+
+  // make sure the window is centered on the screen.
+  unsigned long width, height;
+  get_size(width, height);
+  unsigned long screen_width, screen_height;
+  get_display_size(screen_width, screen_height);
+  set_pos((screen_width - width) / 2, (screen_height - height) / 2);
+
+  show();
+ 
+  
+}
+
+void metadata_editor::toSet(){
 
   std::ostringstream sout;
   string prog = "./program";
@@ -682,11 +722,16 @@ void toSet(){
   system(command);
   sout << wrap_string("Chipping Complete!", 0, 0) << endl;
   message_box("Done", sout.str());
+  metadata_editor::refresh();
 }
 void metadata_editor::
 executeChipping()
 {
-  /* array2d<rgb_pixel> img;
+  // Make our current directory be the one that contains the metadata file.  We
+  // do this because that file might contain relative paths to the image files
+  // we are supposed to be loading.
+
+    /* array2d<rgb_pixel> img;
      display.clear_overlay();
      try
      {
@@ -705,7 +750,10 @@ executeChipping()
 
   std::ostringstream sout;
   sout << wrap_string("Please wait: This prompt will automatically close when chipping completes.", 0, 0) << endl;
-  mymessage_box("Buffering", sout.str(), 1, &toSet);
+  mymessage_box("Buffering", sout.str(), 1, *this, &metadata_editor::toSet);
+  //std::size_t pos = filename.find_last_of("/");
+// position of "live" in str
+  //std::string str3 = str.substr (pos)
 }
 
   
