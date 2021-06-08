@@ -53,7 +53,9 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 
 # Additional information:
 [GUI Extensions and Functionality](docs/GUI.md)
+
 [Searching Source Code For Specifics](docs/SEARCH.md)
+
 You can look into Dlib's source code in http://dlib.net/. 
 
 
