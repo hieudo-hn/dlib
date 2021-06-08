@@ -630,10 +630,18 @@ void metadata_editor::
     display_about()
 {
     std::ostringstream sout;
-    sout << wrap_string("Image Labeler v" + string(VERSION) + ".", 0, 0) << endl
+    sout << wrap_string("Imglab for SealNet" + string(VERSION) + ".", 0, 0) << endl
          << endl;
     sout << wrap_string("This program is a tool for labeling images with rectangles. ", 0, 0) << endl
          << endl;
+
+    sout << wrap_string("Before running imglab, you should have editted the configuration file \"config.txt\" "
+                        "to indicate the list of folder photos that you want to work with. To use our seal detection "
+                        "software, click on Chip >> Start and wait for the program to execute. It will take around "
+                        "10-20 seconds per photos using CPU. All of the face boxes will be saved in an XML file "
+                        "indicated in your configuration file."
+    ) << endl;
+        << endl;
 
     sout << wrap_string("You can add a new rectangle by holding the shift key, left clicking "
                         "the mouse, and dragging it.  New rectangles are given the label from the \"Next Label\" "

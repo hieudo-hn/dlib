@@ -1,67 +1,59 @@
-# dlib C++ library [![Travis Status](https://travis-ci.org/davisking/dlib.svg?branch=master)](https://travis-ci.org/davisking/dlib)
+## SealNet FaceChipping 
+This project is based on Davis King's Imglab & source code of dlib - a C++ machine learning toolkit.
 
-Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference.
-
-
-
-## Compiling dlib C++ example programs
-
-Go into the examples folder and type:
-
-```bash
-mkdir build; cd build; cmake .. ; cmake --build .
+# Prerequisite to running the program:
+1. Clone/Download this repo:
 ```
-
-That will build all the examples.
-If you have a CPU that supports AVX instructions then turn them on like this:
-
-```bash
-mkdir build; cd build; cmake .. -DUSE_AVX_INSTRUCTIONS=1; cmake --build .
+git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
+or download the zip file and unzip it in your laptop if you do not have git.
 
-Doing so will make some things run faster.
+2. Download C++ Compiler:
+You can download C++ Compiler using this link: https://gcc.gnu.org/. Make sure to download a compiler that is compatible with your operating system, for Windows you might need to add a PATH to make it work. You can skip this step if you already have a compiler.
 
-Finally, Visual Studio users should usually do everything in 64bit mode.  By default Visual Studio is 32bit, both in its outputs and its own execution, so you have to explicitly tell it to use 64bits.  Since it's not the 1990s anymore you probably want to use 64bits.  Do that with a cmake invocation like this:
-```bash
-cmake .. -G "Visual Studio 14 2015 Win64" -T host=x64 
+3. Download CMake:
+You can download CMake using this link: https://cmake.org/download/. Make sure to download CMake that is compatible with your operating system. You can skip this step if CMake is already installed.
+
+# Important folders:
+1. imglab/src: source code to run imglab
+
+2. include/dlib: dlib source code
+
+3. include/dnn: contains sealFindr.cpp and dnn_seal_chip.cpp to execute face-chipping and store the result in the xmlFile
+
+4. run: folder to run the program
+
+# Important files:
+1. run/seal.dat: Trained model to detect seal face. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
+
+2. run/config.txt: Configuration file. The config.txt file should be written as follow:
 ```
-
-## Compiling your own C++ programs that use dlib
-
-The examples folder has a [CMake tutorial](https://github.com/davisking/dlib/blob/master/examples/CMakeLists.txt) that tells you what to do.  There are also additional instructions on the [dlib web site](http://dlib.net/compile.html).
-
-Alternatively, if you are using the [vcpkg](https://github.com/Microsoft/vcpkg/) dependency manager you can download and install dlib with CMake integration in a single command:
-```bash
-vcpkg install dlib
+xml=XMLFILE //to store face chip data
+model=FACECHIPMODEL //.dat file of a trained face chipping model (default=seal.dat)
+picfolder=PHOTOFOLDER1 PHOTOFOLDER2 PHOTOFOLDER3 // list of relative paths to photo directories that you want to chip, separated by 1 space blank.
 ```
-
-## Compiling dlib Python API
-
-Before you can run the Python example programs you must compile dlib. Type:
-
-```bash
-python setup.py install
+An example of a config.txt file:
 ```
-
-
-## Running the unit test suite
-
-Type the following to compile and run the dlib unit test suite:
-
-```bash
-cd dlib/test
-mkdir build
-cd build
-cmake ..
-cmake --build . --config Release
-./dtest --runall
+xml=data.xml
+model=seal.dat
+picfolder=Whaleboat_1_1 Mitchell_Field_1_31
 ```
+Note: picfolder contains the relative path to the photo directory. If you are not familiar with directory pathing, move all of your photo directories into the "run" folders and put the name of those directories in picfolder like in the above example
 
-Note that on windows your compiler might put the test executable in a subfolder called `Release`. If that's the case then you have to go to that folder before running the test.
+# Running the program:
+1. `cd` to your local repository
 
-This library is licensed under the Boost Software License, which can be found in [dlib/LICENSE.txt](https://github.com/davisking/dlib/blob/master/dlib/LICENSE.txt).  The long and short of the license is that you can use dlib however you like, even in closed source commercial software.
+2. run `buildseal` to compile all of the programs. `buildseal` can be called anywhere in your local repo.
 
-## dlib sponsors
+3. `cd run`
 
-This research is based in part upon work supported by the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA) under contract number 2014-14071600010. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of ODNI, IARPA, or the U.S. Government.
+4. Edit config.txt file using an editor or using `nano config.txt` in the terminal. At the end you can do Ctrl-X then Y and hit Enter to save. Please follow the guidelines in writing config.txt file for our programs to run smoothly.
+
+5. run the program with `./imglab`
+
+# Additional information:
+You can look into Dlib's source code in http://dlib.net/. 
+
+
+
 
