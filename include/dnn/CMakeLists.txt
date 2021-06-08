@@ -1,10 +1,12 @@
 cmake_minimum_required(VERSION 2.8.12)
+set(CMAKE_BUILD_TYPE RelWithDebInfo) #debug symbols
 # Every project needs a name.  We call this the "examples" project.
 project(SealNet)
 
 #run C++ 17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 set(CMAKE_THREAD_LIBS_INIT "-lpthread")
 set(CMAKE_HAVE_THREADS_LIBRARY 1)
