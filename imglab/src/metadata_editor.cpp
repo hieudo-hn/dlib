@@ -1,6 +1,5 @@
 // Copyright (C) 2011  Davis E. King (davis@dlib.net)
 // License: Boost Software License   See LICENSE.txt for the full license.
-
 #include "metadata_editor.h"
 #include "dlib/gui_widgets/widgets.h"
 #include <dlib/array.h>
@@ -707,7 +706,7 @@ executeChipping()
   std::ostringstream sout;
   sout << wrap_string("Please wait: This prompt will automatically close when chipping completes.", 0, 0) << endl;
   mymessage_box("Buffering", sout.str(), 1, &toSet);
-  }
+}
 
   
   //sout.clear();

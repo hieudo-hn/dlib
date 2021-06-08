@@ -3,4 +3,5 @@
 %cpp -std=c++17
 %c %cpp -pthread
 %h %hpp --include=Global.h
--Iinc
+-I./include/dlib
+-isystem/home/zach/development/research/dlibSealGui/include/dlib
