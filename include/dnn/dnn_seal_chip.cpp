@@ -92,7 +92,11 @@ int main(int argc, char** argv) try
         string curImg = argv[i];
         string curImageFile = curFolder + "/" + curImg;
         matrix<rgb_pixel> img;
-        load_image(img, curImageFile);
+        try {
+            load_image(img, curImageFile);
+        } catch (image_load_error& e) {
+            cout << "Error loading image " << curImageFile << endl; 
+        }
         bool isPyramidUp;
 
         std::vector<dlib::mmod_rect> dets;
@@ -119,26 +123,12 @@ int main(int argc, char** argv) try
         {
             num_chips++;
             cout << "num_chips " << num_chips << endl;
-            // extract the face chip
             matrix<rgb_pixel> face_chip;
             cout << "d.rect... " << endl;
             chip_details face_chip_details = chip_details(d.rect, chip_dims(CHIP_SIZE, CHIP_SIZE)); //Optionally add angle
-            int left = face_chip_details.rect.left() / UPSCALE, top = face_chip_details.rect.top() / UPSCALE;
-            int right = face_chip_details.rect.right() / UPSCALE, bottom = face_chip_details.rect.bottom() / UPSCALE;
-            extract_image_chip(img, face_chip_details, face_chip); //Img, rectangle for each chip, chip destination
-
-            //remove the .jpg part of the curImg
-            int dotIdx = curImg.find(".");
-            if (dotIdx != std::string::npos) curImg = curImg.substr(0, dotIdx);
-
-            // save the face chip
-            // the name of the chipped photo will be in the format:
-            // <count>_<original_photo>_ChippedAt_<top_left_coordinate_of_the_chipped_photo_within_the_original_photo>.jpeg
-            // located in the folder <original_folder>Chips
-            string location = "(" + to_string(left) + "," + to_string(top) + "),(" + to_string(right) + "," + to_string(bottom) + ")";
-            string filename = to_string(num_chips) + "_" + curImg + "_ChippedAt_" + location + ".jpeg";
-            string filedir = chipFolder + "/" + filename;
-            save_jpeg(face_chip, filedir, 100); 
+            int upscale = (isPyramidUp) ? UPSCALE : 1;
+            int left = face_chip_details.rect.left() / upscale, top = face_chip_details.rect.top() / upscale;
+            int right = face_chip_details.rect.right() / upscale, bottom = face_chip_details.rect.bottom() / upscale;
             
             //insert the box
             const rectangle rect(left, top, right, bottom);
@@ -149,7 +139,6 @@ int main(int argc, char** argv) try
                 }
             }
 
-            cout << filename << " saved to " << chipFolder << endl;
         }
         save_image_dataset_metadata(metadata, xmlfile);
     }
