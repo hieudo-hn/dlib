@@ -1,7 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+set(CMAKE_EXPORT_COMPILE_COMMANDS YES)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(ChipTool)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
 #file( GLOB LIB_SOURCES include/dlib/*.cpp )
 #file( GLOB LIB_HEADERS include/dlib/*.h )
 #aadd_library( dlib STATIC ${LIB_SOURCES} ${LIB_HEADERS} )
@@ -36,4 +39,10 @@ target_link_libraries( imglab dlib::dlib)
 target_link_libraries( seal dlib::dlib)
 target_link_libraries( program dlib::dlib)
 
+install(TARGETS imglab seal program 
+  DESTINATION bin
+  DESTINATION bin
+  DESTINATION bin
+  )
+      #install(PROGRAMS convert_imglab_paths_to_relative copy_imglab_dataset DESTINATION bin )
 

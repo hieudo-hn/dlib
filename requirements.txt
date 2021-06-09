@@ -1,0 +1,6 @@
+#REQUIRES
+CMake
+Ninja
+GCC/G++ w/ std=c++17
+buildscript works on linux only
+
