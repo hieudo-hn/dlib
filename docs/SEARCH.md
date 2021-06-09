@@ -11,14 +11,16 @@ in order to find a specific function, implementation, class, or other source cod
 
 
 # Most Used Commands
-grep 'yoursearchterm' <filename> 
+    grep 'yoursearchterm' <filename> 
+
 Searches a specific file for your term
 
-grep -r 'yoursearchterm' .
+    grep -r 'yoursearchterm' .
+
 Searches every file in the directory and all subdirectories for your term
 
-grep -r --exclude-dir=(your directory to exclude) 'yoursearchterm' . 
-Searches every file in the directory and all subdirectories **EXCEPT for the one excluded** in the directory for your term. This is useful when folders like .ccls\_cache or other caches are generated. 
+    grep -r --exclude-dir=(your directory to exclude) 'yoursearchterm' . 
+-Searches every file in the directory and all subdirectories **EXCEPT for the one excluded** in the directory for your term. This is useful when folders like .ccls\_cache or other caches are generated. 
 
 # Other Useful Flags
 -i - ignores the case of the search term
