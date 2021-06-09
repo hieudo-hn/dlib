@@ -640,7 +640,7 @@ void metadata_editor::
                         "software, click on Chip >> Start and wait for the program to execute. It will take around "
                         "10-20 seconds per photos using CPU. All of the face boxes will be saved in an XML file "
                         "indicated in your configuration file."
-    ) << endl;
+    ) << endl
         << endl;
 
     sout << wrap_string("You can add a new rectangle by holding the shift key, left clicking "
