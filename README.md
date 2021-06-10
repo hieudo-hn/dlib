@@ -45,9 +45,9 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 
 2. run `sealbuild` in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
 
-+ (Optional) To run the build command from anywhere navigate to the main project directory and execute: 
+++ (Optional) To run the build command from anywhere navigate to the main project directory and execute: 
 
-+ `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
+++ `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
 
 3. `cd run`
 
