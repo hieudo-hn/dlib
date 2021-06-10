@@ -8,18 +8,32 @@ git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
 or download the zip file and unzip it in your laptop if you do not have git.
 
-2. Download C++ Compiler:
-You can download C++ Compiler using this link: https://gcc.gnu.org/. Make sure to download a compiler that is compatible with your operating system, for Windows you might need to add a PATH to make it work. You can skip this step if you already have a compiler.
+2. (MacOS) Check if you have homebrew
+If typing `brew` in your terminal returns `command not found` run the following to install homebrew:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
-3. Download CMake:
-You can download CMake using this link: https://cmake.org/download/. Make sure to download CMake that is compatible with your operating system. You can skip this step if CMake is already installed.
+3. Download C++ Compiler:
+
+  + You can download C++ Compiler using this link: https://gcc.gnu.org/. Make sure to download a compiler that is compatible with your operating system, for Windows you might need to add a PATH to make it work. You can skip this step if you already have a compiler.
+
+4. Download CMake:
+
+  + (MacOS) Just run `brew install cmake`
+  + (Others/General) You can download CMake using this link: https://cmake.org/download/. Make sure to download CMake that is compatible with your operating system. You can skip this step if CMake is already installed.
+
+5. Download Ninja:
+
+  + (MacOS) Just run `brew install ninja`
+  + (Other/General) Follow the instructions on this page: https://ninja-build.org/
 
 # Important folders:
 1. imglab/src: source code to run imglab
 
 2. include/dlib: dlib source code
 
-3. include/dnn: contains sealFindr.cpp and dnn_seal_chip.cpp to execute face-chipping and store the result in the xmlFile
+3. sealdnn: contains sealFindr.cpp and dnn_seal_chip.cpp to execute face-chipping and store the result in the xmlFile
 
 4. run: folder to run the program
 
@@ -45,9 +59,9 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 
 2. run `sealbuild` in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
 
-+ + (Optional) To run the build command from anywhere navigate to the main project directory and execute: 
+  + (Optional) To run the build command from anywhere navigate to the main project directory and execute: 
 
-+ + `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
+  + `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
 
 3. `cd run`
 
