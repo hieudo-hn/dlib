@@ -43,7 +43,11 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 # Running the program:
 1. `cd` to your local repository
 
-2. run `buildseal` to compile all of the programs. `buildseal` can be called anywhere in your local repo.
+2. run `sealbuild` in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
+
+(Optional) To run the command from anywhere navigate to the main project directory and execute: 
+
+`echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
 
 3. `cd run`
 
