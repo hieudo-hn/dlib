@@ -29,7 +29,7 @@ If typing `brew` in your terminal returns `command not found` run the following 
   + (Other/General) Follow the instructions on this page: https://ninja-build.org/
 
 6. Download XServer
-  + (MacOS) brew install --cask xquartz
+  + (MacOS) `brew install --cask xquartz`
   + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
 
 # Important folders:
