@@ -1,9 +1,4 @@
-**/.idea
-*~
-*.swp
-*.o
-*.so
-*.pyc
+envsrc
 build
 dataChips
 imglab/build
