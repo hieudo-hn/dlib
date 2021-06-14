@@ -28,6 +28,10 @@ If typing `brew` in your terminal returns `command not found` run the following 
   + (MacOS) Just run `brew install ninja`
   + (Other/General) Follow the instructions on this page: https://ninja-build.org/
 
+6. Download XServer
+  + (MacOS) `brew install --cask xquartz`
+  + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
+
 # Important folders:
 1. imglab/src: source code to run imglab
 
