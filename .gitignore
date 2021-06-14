@@ -1,9 +1,3 @@
-**/.idea
-*~
-*.swp
-*.o
-*.so
-*.pyc
 build
 dataChips
 imglab/build
@@ -14,3 +8,5 @@ run/program
 run/imglab
 run/seal
 .ccls-cache
+run/*.xml
+

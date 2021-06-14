@@ -33,7 +33,9 @@ int main(int argc, char **argv)
     std::cout << "Run ./program to read from config\nOr ./program YOURXMLFILE.xml YOURFOLDER1 YOURFOLDER2 ..." << std::endl;
   }
 
-  while (int i = dirpath.find(" ") != std::string::npos)
+  std::string delimiter = " ";
+  size_t i;
+  while ((i = dirpath.find(delimiter)) != std::string::npos)
   {
     const std::string dpath = dirpath.substr(0, i);
     executeCommand(xmlFile, model, dpath);

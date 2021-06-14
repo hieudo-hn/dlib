@@ -102,6 +102,7 @@ void create_new_dataset(
 
     size_t pos = 0;
     std::string s = folders;
+    cout << s << endl;
     while ((pos = s.find(delimiter)) != std::string::npos)
     {
         std::string curFold = s.substr(0, pos);
@@ -117,9 +118,10 @@ void create_new_dataset(
         }
 
         s.erase(0, pos + delimiter.length());
+        cout << s << endl;
     }
-    meta.folderList.push_back(folders);
-    std::vector<file> files = get_files_in_directory_tree(folders,
+    meta.folderList.push_back(s);
+    std::vector<file> files = get_files_in_directory_tree(s,
                                                           match_endings(".png .PNG .jpeg .JPEG .jpg .JPG .bmp .BMP .dng .DNG .gif .GIF"),
                                                           depth);
     sort(files.begin(), files.end());
