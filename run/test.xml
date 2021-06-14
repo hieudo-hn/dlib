@@ -3,17 +3,183 @@
 <dataset>
 <name>Data Set</name>
 <comment>Created by imglab tools.</comment>
-<folderList>data</folderList>
+<folderList>Whaleboat_1_28 data</folderList>
 <images>
+  <image file='Whaleboat_1_28/DSCN4317.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4319.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4321.JPG'>
+    <box top='409' left='788' width='58' height='51'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4322.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4323.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4326.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4329.JPG'>
+    <box top='273' left='348' width='58' height='52'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4330.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4331.JPG'>
+    <box top='117' left='1612' width='34' height='31'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4332.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4333.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4334.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4335.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4337.JPG'>
+    <box top='303' left='403' width='34' height='31'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4338.JPG'>
+    <box top='383' left='699' width='83' height='74'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4341.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4342.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4343.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4344.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4345.JPG'>
+    <box top='102' left='164' width='143' height='128'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4346.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4347.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4348.JPG'>
+    <box top='76' left='125' width='143' height='128'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4349.JPG'>
+    <box top='174' left='208' width='143' height='128'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4350.JPG'>
+    <box top='102' left='180' width='142' height='128'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4351.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4352.JPG'>
+    <box top='100' left='131' width='142' height='127'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4353.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4354.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4356.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4357.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4358.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4359.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4360.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4361.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4362.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4363.JPG'>
+    <box top='70' left='259' width='205' height='183'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4364.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4365.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4366.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4367.JPG'>
+    <box top='296' left='141' width='119' height='106'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4368.JPG'>
+    <box top='196' left='169' width='100' height='89'/>
+    <box top='124' left='1660' width='99' height='89'/>
+    <box top='148' left='450' width='83' height='74'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4369.JPG'>
+    <box top='219' left='571' width='99' height='89'/>
+    <box top='291' left='212' width='100' height='89'/>
+    <box top='305' left='2821' width='99' height='89'/>
+    <box top='234' left='1731' width='100' height='88'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4370.JPG'>
+    <box top='178' left='535' width='99' height='89'/>
+    <box top='250' left='148' width='99' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4371.JPG'>
+    <box top='122' left='564' width='120' height='106'/>
+    <box top='210' left='160' width='100' height='89'/>
+    <box top='124' left='1766' width='99' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4372.JPG'>
+    <box top='277' left='1800' width='99' height='88'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4373.JPG'>
+    <box top='94' left='187' width='100' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4374.JPG'>
+    <box top='189' left='1508' width='99' height='89'/>
+    <box top='103' left='60' width='99' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4375.JPG'>
+    <box top='119' left='126' width='100' height='89'/>
+    <box top='262' left='2075' width='100' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4376.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4377.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4378.JPG'>
+    <box top='108' left='121' width='99' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4379.JPG'>
+    <box top='85' left='105' width='99' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4380.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4381.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4382.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4385.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4387.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4388.JPG'>
+    <box top='74' left='106' width='120' height='107'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4389.JPG'>
+    <box top='78' left='69' width='99' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4390.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4391.JPG'>
+    <box top='115' left='248' width='120' height='106'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4392.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4393.JPG'>
+    <box top='187' left='184' width='99' height='89'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4394.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4396.JPG'>
+    <box top='140' left='200' width='205' height='183'/>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4397.JPG'>
+  </image>
+  <image file='Whaleboat_1_28/DSCN4398.JPG'>
+    <box top='88' left='144' width='205' height='183'/>
+  </image>
   <image file='data/DSCN3217.JPG'>
-    <box top='240' left='401' width='48' height='43'/>
-    <box top='262' left='299' width='58' height='52'/>
-    <box top='230' left='1294' width='70' height='62'/>
-    <box top='370' left='578' width='69' height='62'/>
-    <box top='337' left='183' width='58' height='52'/>
-    <box top='212' left='1749' width='48' height='44'/>
-    <box top='237' left='597' width='58' height='52'/>
-    <box top='240' left='448' width='70' height='62'/>
     <box top='240' left='401' width='48' height='43'/>
     <box top='262' left='299' width='58' height='52'/>
     <box top='230' left='1294' width='70' height='62'/>
@@ -25,13 +191,8 @@
   </image>
   <image file='data/DSCN3218.JPG'>
     <box top='212' left='1427' width='70' height='62'/>
-    <box top='212' left='1427' width='70' height='62'/>
   </image>
   <image file='data/DSCN3219.JPG'>
-    <box top='92' left='540' width='70' height='62'/>
-    <box top='242' left='680' width='69' height='62'/>
-    <box top='121' left='1078' width='58' height='52'/>
-    <box top='109' left='1908' width='48' height='43'/>
     <box top='92' left='540' width='70' height='62'/>
     <box top='242' left='680' width='69' height='62'/>
     <box top='121' left='1078' width='58' height='52'/>
@@ -41,17 +202,8 @@
     <box top='298' left='1074' width='119' height='106'/>
     <box top='87' left='1106' width='100' height='89'/>
     <box top='109' left='833' width='119' height='106'/>
-    <box top='298' left='1074' width='119' height='106'/>
-    <box top='87' left='1106' width='100' height='89'/>
-    <box top='109' left='833' width='119' height='106'/>
   </image>
   <image file='data/DSCN3221.JPG'>
-    <box top='191' left='1112' width='99' height='88'/>
-    <box top='405' left='1113' width='119' height='107'/>
-    <box top='133' left='696' width='99' height='89'/>
-    <box top='182' left='2351' width='119' height='106'/>
-    <box top='205' left='653' width='99' height='89'/>
-    <box top='160' left='828' width='83' height='74'/>
     <box top='191' left='1112' width='99' height='88'/>
     <box top='405' left='1113' width='119' height='107'/>
     <box top='133' left='696' width='99' height='89'/>
@@ -64,36 +216,22 @@
     <box top='271' left='1004' width='100' height='89'/>
     <box top='400' left='302' width='99' height='89'/>
     <box top='679' left='2177' width='49' height='43'/>
-    <box top='509' left='986' width='119' height='106'/>
-    <box top='271' left='1004' width='100' height='89'/>
-    <box top='400' left='302' width='99' height='89'/>
-    <box top='679' left='2177' width='49' height='43'/>
   </image>
   <image file='data/DSCN3223.JPG'>
-    <box top='424' left='653' width='99' height='88'/>
     <box top='424' left='653' width='99' height='88'/>
   </image>
   <image file='data/DSCN3224.JPG'>
     <box top='225' left='504' width='100' height='89'/>
-    <box top='225' left='504' width='100' height='89'/>
   </image>
   <image file='data/DSCN3225.JPG'>
-    <box top='239' left='1059' width='143' height='127'/>
-    <box top='227' left='420' width='100' height='88'/>
     <box top='239' left='1059' width='143' height='127'/>
     <box top='227' left='420' width='100' height='88'/>
   </image>
   <image file='data/DSCN3227.JPG'>
     <box top='657' left='380' width='49' height='44'/>
     <box top='793' left='1916' width='28' height='26'/>
-    <box top='657' left='380' width='49' height='44'/>
-    <box top='793' left='1916' width='28' height='26'/>
   </image>
   <image file='data/DSCN3229.JPG'>
-    <box top='668' left='1899' width='69' height='62'/>
-    <box top='670' left='929' width='58' height='52'/>
-    <box top='512' left='3027' width='59' height='52'/>
-    <box top='725' left='421' width='49' height='43'/>
     <box top='668' left='1899' width='69' height='62'/>
     <box top='670' left='929' width='58' height='52'/>
     <box top='512' left='3027' width='59' height='52'/>
