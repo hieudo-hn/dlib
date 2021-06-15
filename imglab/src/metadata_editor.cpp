@@ -639,23 +639,31 @@ void metadata_editor::
                         "to indicate the list of folder photos that you want to work with. To use our seal detection "
                         "software, click on Chip >> Start and wait for the program to execute. It will take around "
                         "10-20 seconds per photos using CPU. All of the face boxes will be saved in an XML file "
-                        "indicated in your configuration file."
+                        "indicated in your configuration file. When facechipping is done, you will see red "
+                        "rectangles on faces detected by our model."
     ) << endl
         << endl;
 
-    sout << wrap_string("You can add a new rectangle by holding the shift key, left clicking "
-                        "the mouse, and dragging it.  New rectangles are given the label from the \"Next Label\" "
-                        "field at the top of the application.  You can quickly edit the contents of the Next Label field "
-                        "by hitting the tab key. Double clicking "
-                        "a rectangle selects it and the delete key removes it.  You can also mark "
+    sout << wrap_string("To draw new rectangle on the remaining undetected faces, you can hold the shift key, "
+                        "left click the mouse, and drag it. You can also double click on "
+                        "a rectangle to select it and hit the delete key to removes it.  You can also mark "
                         "a rectangle as ignored by hitting the i or END keys when it is selected.  Ignored "
-                        "rectangles are visually displayed with an X through them.  You can remove an image "
+                        "rectangles are visually displayed with an X through them. Please ignore any rectangles "
+                        "with a SEAL FACE in it but it is not up to standard (e.g: too blurry, cannot fully see both eyes, "
+                        "hidden behind another seal). You can remove an image "
                         "entirely by selecting it in the list on the left and pressing alt+d.",
                         0, 0)
          << endl
          << endl;
 
-    sout << wrap_string("It is also possible to label object parts by selecting a rectangle and "
+    sout << wrap_string("Save your progress by clicking File >> Save. It will save all of your drawn rectangles "
+                        "in the XML file. You can start chipping all of the face boxes by clicking File >> Save & Export. "
+                        "Please make sure that you have finished drawing all of the rectangles before clicking export. "
+                        "YOU SHOULD ONLY CLICK EXPORT ONCE to avoid having duplicate chipped images in your folders. "
+                        "If you need to re-export, please delete all of the folders whose names end with \"Chips\" before "
+                        "proceedings." , 0, 0) << endl << endl;
+
+    /*sout << wrap_string("It is also possible to label object parts by selecting a rectangle and "
                         "then right clicking.  A popup menu will appear and you can select a part label. "
                         "Note that you must define the allowable part labels by giving --parts on the "
                         "command line.  An example would be '--parts \"leye reye nose mouth\"'. "
@@ -665,7 +673,7 @@ void metadata_editor::
                         "labeled with integer labels or the rectangle has no parts at all.",
                         0, 0)
          << endl
-         << endl;
+         << endl;*/
 
     sout << wrap_string("Press the down or s key to select the next image in the list and the up or w "
                         "key to select the previous one.",
@@ -686,7 +694,7 @@ void metadata_editor::
          << endl
          << endl;
 
-    sout << wrap_string("You can also toggle image histogram equalization by pressing the e key.", 0, 0) << endl;
+    //sout << wrap_string("You can also toggle image histogram equalization by pressing the e key.", 0, 0) << endl;
 
     message_box("About Image Labeler", sout.str());
 }
