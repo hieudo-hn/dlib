@@ -347,7 +347,7 @@
     <box top='244' left='973' width='119' height='106'/>
     <box top='210' left='712' width='100' height='89'/>
     <box top='290' left='3370' width='159' height='129'/>
-    <box top='142' left='2784' width='157' height='99' ignore='1'/>
+    <box top='124' left='2792' width='153' height='149' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_Singles_1_29/DSCN4490.JPG'>
     <box top='45' left='3340' width='143' height='128'/>
@@ -489,17 +489,16 @@
     <box top='278' left='1758' width='125' height='95'/>
   </image>
   <image file='Brandt_Ledges_Singles_1_29/DSCN4525.JPG'>
-    <box top='210' left='1154' width='171' height='152'/>
     <box top='324' left='3299' width='143' height='127'/>
     <box top='83' left='730' width='119' height='106'/>
-    <box top='470' left='705' width='48' height='43'/>
-    <box top='168' left='2732' width='131' height='95' ignore='1'/>
     <box top='302' left='3180' width='121' height='109' ignore='1'/>
+    <box top='140' left='2732' width='133' height='149'/>
+    <box top='156' left='1144' width='193' height='201'/>
   </image>
   <image file='Brandt_Ledges_Singles_1_29/DSCN4529.JPG'>
-    <box top='76' left='713' width='119' height='107'/>
-    <box top='334' left='2880' width='119' height='107'/>
     <box top='286' left='2394' width='100' height='88'/>
+    <box top='28' left='692' width='169' height='169'/>
+    <box top='316' left='2844' width='173' height='169'/>
   </image>
   <image file='Brandt_Ledges_Singles_1_29/DSCN4530.JPG'>
     <box top='291' left='1812' width='100' height='89'/>
@@ -509,7 +508,7 @@
     <box top='66' left='114' width='133' height='129'/>
   </image>
   <image file='Brandt_Ledges_Singles_1_29/DSCN4533.JPG'>
-    <box top='236' left='1957' width='143' height='128'/>
+    <box top='204' left='1916' width='189' height='169'/>
   </image>
   <image file='Brandt_Ledges_Singles_1_29/DSCN4536.JPG'>
     <box top='502' left='3988' width='142' height='127'/>
@@ -825,6 +824,7 @@
   <image file='Brandt_Ledges_Singles_1_29/DSCN4621.JPG'>
     <box top='176' left='4247' width='295' height='263'/>
     <box top='123' left='3801' width='325' height='271'/>
+    </box>
   </image>
   <image file='Brandt_Ledges_Singles_1_29/DSCN4622.JPG'>
     <box top='694' left='2321' width='295' height='264'/>
