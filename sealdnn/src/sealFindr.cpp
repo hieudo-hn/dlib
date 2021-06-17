@@ -61,7 +61,7 @@ void executeCommand(const std::string xmlFile, const std::string model, const st
   /* print all the files and directories within directory */
     while ((ent = readdir (dir)) != NULL) {
       if(strcmp(ent->d_name, ".") != 0 && strcmp(ent->d_name, "..") != 0){
-      printf ("%s/%s\n", dpath.c_str(), ent->d_name);
+      //printf ("%s/%s\n", dpath.c_str(), ent->d_name);
       arguments += " ";
       arguments += std::string(ent->d_name);
       }
@@ -72,6 +72,7 @@ void executeCommand(const std::string xmlFile, const std::string model, const st
     perror ("Could not open");
   }
 
+  //std::cout << arguments << std::endl;
   //adding photo files in PATH to the arguments
   //calling the executable to chip faces
   system(arguments.c_str());
