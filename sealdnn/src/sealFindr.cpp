@@ -9,7 +9,6 @@
 #include <string.h>
 void configRead(std::string *);
 void executeCommand(const std::string, const std::string, const std::string);
-int listdir(const char *);
 
 int main(int argc, char **argv)
 {
@@ -102,19 +101,4 @@ void configRead(std::string *config)
 }
 
 
-int listdir(const char *path) {
-    struct dirent *entry;
-    DIR *dp;
 
-    dp = opendir(path);
-    if (dp == NULL) {
-        perror("opendir: Path does not exist or could not be read.");
-        return -1;
-    }
-
-    while ((entry = readdir(dp)))
-        puts(entry->d_name);
-
-    closedir(dp);
-    return 0;
-}
