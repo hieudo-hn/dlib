@@ -17,7 +17,6 @@
 #include <fstream>
 #include <string>
 #include <set>
-#include <filesystem>
 
 #include <dlib/dir_nav.h>
 
@@ -1278,9 +1277,8 @@ int main(int argc, char **argv)
             configRead(configargs);
             std::string folders = configargs[2];
             std::string xmlFile = configargs[0];
-            if (!std::filesystem::exists(xmlFile))
-            {
-                //create XML file
+            struct stat st {0};
+            if (!stat(xmlFile.c_str(), &st)){
                 create_new_dataset(xmlFile, folders);
             }
             metadata_editor editor(xmlFile);

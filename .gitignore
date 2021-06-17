@@ -1,12 +1,8 @@
 build
-dataChips
 imglab/build
 run/imglab
 run/seal
 .vscode
 run/program
-run/imglab
-run/seal
 .ccls-cache
-run/*.xml
 

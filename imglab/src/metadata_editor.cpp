@@ -19,7 +19,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <stdio.h>
-#include <filesystem>
+#include <dirent.h>
 using namespace std;
 using namespace dlib;
 
@@ -796,10 +796,15 @@ void metadata_editor::chipImage()
             // Make the Chip directory = PATH + "Chips"
             //creating chipfolder with name = PATH + Chips
             string chipFolder = i.filename.substr(0, slashIdx) + "Chips";
-            if (std::filesystem::create_directory(chipFolder))
-            {
+            struct stat st = {0};
+            if (stat(chipFolder.c_str(), &st) == -1){
+                mkdir(chipFolder.c_str(), NULL);
                 std::cout << "Directory created. Chipped photos will be stored at " << chipFolder << std::endl;
             }
+
+
+
+           
 
             // save the face chip
             // the name of the chipped photo will be in the format:

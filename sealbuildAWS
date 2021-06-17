@@ -1,0 +1,21 @@
+#!/bin/bash
+
+DIR=$(reldir=$(dirname -- "$0"; echo x); reldir=${reldir%?x}; cd -- "$reldir" && pwd && echo x); 
+PJ_ROOT=${DIR%?x}
+DIRBUILD=$PJ_ROOT/build
+
+cd $PJ_ROOT
+
+if [[ ! -d $DIRBUILD ]]; then
+  mkdir $DIRBUILD
+fi
+
+cd $DIRBUILD
+~/.local/bin/cmake -GNinja $PJ_ROOT
+ninja
+
+DIRBIN=$DIRBUILD/bin
+
+cp $DIRBIN/imglab $PJ_ROOT/run
+cp $DIRBIN/seal $PJ_ROOT/run
+cp $DIRBIN/program $PJ_ROOT/run
