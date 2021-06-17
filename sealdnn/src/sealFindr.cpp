@@ -1,11 +1,15 @@
 #include <string>
 #include <iostream>
-#include <filesystem>
+#include <dirent.h>
 #include <vector>
 #include <fstream>
-
+#include <sys/types.h>
+#include <dirent.h>
+#include <libgen.h>
+#include <string.h>
 void configRead(std::string *);
 void executeCommand(const std::string, const std::string, const std::string);
+int listdir(const char *);
 
 int main(int argc, char **argv)
 {
@@ -52,14 +56,24 @@ int main(int argc, char **argv)
 void executeCommand(const std::string xmlFile, const std::string model, const std::string dpath)
 {
   std::string arguments = "./seal " + xmlFile + " " + model + " " + dpath;
-
-  //adding photo files in PATH to the arguments
-  for (const auto &entry : std::filesystem::directory_iterator(dpath))
-  {
-    arguments += " ";
-    arguments += std::filesystem::proximate(entry, dpath);
+  DIR *dir;
+  struct dirent *ent;
+  if ((dir = opendir(dpath.c_str())) != NULL) {
+  /* print all the files and directories within directory */
+    while ((ent = readdir (dir)) != NULL) {
+      if(strcmp(ent->d_name, ".") != 0 && strcmp(ent->d_name, "..") != 0){
+      printf ("%s/%s\n", dpath.c_str(), ent->d_name);
+      arguments += " ";
+      arguments += std::string(ent->d_name);
+      }
+    }
+    closedir (dir);
+  } else {
+  /* could not open directory */
+    perror ("Could not open");
   }
 
+  //adding photo files in PATH to the arguments
   //calling the executable to chip faces
   system(arguments.c_str());
 }
@@ -85,4 +99,22 @@ void configRead(std::string *config)
 
   else
     std::cout << "Unable to open file" << std::endl;
+}
+
+
+int listdir(const char *path) {
+    struct dirent *entry;
+    DIR *dp;
+
+    dp = opendir(path);
+    if (dp == NULL) {
+        perror("opendir: Path does not exist or could not be read.");
+        return -1;
+    }
+
+    while ((entry = readdir(dp)))
+        puts(entry->d_name);
+
+    closedir(dp);
+    return 0;
 }
