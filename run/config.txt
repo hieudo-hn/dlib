@@ -1,3 +1,3 @@
-xml=thirdTest.xml
-model=seal3.dat
+xml=oldTest.xml
+model=seal.dat
 picfolder=Brandt_Ledges_Singles_1_10 Brandt_Ledges_Singles_1_29 Mitchell_Field_Singles_1_31 Whaleboat_Singles_1_28 Whaleboat_Singles_7_1
