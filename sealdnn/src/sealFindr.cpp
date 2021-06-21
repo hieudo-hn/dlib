@@ -4,9 +4,9 @@
 #include <vector>
 #include <fstream>
 #include <sys/types.h>
-#include <dirent.h>
 #include <libgen.h>
 #include <string.h>
+
 void configRead(std::string *);
 void executeCommand(const std::string, const std::string, const std::string);
 
