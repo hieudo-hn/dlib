@@ -773,6 +773,7 @@ void metadata_editor::chipImage()
         dlib::load_image(img, i.filename);
         for (box b : i.boxes)
         {
+            if (b.ignore) continue;
             matrix<rgb_pixel> face_chip;
             chip_details face_chip_details = chip_details(b.rect, chip_dims(CHIP_SIZE, CHIP_SIZE)); //Optionally add angle
             extract_image_chip(img, face_chip_details, face_chip);                                  //Img, rectangle for each chip, chip destination
@@ -798,13 +799,9 @@ void metadata_editor::chipImage()
             string chipFolder = i.filename.substr(0, slashIdx) + "Chips";
             struct stat st = {0};
             if (stat(chipFolder.c_str(), &st) == -1){
-                mkdir(chipFolder.c_str(), NULL);
-                std::cout << "Directory created. Chipped photos will be stored at " << chipFolder << std::endl;
+                if (mkdir(chipFolder.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == -1) std::cout << "Error creating directory. Exiting..." << std::endl;
+                else std::cout << "Directory created. Chipped photos will be stored at " << chipFolder << std::endl;
             }
-
-
-
-           
 
             // save the face chip
             // the name of the chipped photo will be in the format:
@@ -819,4 +816,6 @@ void metadata_editor::chipImage()
             save_jpeg(face_chip, filedir, 100);
         }
     }
+
+    std::cout << "Done Chipping." << std::endl;
 }
