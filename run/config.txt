@@ -1,3 +1,3 @@
 xml=../data/fourth.xml
 model=../trainedModel/seal4.dat
-picfolder=../data/Brandt_Ledges_Singles_1_10 ../data/Brandt_Ledges_Singles_1_29 ../data/Mitchell_Field_Singles_1_31 ../data/Whaleboat_Singles_1_28 ../data/Whaleboat_Singles_7_1
+picfolder=../data/Brandt_Ledges_Singles_1_10
