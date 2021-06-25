@@ -1279,7 +1279,7 @@ int main(int argc, char **argv)
             std::string xmlFile = configargs[0];
             struct stat st {0};
             int ret = stat(xmlFile.c_str(), &st);
-            if (ret != 0){
+            if (ret > 0){
                 create_new_dataset(xmlFile, folders);
             }
             metadata_editor editor(xmlFile);
