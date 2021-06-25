@@ -20,6 +20,9 @@
 #include <sys/wait.h>
 #include <stdio.h>
 #include <dirent.h>
+
+// #include <filesystem>
+
 using namespace std;
 using namespace dlib;
 
@@ -640,9 +643,9 @@ void metadata_editor::
                         "software, click on Chip >> Start and wait for the program to execute. It will take around "
                         "10-20 seconds per photos using CPU. All of the face boxes will be saved in an XML file "
                         "indicated in your configuration file. When facechipping is done, you will see red "
-                        "rectangles on faces detected by our model."
-    ) << endl
-        << endl;
+                        "rectangles on faces detected by our model.")
+         << endl
+         << endl;
 
     sout << wrap_string("To draw new rectangle on the remaining undetected faces, you can hold the shift key, "
                         "left click the mouse, and drag it. You can also double click on "
@@ -661,7 +664,10 @@ void metadata_editor::
                         "Please make sure that you have finished drawing all of the rectangles before clicking export. "
                         "YOU SHOULD ONLY CLICK EXPORT ONCE to avoid having duplicate chipped images in your folders. "
                         "If you need to re-export, please delete all of the folders whose names end with \"Chips\" before "
-                        "proceedings." , 0, 0) << endl << endl;
+                        "proceedings.",
+                        0, 0)
+         << endl
+         << endl;
 
     /*sout << wrap_string("It is also possible to label object parts by selecting a rectangle and "
                         "then right clicking.  A popup menu will appear and you can select a part label. "
@@ -744,12 +750,23 @@ void metadata_editor::toSet()
 {
 
     std::ostringstream sout;
-    string prog = "./program";
-    const char *command = prog.c_str();
-    system(command);
-    sout << wrap_string("Chipping Complete!", 0, 0) << endl;
-    message_box("Done", sout.str());
-    metadata_editor::refresh();
+
+    // char tmp[256];
+    // getcwd(tmp, 256);
+    // cout << "Current working directory: " << tmp << endl;
+
+    // hard-coded, we need to run ./program in run directory but our current working dir is ./data
+    // uncomment the code snippet above to get your current working directory if you ever reorganize the repo
+    string repath = "../run"; // cd ../run to go to run directory
+    if (chdir(repath.c_str()) == 0)
+    {
+        string prog = "./program";
+        const char *command = prog.c_str();
+        system(command);
+        sout << wrap_string("Chipping Complete!", 0, 0) << endl;
+        message_box("Done", sout.str());
+        metadata_editor::refresh();
+    } else cout << "Error change current working directory. The program cannot execute." << endl;
 }
 void metadata_editor::
     chipToXML()
@@ -773,7 +790,8 @@ void metadata_editor::chipImage()
         dlib::load_image(img, i.filename);
         for (box b : i.boxes)
         {
-            if (b.ignore) continue;
+            if (b.ignore)
+                continue;
             matrix<rgb_pixel> face_chip;
             chip_details face_chip_details = chip_details(b.rect, chip_dims(CHIP_SIZE, CHIP_SIZE)); //Optionally add angle
             extract_image_chip(img, face_chip_details, face_chip);                                  //Img, rectangle for each chip, chip destination
@@ -783,10 +801,11 @@ void metadata_editor::chipImage()
             int slashIdx = 0;
             for (int t = i.filename.size() - 1; t >= 0; t--)
             {
-                if (temp.at(t) == '/'){
+                if (temp.at(t) == '/')
+                {
                     slashIdx = t;
                     break;
-                } 
+                }
             }
             temp.erase(0, slashIdx + 1);
             int dotIdx = temp.find(".");
@@ -798,9 +817,12 @@ void metadata_editor::chipImage()
             //creating chipfolder with name = PATH + Chips
             string chipFolder = i.filename.substr(0, slashIdx) + "Chips";
             struct stat st = {0};
-            if (stat(chipFolder.c_str(), &st) == -1){
-                if (mkdir(chipFolder.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == -1) std::cout << "Error creating directory. Exiting..." << std::endl;
-                else std::cout << "Directory created. Chipped photos will be stored at " << chipFolder << std::endl;
+            if (stat(chipFolder.c_str(), &st) == -1)
+            {
+                if (mkdir(chipFolder.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == -1)
+                    std::cout << "Error creating directory. Exiting..." << std::endl;
+                else
+                    std::cout << "Directory created. Chipped photos will be stored at " << chipFolder << std::endl;
             }
 
             // save the face chip
