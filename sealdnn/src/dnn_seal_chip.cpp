@@ -41,13 +41,16 @@
 #include <dlib/dnn.h>
 #include <dlib/data_io.h>
 #include <dlib/image_processing.h>
-#include <dlib/gui_widgets.h>
-#include <new>
+
+#include <dirent.h>
+#include <vector>
+#include <fstream>
+#include <sys/types.h>
+#include <libgen.h>
+#include <string.h>
 
 using namespace std;
 using namespace dlib;
-
-
 
 // ----------------------------------------------------------------------------------------
 
@@ -63,34 +66,83 @@ using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<inpu
 
 const unsigned CHIP_SIZE = 112;
 const unsigned UPSCALE = 2;
+const double ADJUST_THRESHOLD = 1; 
 
+// ----------------------------------------------------------------------------------------
 
-int main(int argc, char** argv) try
+void configRead(std::string *);
+void executeChipping(const std::string, const std::string);
+
+int main(int argc, char **argv)
 {
-    if (argc < 4)
+  std::string configargs[3];
+  std::string xmlFile, model;
+
+  //if you run system call ./program XMLFILE MODEL
+  if (argc == 3)
+  {
+    model = std::string(argv[2]);
+    xmlFile = std::string(argv[1]);
+  }
+  //if you run system call ./program
+  else if (argc == 1)
+  {
+    std::cout << "Reading from config" << std::endl;
+    configRead(configargs);
+    model = configargs[1];
+    xmlFile = configargs[0];
+  }
+  else
+  {
+    std::cout << "Run ./program to read from config\nOr ./program YOURXMLFILE.xml YOURMODEL.dat" << std::endl;
+  }
+
+  executeChipping(xmlFile, model);
+
+  return 0;
+}
+
+/**
+ * Read configuration from config.txt file
+ */
+void configRead(std::string *config)
+{
+  std::string line;
+  std::ifstream configfile("config.txt");
+  int counter = 0;
+  if (configfile.is_open())
+  {
+    while (getline(configfile, line))
     {
-        cout << "Call this program like this:" << endl;
-        cout << "./seal.exe xmlfile seal.dat PHOTO_DIR photo1 photo2 ..." << endl;
-        return 0;
+      std::string arg = line.substr(line.find('=') + 1);
+      config[counter] = arg;
+      counter++;
     }
+    configfile.close();
+  }
+
+  else
+    std::cout << "Unable to open file" << std::endl;
+}
+
+/**
+ * Main function to execute chipping. It takes an xmlFile and chips all the photos in that file using a specified model
+ */ 
+void executeChipping(const std::string xmlFile, const std::string model){
     // load the xmlFile
-    char* xmlfile = argv[1]; 
     dlib::image_dataset_metadata::dataset metadata; 
-    load_image_dataset_metadata(metadata, xmlfile); 
+    load_image_dataset_metadata(metadata, xmlFile); 
 
     // load the models
-    net_type net;
-    deserialize(argv[2]) >> net;
+    net_type detector;
+    deserialize(model) >> detector;
 
     int num_chips = 0;
-    string curFolder = argv[3];
-    string chipFolder = curFolder + "Chips";
 
     //go through and chip each image
-    for (int i = 4; i < argc; ++i)
+    for (int i = 0; i < metadata.images.size(); i++)
     {
-        string curImg = argv[i];
-        string curImageFile = curFolder + "/" + curImg;
+        string curImageFile = metadata.images[i].filename;
         matrix<rgb_pixel> img;
         try {
             load_image(img, curImageFile);
@@ -99,11 +151,18 @@ int main(int argc, char** argv) try
         }
         bool isPyramidUp;
 
+        // dets contains the chipped boxes
         std::vector<dlib::mmod_rect> dets;
+        resizable_tensor temp;
+
         try {
-            cout << "try pyramid up " << curImageFile << endl;
+            cout << "try pyramid up " << curImageFile << endl; //upscaling image
             pyramid_up(img, pyramid_down<UPSCALE>());
-            dets = net(img);
+
+            // use the detector to chip the image
+            detector.to_tensor(&img, &img+1, temp);
+            detector.subnet().forward(temp);
+            detector.loss_details().to_label(temp, detector.subnet(), &dets, ADJUST_THRESHOLD);
             isPyramidUp = true;
         }
         catch(std::bad_alloc& ba) { //Catches bad alllocation (too big)
@@ -111,7 +170,9 @@ int main(int argc, char** argv) try
             try {
                 cout << "try pyramid down" << endl;
                 load_image(img, curImageFile); //Reload image, smaller
-                dets = net(img);
+                detector.to_tensor(&img, &img+1, temp);
+                detector.subnet().forward(temp);
+                detector.loss_details().to_label(temp, detector.subnet(), &dets, ADJUST_THRESHOLD);
                 isPyramidUp = false;
             }
             catch(std::bad_alloc& ba) {
@@ -133,19 +194,10 @@ int main(int argc, char** argv) try
             //insert the box
             const rectangle rect(left, top, right, bottom);
             const dlib::image_dataset_metadata::box b(rect);
-            for (int i = 0; i < metadata.images.size(); i++){
-                if (metadata.images[i].filename.find(curImg) != std::string::npos){ //only add the box to the curImg
-                    metadata.images[i].boxes.push_back(b);
-                }
-            }
-
+            metadata.images[i].boxes.push_back(b);
         }
-        save_image_dataset_metadata(metadata, xmlfile);
     }
+    save_image_dataset_metadata(metadata, xmlFile);
     cout << "Done Chipping" << endl;
 
-}
-catch (std::exception& e)
-{
-    cout << e.what() << endl;
 }

@@ -61,7 +61,7 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 # Running the program:
 1. `cd` to your local repository
 
-2. run `sealbuild` in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
+2. run `sealbuild` or `sealbuildAWS` (if you run this program on the AWS machine) in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
 
   + (Optional) To run the build command from anywhere navigate to the main project directory and execute: 
 
@@ -72,6 +72,29 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 4. Edit config.txt file using an editor or using `nano config.txt` in the terminal. At the end you can do Ctrl-X then Y and hit Enter to save. Please follow the guidelines in writing config.txt file for our programs to run smoothly.
 
 5. run the program with `./imglab`
+
+# How to use the program:
+You can use imglab to mark the bounding boxes that indicate the seal faces to be trained. 
+Imglab is a simple graphical tool for annotating images with object bounding
+boxes and optionally their part locations.  Generally, you use it when you want
+to train an object detector (e.g. a face detector) since it allows you to
+easily create the needed training dataset.
+
+One you follow the previous instructions to run the program, you will see a GUI window that has all
+the photos in the folders specified in config.txt. You can use the up and down
+arrow keys to cycle though the images and the mouse to label objects.  In
+particular, holding the shift key, left clicking, and dragging the mouse will
+allow you to draw boxes around the objects you wish to detect. 
+
+To use the chipping software, click Chip >> Start. It might take a while if your laptop does not
+have a GPU. It is best to use an overnight run.
+
+To better understand the program, you can click About >> Help and read the detailed instructions.
+
+* Note: to increase the accuracy of your model, some faces in the photos might be cut/blurry/of bad quality. If you are unsure 
+whether your model should detect such faces or not, indicate "ignore" option on such bounding boxes by clicking on the box and 
+press "i". Example:
+![Imglab Example](https://ibb.co/sj3pTpQ)
 
 # Additional information:
 [GUI Extensions and Functionality](docs/GUI.md)

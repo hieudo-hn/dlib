@@ -89,7 +89,6 @@ void create_new_dataset(
     // make sure the file exists so we can use the get_parent_directory() command to
     // figure out it's parent directory.
     make_empty_file(xmlfile);
-    const std::string parent_dir = get_parent_directory(file(xmlfile));
 
     unsigned long depth = 0;
     dataset meta;
@@ -101,7 +100,6 @@ void create_new_dataset(
 
     size_t pos = 0;
     std::string s = folders;
-    cout << s << endl;
     while ((pos = s.find(delimiter)) != std::string::npos)
     {
         std::string curFold = s.substr(0, pos);
@@ -113,7 +111,7 @@ void create_new_dataset(
 
         for (unsigned long j = 0; j < files.size(); ++j)
         {
-            meta.images.push_back(image(strip_path(files[j], parent_dir)));
+            meta.images.push_back(image(strip_path(files[j], curFold)));
         }
 
         s.erase(0, pos + delimiter.length());
@@ -127,9 +125,8 @@ void create_new_dataset(
 
     for (unsigned long j = 0; j < files.size(); ++j)
     {
-        meta.images.push_back(image(strip_path(files[j], parent_dir)));
+        meta.images.push_back(image(strip_path(files[j], s)));
     }
-
     save_image_dataset_metadata(meta, xmlfile);
 }
 
@@ -1271,6 +1268,7 @@ int main(int argc, char **argv)
             return EXIT_SUCCESS;
         }
 
+        // when user run ./imglab (read from config file)
         if (parser.number_of_arguments() == 0)
         {
             std::string configargs[3];

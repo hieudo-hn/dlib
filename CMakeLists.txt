@@ -28,18 +28,14 @@ add_executable( imglab
    imglab/src/flip_dataset.cpp
 )
 add_executable( seal sealdnn/src/dnn_seal_chip.cpp)
-add_executable( program sealdnn/src/sealFindr.cpp)
 
 #target_include_directories(imglab PUBLIC include)
 #target_include_directories(seal PUBLIC include)
-#target_include_directories(program PUBLIC include)
-
 
 target_link_libraries( imglab dlib::dlib)
 target_link_libraries( seal dlib::dlib)
-target_link_libraries( program dlib::dlib)
 
-install(TARGETS imglab seal program 
+install(TARGETS imglab seal
   DESTINATION bin
   DESTINATION bin
   DESTINATION bin

@@ -755,18 +755,12 @@ void metadata_editor::toSet()
     // getcwd(tmp, 256);
     // cout << "Current working directory: " << tmp << endl;
 
-    // hard-coded, we need to run ./program in run directory but our current working dir is ./data
-    // uncomment the code snippet above to get your current working directory if you ever reorganize the repo
-    string repath = "../run"; // cd ../run to go to run directory
-    if (chdir(repath.c_str()) == 0)
-    {
-        string prog = "./program";
-        const char *command = prog.c_str();
-        system(command);
-        sout << wrap_string("Chipping Complete!", 0, 0) << endl;
-        message_box("Done", sout.str());
-        metadata_editor::refresh();
-    } else cout << "Error change current working directory. The program cannot execute." << endl;
+    string prog = "./seal"; //running the executable seal (compiled from sealdnn/src/dnn_seal_chip.cpp)
+    const char *command = prog.c_str();
+    system(command);
+    sout << wrap_string("Chipping Complete!", 0, 0) << endl;
+    message_box("Done", sout.str());
+    metadata_editor::refresh();
 }
 void metadata_editor::
     chipToXML()

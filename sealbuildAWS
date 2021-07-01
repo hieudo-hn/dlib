@@ -18,4 +18,3 @@ DIRBIN=$DIRBUILD/bin
 
 cp $DIRBIN/imglab $PJ_ROOT/run
 cp $DIRBIN/seal $PJ_ROOT/run
-cp $DIRBIN/program $PJ_ROOT/run
