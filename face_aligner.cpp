@@ -112,8 +112,9 @@ std::vector<matrix<rgb_pixel> > find_chips(
 
 void align(std::string face_file)
 {   
+    using namespace dlib::image_dataset_metadata;
     // load the data
-    dlib::image_dataset_metadata::dataset data;
+    dataset data;
     load_image_dataset_metadata(data, face_file);
 
     // for each image
@@ -128,5 +129,9 @@ void align(std::string face_file)
             cout << "Error loading image " << curImageFile << endl; 
         }
 
-        for 
+        for (int j = 0; j < metadata.images[i].boxes.size(); j++){
+            box b = metadata.images[i].boxes[j];
+            if (b.ignore || b.parts.size() == 0) continue;
+            
+        }
 }
