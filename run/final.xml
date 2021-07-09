@@ -1771,8 +1771,18 @@
     <box top='63' left='954' width='203' height='195'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4788.JPG'>
-    <box top='268' left='3496' width='119' height='115'/>
-    <box top='154' left='3450' width='107' height='104'/>
+    <box top='268' left='3496' width='119' height='115'>
+      <part name='0' x='3523' y='319'/>
+      <part name='1' x='3565' y='295'/>
+      <part name='2' x='3553' y='319'/>
+      <part name='3' x='3560' y='340'/>
+    </box>
+    <box top='154' left='3450' width='107' height='104'>
+      <part name='0' x='3469' y='191'/>
+      <part name='1' x='3513' y='192'/>
+      <part name='2' x='3467' y='204'/>
+      <part name='3' x='3469' y='223'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4791.JPG'>
     <box top='182' left='3511' width='99' height='89' ignore='1'/>
@@ -1781,107 +1791,318 @@
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4793.JPG'>
     <box top='402' left='1893' width='99' height='89' ignore='1'/>
-    <box top='134' left='369' width='119' height='107'/>
+    <box top='134' left='369' width='119' height='107'>
+      <part name='0' x='394' y='175'/>
+      <part name='1' x='445' y='167'/>
+      <part name='2' x='414' y='184'/>
+      <part name='3' x='418' y='206'/>
+    </box>
     <box top='201' left='1295' width='83' height='74' ignore='1'/>
     <box top='484' left='1173' width='143' height='127' ignore='1'/>
-    <box top='189' left='19' width='110' height='102'/>
-    <box top='383' left='2384' width='121' height='108'/>
-    <box top='383' left='4038' width='148' height='128'/>
-    <box top='354' left='3231' width='127' height='127'/>
+    <box top='189' left='19' width='110' height='102'>
+      <part name='0' x='50' y='223'/>
+      <part name='1' x='99' y='217'/>
+      <part name='2' x='83' y='234'/>
+      <part name='3' x='84' y='254'/>
+    </box>
+    <box top='383' left='2384' width='121' height='108'>
+      <part name='0' x='2426' y='449'/>
+      <part name='1' x='2439' y='402'/>
+      <part name='2' x='2476' y='426'/>
+      <part name='3' x='2489' y='444'/>
+    </box>
+    <box top='383' left='4038' width='148' height='128'>
+      <part name='0' x='4090' y='429'/>
+      <part name='1' x='4139' y='412'/>
+      <part name='2' x='4133' y='436'/>
+      <part name='3' x='4141' y='458'/>
+    </box>
+    <box top='354' left='3231' width='127' height='127'>
+      <part name='0' x='3266' y='398'/>
+      <part name='1' x='3291' y='370'/>
+      <part name='2' x='3294' y='379'/>
+      <part name='3' x='3315' y='393'/>
+    </box>
+    <box top='449' left='2426' width='1' height='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4794.JPG'>
     <box top='366' left='4143' width='99' height='89' ignore='1'/>
-    <box top='318' left='207' width='115' height='105'/>
-    <box top='410' left='1025' width='131' height='118'/>
-    <box top='182' left='880' width='119' height='106'/>
-    <box top='397' left='2736' width='118' height='102'/>
+    <box top='318' left='207' width='115' height='105'>
+      <part name='0' x='245' y='354'/>
+      <part name='1' x='295' y='355'/>
+      <part name='2' x='276' y='371'/>
+      <part name='3' x='274' y='391'/>
+    </box>
+    <box top='410' left='1025' width='131' height='118'>
+      <part name='0' x='1078' y='464'/>
+      <part name='1' x='1121' y='438'/>
+      <part name='2' x='1129' y='468'/>
+      <part name='3' x='1135' y='485'/>
+    </box>
+    <box top='182' left='880' width='119' height='106'>
+      <part name='0' x='919' y='221'/>
+      <part name='1' x='968' y='213'/>
+      <part name='2' x='957' y='232'/>
+      <part name='3' x='959' y='253'/>
+    </box>
+    <box top='397' left='2736' width='118' height='102'>
+      <part name='0' x='2763' y='438'/>
+      <part name='1' x='2818' y='429'/>
+      <part name='2' x='2794' y='446'/>
+      <part name='3' x='2795' y='470'/>
+    </box>
     <box top='435' left='2977' width='94' height='97' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4795.JPG'>
     <box top='266' left='155' width='99' height='89' ignore='1'/>
     <box top='246' left='493' width='120' height='107' ignore='1'/>
-    <box top='286' left='2009' width='133' height='116'/>
+    <box top='286' left='2009' width='133' height='116'>
+      <part name='0' x='2053' y='327'/>
+      <part name='1' x='2106' y='313'/>
+      <part name='2' x='2095' y='332'/>
+      <part name='3' x='2094' y='362'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4798.JPG'>
-    <box top='90' left='1164' width='148' height='142'/>
-    <box top='39' left='378' width='163' height='142'/>
+    <box top='90' left='1164' width='148' height='142'>
+      <part name='0' x='1224' y='149'/>
+      <part name='1' x='1273' y='128'/>
+      <part name='2' x='1279' y='156'/>
+      <part name='3' x='1281' y='179'/>
+    </box>
+    <box top='39' left='378' width='163' height='142'>
+      <part name='0' x='448' y='92'/>
+      <part name='1' x='491' y='74'/>
+      <part name='2' x='506' y='94'/>
+      <part name='3' x='510' y='121'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4799.JPG'>
-    <box top='273' left='688' width='136' height='118'/>
-    <box top='304' left='2051' width='120' height='109'/>
-    <box top='309' left='1584' width='133' height='133'/>
+    <box top='273' left='688' width='136' height='118'>
+      <part name='0' x='730' y='319'/>
+      <part name='1' x='786' y='304'/>
+      <part name='2' x='778' y='323'/>
+      <part name='3' x='784' y='349'/>
+    </box>
+    <box top='304' left='2051' width='120' height='109'>
+      <part name='0' x='2084' y='341'/>
+      <part name='1' x='2141' y='342'/>
+      <part name='2' x='2120' y='356'/>
+      <part name='3' x='2119' y='377'/>
+    </box>
+    <box top='309' left='1584' width='133' height='133'>
+      <part name='0' x='1619' y='374'/>
+      <part name='1' x='1646' y='336'/>
+      <part name='2' x='1645' y='350'/>
+      <part name='3' x='1670' y='359'/>
+    </box>
     <box top='366' left='3204' width='139' height='154' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4803.JPG'>
-    <box top='513' left='690' width='286' height='259'/>
-    <box top='834' left='1458' width='301' height='274'/>
+    <box top='513' left='690' width='286' height='259'>
+      <part name='0' x='764' y='608'/>
+      <part name='1' x='896' y='604'/>
+      <part name='2' x='840' y='644'/>
+      <part name='3' x='836' y='696'/>
+    </box>
+    <box top='834' left='1458' width='301' height='274'>
+      <part name='0' x='1536' y='944'/>
+      <part name='1' x='1668' y='920'/>
+      <part name='2' x='1604' y='968'/>
+      <part name='3' x='1608' y='1028'/>
+    </box>
     <box top='576' left='2632' width='285' height='277' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4804.JPG'>
     <box top='288' left='2792' width='295' height='263' ignore='1'/>
-    <box top='801' left='438' width='295' height='264'/>
+    <box top='801' left='438' width='295' height='264'>
+      <part name='0' x='520' y='890'/>
+      <part name='1' x='650' y='885'/>
+      <part name='2' x='595' y='925'/>
+      <part name='3' x='590' y='975'/>
+    </box>
     <box top='1058' left='908' width='296' height='263' ignore='1'/>
-    <box top='368' left='2032' width='289' height='265'/>
-    <box top='152' left='2476' width='225' height='201'/>
+    <box top='368' left='2032' width='289' height='265'>
+      <part name='0' x='2108' y='464'/>
+      <part name='1' x='2224' y='444'/>
+      <part name='2' x='2176' y='484'/>
+      <part name='3' x='2176' y='536'/>
+    </box>
+    <box top='152' left='2476' width='225' height='201'>
+      <part name='0' x='2528' y='232'/>
+      <part name='1' x='2616' y='188'/>
+      <part name='2' x='2584' y='220'/>
+      <part name='3' x='2604' y='268'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4808.JPG'>
-    <box top='384' left='1572' width='317' height='273'/>
+    <box top='384' left='1572' width='317' height='273'>
+      <part name='0' x='1668' y='486'/>
+      <part name='1' x='1797' y='441'/>
+      <part name='2' x='1773' y='489'/>
+      <part name='3' x='1788' y='561'/>
+    </box>
     <box top='472' left='3504' width='269' height='225' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4815.JPG'>
     <box top='442' left='2565' width='172' height='152' ignore='1'/>
-    <box top='495' left='411' width='184' height='178'/>
-    <box top='393' left='1161' width='190' height='166'/>
+    <box top='495' left='411' width='184' height='178'>
+      <part name='0' x='454' y='564'/>
+      <part name='1' x='544' y='548'/>
+      <part name='2' x='502' y='578'/>
+      <part name='3' x='506' y='612'/>
+    </box>
+    <box top='393' left='1161' width='190' height='166'>
+      <part name='0' x='1216' y='462'/>
+      <part name='1' x='1300' y='438'/>
+      <part name='2' x='1286' y='470'/>
+      <part name='3' x='1298' y='512'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4818.JPG'>
-    <box top='237' left='1341' width='217' height='193'/>
+    <box top='237' left='1341' width='217' height='193'>
+      <part name='0' x='1428' y='322'/>
+      <part name='1' x='1454' y='258'/>
+      <part name='2' x='1502' y='270'/>
+      <part name='3' x='1532' y='286'/>
+    </box>
     <box top='309' left='2250' width='214' height='217' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4821.JPG'>
-    <box top='459' left='2907' width='166' height='160'/>
-    <box top='234' left='3903' width='187' height='178'/>
-    <box top='150' left='4458' width='169' height='178'/>
+    <box top='459' left='2907' width='166' height='160'>
+      <part name='0' x='2948' y='518'/>
+      <part name='1' x='3036' y='512'/>
+      <part name='2' x='2994' y='528'/>
+      <part name='3' x='2998' y='562'/>
+    </box>
+    <box top='234' left='3903' width='187' height='178'>
+      <part name='0' x='3948' y='298'/>
+      <part name='1' x='4030' y='288'/>
+      <part name='2' x='3994' y='310'/>
+      <part name='3' x='4000' y='344'/>
+    </box>
+    <box top='150' left='4458' width='169' height='178'>
+      <part name='0' x='4516' y='236'/>
+      <part name='1' x='4600' y='216'/>
+      <part name='2' x='4566' y='254'/>
+      <part name='3' x='4576' y='288'/>
+    </box>
     <box top='462' left='4359' width='187' height='181' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4824.JPG'>
-    <box top='225' left='2398' width='172' height='153'/>
-    <box top='305' left='741' width='164' height='157'/>
+    <box top='225' left='2398' width='172' height='153'>
+      <part name='0' x='2460' y='280'/>
+      <part name='1' x='2530' y='262'/>
+      <part name='2' x='2516' y='292'/>
+      <part name='3' x='2523' y='327'/>
+    </box>
+    <box top='305' left='741' width='164' height='157'>
+      <part name='0' x='784' y='366'/>
+      <part name='1' x='864' y='360'/>
+      <part name='2' x='826' y='388'/>
+      <part name='3' x='826' y='418'/>
+    </box>
     <box top='197' left='1250' width='165' height='155' ignore='1'/>
     <box top='286' left='2240' width='149' height='133' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4825.JPG'>
-    <box top='234' left='358' width='171' height='153'/>
-    <box top='222' left='1832' width='154' height='133'/>
+    <box top='234' left='358' width='171' height='153'>
+      <part name='0' x='401' y='294'/>
+      <part name='1' x='483' y='286'/>
+      <part name='2' x='446' y='313'/>
+      <part name='3' x='448' y='346'/>
+    </box>
+    <box top='222' left='1832' width='154' height='133'>
+      <part name='0' x='1867' y='263'/>
+      <part name='1' x='1945' y='270'/>
+      <part name='2' x='1892' y='278'/>
+      <part name='3' x='1887' y='330'/>
+    </box>
     <box top='118' left='882' width='249' height='165' ignore='1'/>
     <box top='219' left='2901' width='205' height='202' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4826.JPG'>
     <box top='355' left='271' width='172' height='153' ignore='1'/>
-    <box top='242' left='1844' width='151' height='145'/>
-    <box top='144' left='890' width='179' height='159'/>
+    <box top='242' left='1844' width='151' height='145'>
+      <part name='0' x='1876' y='280'/>
+      <part name='1' x='1953' y='291'/>
+      <part name='2' x='1898' y='298'/>
+      <part name='3' x='1899' y='349'/>
+    </box>
+    <box top='144' left='890' width='179' height='159'>
+      <part name='0' x='949' y='202'/>
+      <part name='1' x='1029' y='187'/>
+      <part name='2' x='1008' y='213'/>
+      <part name='3' x='1011' y='247'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4829.JPG'>
-    <box top='252' left='721' width='172' height='164'/>
-    <box top='97' left='1211' width='179' height='150'/>
-    <box top='184' left='2150' width='181' height='157'/>
+    <box top='252' left='721' width='172' height='164'>
+      <part name='0' x='763' y='317'/>
+      <part name='1' x='848' y='306'/>
+      <part name='2' x='808' y='333'/>
+      <part name='3' x='812' y='368'/>
+    </box>
+    <box top='97' left='1211' width='179' height='150'>
+      <part name='0' x='1270' y='155'/>
+      <part name='1' x='1354' y='141'/>
+      <part name='2' x='1326' y='160'/>
+      <part name='3' x='1333' y='196'/>
+    </box>
+    <box top='184' left='2150' width='181' height='157'>
+      <part name='0' x='2197' y='232'/>
+      <part name='1' x='2282' y='239'/>
+      <part name='2' x='2224' y='249'/>
+      <part name='3' x='2215' y='283'/>
+    </box>
     <box top='162' left='3321' width='178' height='175' ignore='1'/>
-    <box top='153' left='2406' width='202' height='184'/>
+    <box top='153' left='2406' width='202' height='184'>
+      <part name='0' x='2483' y='219'/>
+      <part name='1' x='2550' y='192'/>
+      <part name='2' x='2552' y='220'/>
+      <part name='3' x='2567' y='257'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4831.JPG'>
-    <box top='168' left='2994' width='223' height='211'/>
+    <box top='168' left='2994' width='223' height='211'>
+      <part name='0' x='3094' y='258'/>
+      <part name='1' x='3160' y='224'/>
+      <part name='2' x='3168' y='264'/>
+      <part name='3' x='3182' y='294'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4832.JPG'>
     <box top='358' left='525' width='172' height='153' ignore='1'/>
-    <box top='120' left='1176' width='202' height='175'/>
-    <box top='219' left='2124' width='172' height='172'/>
+    <box top='120' left='1176' width='202' height='175'>
+      <part name='0' x='1249' y='185'/>
+      <part name='1' x='1334' y='167'/>
+      <part name='2' x='1309' y='193'/>
+      <part name='3' x='1316' y='226'/>
+    </box>
+    <box top='219' left='2124' width='172' height='172'>
+      <part name='0' x='2170' y='264'/>
+      <part name='1' x='2253' y='274'/>
+      <part name='2' x='2198' y='281'/>
+      <part name='3' x='2191' y='314'/>
+    </box>
     <box top='324' left='3818' width='187' height='163' ignore='1'/>
     <box top='177' left='2394' width='190' height='175' ignore='1'/>
-    <box top='192' left='2697' width='172' height='172'/>
+    <box top='192' left='2697' width='172' height='172'>
+      <part name='0' x='2757' y='234'/>
+      <part name='1' x='2838' y='232'/>
+      <part name='2' x='2823' y='237'/>
+      <part name='3' x='2823' y='277'/>
+    </box>
     <box top='222' left='3327' width='196' height='178' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4835.JPG'>
     <box top='373' left='1748' width='296' height='264' ignore='1'/>
-    <box top='489' left='1107' width='292' height='247'/>
+    <box top='489' left='1107' width='292' height='247'>
+      <part name='0' x='1164' y='566'/>
+      <part name='1' x='1298' y='580'/>
+      <part name='2' x='1204' y='584'/>
+      <part name='3' x='1188' y='644'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4837.JPG'>
     <box top='365' left='3949' width='246' height='219' ignore='1'/>
@@ -1889,41 +2110,116 @@
     <box top='375' left='3252' width='286' height='271' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4839.JPG'>
-    <box top='404' left='3724' width='325' height='273'/>
+    <box top='404' left='3724' width='325' height='273'>
+      <part name='0' x='3796' y='494'/>
+      <part name='1' x='3946' y='504'/>
+      <part name='2' x='3854' y='514'/>
+      <part name='3' x='3838' y='570'/>
+    </box>
     <box top='116' left='3240' width='285' height='233' ignore='1'/>
-    <box top='219' left='2451' width='331' height='301'/>
-    <box top='474' left='1758' width='334' height='322'/>
+    <box top='219' left='2451' width='331' height='301'>
+      <part name='0' x='2568' y='338'/>
+      <part name='1' x='2696' y='298'/>
+      <part name='2' x='2694' y='348'/>
+      <part name='3' x='2722' y='406'/>
+    </box>
+    <box top='474' left='1758' width='334' height='322'>
+      <part name='0' x='1892' y='586'/>
+      <part name='1' x='2020' y='558'/>
+      <part name='2' x='2012' y='614'/>
+      <part name='3' x='2020' y='670'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4840.JPG'>
-    <box top='256' left='164' width='313' height='305'/>
-    <box top='492' left='1364' width='309' height='261'/>
+    <box top='256' left='164' width='313' height='305'>
+      <part name='0' x='262' y='376'/>
+      <part name='1' x='408' y='352'/>
+      <part name='2' x='368' y='394'/>
+      <part name='3' x='382' y='460'/>
+    </box>
+    <box top='492' left='1364' width='309' height='261'>
+      <part name='0' x='1430' y='568'/>
+      <part name='1' x='1574' y='584'/>
+      <part name='2' x='1474' y='590'/>
+      <part name='3' x='1460' y='652'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4842.JPG'>
     <box top='443' left='3647' width='296' height='263' ignore='1'/>
-    <box top='600' left='940' width='345' height='321'/>
-    <box top='520' left='2780' width='333' height='285'/>
+    <box top='600' left='940' width='345' height='321'>
+      <part name='0' x='1024' y='728'/>
+      <part name='1' x='1170' y='706'/>
+      <part name='2' x='1106' y='772'/>
+      <part name='3' x='1116' y='828'/>
+    </box>
+    <box top='520' left='2780' width='333' height='285'>
+      <part name='0' x='2848' y='602'/>
+      <part name='1' x='2996' y='624'/>
+      <part name='2' x='2894' y='632'/>
+      <part name='3' x='2878' y='690'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4844.JPG'>
-    <box top='128' left='4' width='309' height='301'/>
-    <box top='368' left='932' width='341' height='313'/>
-    <box top='276' left='1809' width='406' height='352'/>
+    <box top='128' left='4' width='309' height='301'>
+      <part name='0' x='80' y='236'/>
+      <part name='1' x='236' y='218'/>
+      <part name='2' x='198' y='250'/>
+      <part name='3' x='210' y='312'/>
+    </box>
+    <box top='368' left='932' width='341' height='313'>
+      <part name='0' x='998' y='456'/>
+      <part name='1' x='1146' y='474'/>
+      <part name='2' x='1048' y='480'/>
+      <part name='3' x='1034' y='560'/>
+    </box>
+    <box top='276' left='1809' width='406' height='352'>
+      <part name='0' x='1984' y='426'/>
+      <part name='1' x='2062' y='330'/>
+      <part name='2' x='2120' y='356'/>
+      <part name='3' x='2160' y='404'/>
+    </box>
     <box top='294' left='3036' width='310' height='301' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4848.JPG'>
     <box top='119' left='1274' width='246' height='220' ignore='1'/>
-    <box top='656' left='88' width='321' height='305'/>
+    <box top='656' left='88' width='321' height='305'>
+      <part name='0' x='177' y='768'/>
+      <part name='1' x='321' y='762'/>
+      <part name='2' x='258' y='798'/>
+      <part name='3' x='255' y='858'/>
+    </box>
     <box top='560' left='2168' width='329' height='325' ignore='1'/>
-    <box top='888' left='2199' width='352' height='310'/>
-    <box top='846' left='732' width='289' height='274'/>
+    <box top='888' left='2199' width='352' height='310'>
+      <part name='0' x='2346' y='1038'/>
+      <part name='1' x='2346' y='930'/>
+      <part name='2' x='2439' y='924'/>
+      <part name='3' x='2499' y='945'/>
+    </box>
+    <box top='846' left='732' width='289' height='274'>
+      <part name='0' x='855' y='1065'/>
+      <part name='1' x='795' y='939'/>
+      <part name='2' x='864' y='936'/>
+      <part name='3' x='918' y='918'/>
+    </box>
     <box top='876' left='1650' width='304' height='292' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4849.JPG'>
-    <box top='268' left='3544' width='257' height='257'/>
+    <box top='268' left='3544' width='257' height='257'>
+      <part name='0' x='3594' y='376'/>
+      <part name='1' x='3708' y='342'/>
+      <part name='2' x='3650' y='396'/>
+      <part name='3' x='3668' y='448'/>
+    </box>
     <box top='156' left='2391' width='205' height='211' ignore='1'/>
     <box top='972' left='2652' width='412' height='349' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4850.JPG'>
-    <box top='456' left='1131' width='274' height='265'/>
+    <box top='456' left='1131' width='274' height='265'>
+      <part name='0' x='1198' y='612'/>
+      <part name='1' x='1258' y='496'/>
+      <part name='2' x='1282' y='526'/>
+      <part name='3' x='1336' y='562'/>
+    </box>
     <box top='288' left='1770' width='271' height='265' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4852.JPG'>
@@ -1931,346 +2227,1101 @@
     <box top='816' left='668' width='393' height='369' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4853.JPG'>
-    <box top='188' left='236' width='529' height='433'/>
+    <box top='188' left='236' width='529' height='433'>
+      <part name='0' x='352' y='332'/>
+      <part name='1' x='618' y='334'/>
+      <part name='2' x='468' y='404'/>
+      <part name='3' x='460' y='520'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4854.JPG'>
     <box top='302' left='1330' width='171' height='153' ignore='1'/>
     <box top='154' left='2544' width='171' height='152' ignore='1'/>
-    <box top='88' left='1307' width='205' height='183'/>
+    <box top='88' left='1307' width='205' height='183'>
+      <part name='0' x='1366' y='154'/>
+      <part name='1' x='1446' y='166'/>
+      <part name='2' x='1394' y='176'/>
+      <part name='3' x='1384' y='210'/>
+    </box>
     <box top='472' left='2896' width='193' height='159' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4855.JPG'>
-    <box top='151' left='1726' width='206' height='183'/>
-    <box top='280' left='1816' width='177' height='189'/>
+    <box top='151' left='1726' width='206' height='183'>
+      <part name='0' x='1768' y='194'/>
+      <part name='1' x='1848' y='204'/>
+      <part name='2' x='1800' y='218'/>
+      <part name='3' x='1792' y='256'/>
+    </box>
+    <box top='280' left='1816' width='177' height='189'>
+      <part name='0' x='1880' y='352'/>
+      <part name='1' x='1960' y='352'/>
+      <part name='2' x='1938' y='384'/>
+      <part name='3' x='1936' y='418'/>
+    </box>
     <box top='141' left='3450' width='184' height='178' ignore='1'/>
     <box top='147' left='2004' width='196' height='196' ignore='1'/>
-    <box top='195' left='2916' width='214' height='193'/>
+    <box top='195' left='2916' width='214' height='193'>
+      <part name='0' x='2992' y='286'/>
+      <part name='1' x='3026' y='226'/>
+      <part name='2' x='3060' y='240'/>
+      <part name='3' x='3088' y='268'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4857.JPG'>
     <box top='163' left='2318' width='171' height='153' ignore='1'/>
-    <box top='632' left='1528' width='193' height='169'/>
-    <box top='128' left='2520' width='179' height='165'/>
-    <box top='256' left='2396' width='197' height='181'/>
-    <box top='189' left='3963' width='205' height='199'/>
+    <box top='632' left='1528' width='193' height='169'>
+      <part name='0' x='1567' y='692'/>
+      <part name='1' x='1655' y='694'/>
+      <part name='2' x='1587' y='714'/>
+      <part name='3' x='1585' y='755'/>
+    </box>
+    <box top='128' left='2520' width='179' height='165'>
+      <part name='0' x='2572' y='192'/>
+      <part name='1' x='2660' y='179'/>
+      <part name='2' x='2636' y='199'/>
+      <part name='3' x='2645' y='241'/>
+    </box>
+    <box top='256' left='2396' width='197' height='181'>
+      <part name='0' x='2442' y='326'/>
+      <part name='1' x='2535' y='318'/>
+      <part name='2' x='2488' y='342'/>
+      <part name='3' x='2492' y='384'/>
+    </box>
+    <box top='189' left='3963' width='205' height='199'>
+      <part name='0' x='4033' y='277'/>
+      <part name='1' x='4107' y='243'/>
+      <part name='2' x='4112' y='280'/>
+      <part name='3' x='4126' y='317'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4858.JPG'>
     <box top='525' left='3557' width='246' height='219' ignore='1'/>
-    <box top='441' left='1920' width='205' height='183'/>
-    <box top='114' left='3172' width='195' height='175'/>
-    <box top='328' left='3100' width='187' height='171'/>
-    <box top='196' left='2400' width='175' height='165'/>
+    <box top='441' left='1920' width='205' height='183'>
+      <part name='0' x='1996' y='514'/>
+      <part name='1' x='2078' y='514'/>
+      <part name='2' x='2036' y='526'/>
+      <part name='3' x='2044' y='560'/>
+    </box>
+    <box top='114' left='3172' width='195' height='175'>
+      <part name='0' x='3236' y='184'/>
+      <part name='1' x='3318' y='158'/>
+      <part name='2' x='3298' y='186'/>
+      <part name='3' x='3304' y='222'/>
+    </box>
+    <box top='328' left='3100' width='187' height='171'>
+      <part name='0' x='3152' y='392'/>
+      <part name='1' x='3234' y='388'/>
+      <part name='2' x='3198' y='416'/>
+      <part name='3' x='3200' y='452'/>
+    </box>
+    <box top='196' left='2400' width='175' height='165'>
+      <part name='0' x='2442' y='260'/>
+      <part name='1' x='2518' y='244'/>
+      <part name='2' x='2488' y='264'/>
+      <part name='3' x='2490' y='298'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4862.JPG'>
-    <box top='705' left='2045' width='172' height='153'/>
-    <box top='464' left='244' width='165' height='153'/>
-    <box top='590' left='4228' width='211' height='185'/>
-    <box top='132' left='2433' width='160' height='154'/>
+    <box top='705' left='2045' width='172' height='153'>
+      <part name='0' x='2088' y='752'/>
+      <part name='1' x='2168' y='772'/>
+      <part name='2' x='2122' y='762'/>
+      <part name='3' x='2110' y='802'/>
+    </box>
+    <box top='464' left='244' width='165' height='153'>
+      <part name='0' x='286' y='512'/>
+      <part name='1' x='364' y='504'/>
+      <part name='2' x='328' y='526'/>
+      <part name='3' x='328' y='562'/>
+    </box>
+    <box top='590' left='4228' width='211' height='185'>
+      <part name='0' x='4290' y='646'/>
+      <part name='1' x='4376' y='662'/>
+      <part name='2' x='4302' y='680'/>
+      <part name='3' x='4300' y='718'/>
+    </box>
+    <box top='132' left='2433' width='160' height='154'>
+      <part name='0' x='2482' y='190'/>
+      <part name='1' x='2544' y='174'/>
+      <part name='2' x='2534' y='202'/>
+      <part name='3' x='2538' y='234'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4864.JPG'>
     <box top='167' left='3327' width='119' height='106' ignore='1'/>
     <box top='167' left='0' width='131' height='125' ignore='1'/>
-    <box top='303' left='1614' width='184' height='154'/>
-    <box top='495' left='2937' width='229' height='226'/>
-    <box top='353' left='4151' width='182' height='174'/>
-    <box top='151' left='4193' width='187' height='171'/>
+    <box top='303' left='1614' width='184' height='154'>
+      <part name='0' x='1646' y='368'/>
+      <part name='1' x='1724' y='356'/>
+      <part name='2' x='1670' y='378'/>
+      <part name='3' x='1670' y='412'/>
+    </box>
+    <box top='495' left='2937' width='229' height='226'>
+      <part name='0' x='3026' y='606'/>
+      <part name='1' x='3106' y='610'/>
+      <part name='2' x='3074' y='668'/>
+      <part name='3' x='3068' y='698'/>
+    </box>
+    <box top='353' left='4151' width='182' height='174'>
+      <part name='0' x='4204' y='422'/>
+      <part name='1' x='4290' y='416'/>
+      <part name='2' x='4256' y='444'/>
+      <part name='3' x='4252' y='490'/>
+    </box>
+    <box top='151' left='4193' width='187' height='171'>
+      <part name='0' x='4252' y='226'/>
+      <part name='1' x='4328' y='196'/>
+      <part name='2' x='4322' y='230'/>
+      <part name='3' x='4334' y='264'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4865.JPG'>
     <box top='368' left='1224' width='181' height='151' ignore='1'/>
-    <box top='558' left='1286' width='185' height='179'/>
-    <box top='416' left='2496' width='193' height='185'/>
-    <box top='204' left='2520' width='215' height='191'/>
+    <box top='558' left='1286' width='185' height='179'>
+      <part name='0' x='1340' y='632'/>
+      <part name='1' x='1428' y='630'/>
+      <part name='2' x='1386' y='660'/>
+      <part name='3' x='1388' y='694'/>
+    </box>
+    <box top='416' left='2496' width='193' height='185'>
+      <part name='0' x='2556' y='486'/>
+      <part name='1' x='2640' y='482'/>
+      <part name='2' x='2606' y='518'/>
+      <part name='3' x='2606' y='558'/>
+    </box>
+    <box top='204' left='2520' width='215' height='191'>
+      <part name='0' x='2596' y='276'/>
+      <part name='1' x='2678' y='250'/>
+      <part name='2' x='2662' y='282'/>
+      <part name='3' x='2670' y='314'/>
+    </box>
     <box top='244' left='4200' width='203' height='181' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4866.JPG'>
-    <box top='318' left='1385' width='205' height='184'/>
-    <box top='428' left='874' width='189' height='177'/>
-    <box top='630' left='1056' width='185' height='181'/>
-    <box top='478' left='2264' width='199' height='189'/>
-    <box top='262' left='2284' width='231' height='207'/>
-    <box top='264' left='3966' width='189' height='179'/>
+    <box top='318' left='1385' width='205' height='184'>
+      <part name='0' x='1434' y='394'/>
+      <part name='1' x='1510' y='376'/>
+      <part name='2' x='1484' y='404'/>
+      <part name='3' x='1490' y='440'/>
+    </box>
+    <box top='428' left='874' width='189' height='177'>
+      <part name='0' x='944' y='502'/>
+      <part name='1' x='1018' y='486'/>
+      <part name='2' x='1010' y='522'/>
+      <part name='3' x='1016' y='554'/>
+    </box>
+    <box top='630' left='1056' width='185' height='181'>
+      <part name='0' x='1130' y='696'/>
+      <part name='1' x='1206' y='704'/>
+      <part name='2' x='1182' y='732'/>
+      <part name='3' x='1174' y='768'/>
+    </box>
+    <box top='478' left='2264' width='199' height='189'>
+      <part name='0' x='2324' y='556'/>
+      <part name='1' x='2412' y='548'/>
+      <part name='2' x='2380' y='586'/>
+      <part name='3' x='2376' y='626'/>
+    </box>
+    <box top='262' left='2284' width='231' height='207'>
+      <part name='0' x='2354' y='334'/>
+      <part name='1' x='2438' y='308'/>
+      <part name='2' x='2420' y='340'/>
+      <part name='3' x='2426' y='374'/>
+    </box>
+    <box top='264' left='3966' width='189' height='179'>
+      <part name='0' x='4017' y='359'/>
+      <part name='1' x='4095' y='321'/>
+      <part name='2' x='4084' y='365'/>
+      <part name='3' x='4110' y='398'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4869.JPG'>
     <box top='836' left='720' width='197' height='171' ignore='1'/>
-    <box top='660' left='3570' width='185' height='185'/>
-    <box top='405' left='3759' width='214' height='199'/>
+    <box top='660' left='3570' width='185' height='185'>
+      <part name='0' x='3612' y='732'/>
+      <part name='1' x='3702' y='732'/>
+      <part name='2' x='3660' y='760'/>
+      <part name='3' x='3660' y='800'/>
+    </box>
+    <box top='405' left='3759' width='214' height='199'>
+      <part name='0' x='3844' y='494'/>
+      <part name='1' x='3922' y='466'/>
+      <part name='2' x='3920' y='496'/>
+      <part name='3' x='3930' y='532'/>
+    </box>
     <box top='402' left='1491' width='181' height='163' ignore='1'/>
     <box top='753' left='2817' width='238' height='220' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4870.JPG'>
-    <box top='920' left='2820' width='213' height='195'/>
-    <box top='914' left='3282' width='229' height='195'/>
-    <box top='902' left='3996' width='195' height='167'/>
+    <box top='920' left='2820' width='213' height='195'>
+      <part name='0' x='2878' y='980'/>
+      <part name='1' x='2962' y='1008'/>
+      <part name='2' x='2886' y='1028'/>
+      <part name='3' x='2872' y='1066'/>
+    </box>
+    <box top='914' left='3282' width='229' height='195'>
+      <part name='0' x='3348' y='980'/>
+      <part name='1' x='3446' y='982'/>
+      <part name='2' x='3398' y='1014'/>
+      <part name='3' x='3396' y='1050'/>
+    </box>
+    <box top='902' left='3996' width='195' height='167'>
+      <part name='0' x='4058' y='956'/>
+      <part name='1' x='4140' y='956'/>
+      <part name='2' x='4102' y='966'/>
+      <part name='3' x='4104' y='1000'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4872.JPG'>
-    <box top='686' left='2756' width='185' height='171'/>
-    <box top='950' left='1078' width='215' height='197'/>
-    <box top='978' left='546' width='211' height='189'/>
-    <box top='122' left='1000' width='159' height='155'/>
-    <box top='939' left='2832' width='280' height='253'/>
+    <box top='686' left='2756' width='185' height='171'>
+      <part name='0' x='2790' y='740'/>
+      <part name='1' x='2884' y='734'/>
+      <part name='2' x='2824' y='748'/>
+      <part name='3' x='2822' y='790'/>
+    </box>
+    <box top='950' left='1078' width='215' height='197'>
+      <part name='0' x='1132' y='1018'/>
+      <part name='1' x='1238' y='1018'/>
+      <part name='2' x='1182' y='1042'/>
+      <part name='3' x='1184' y='1092'/>
+    </box>
+    <box top='978' left='546' width='211' height='189'>
+      <part name='0' x='602' y='1036'/>
+      <part name='1' x='692' y='1066'/>
+      <part name='2' x='612' y='1084'/>
+      <part name='3' x='600' y='1122'/>
+    </box>
+    <box top='122' left='1000' width='159' height='155'>
+      <part name='0' x='1060' y='178'/>
+      <part name='1' x='1128' y='176'/>
+      <part name='2' x='1120' y='202'/>
+      <part name='3' x='1118' y='238'/>
+    </box>
+    <box top='939' left='2832' width='280' height='253'>
+      <part name='0' x='2954' y='1034'/>
+      <part name='1' x='3018' y='992'/>
+      <part name='2' x='3064' y='1042'/>
+      <part name='3' x='3086' y='1080'/>
+    </box>
     <box top='363' left='4095' width='220' height='229' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4874.JPG'>
-    <box top='1028' left='2486' width='223' height='189'/>
-    <box top='567' left='1083' width='208' height='193'/>
+    <box top='1028' left='2486' width='223' height='189'>
+      <part name='0' x='2536' y='1088'/>
+      <part name='1' x='2636' y='1098'/>
+      <part name='2' x='2545' y='1111'/>
+      <part name='3' x='2544' y='1158'/>
+    </box>
+    <box top='567' left='1083' width='208' height='193'>
+      <part name='0' x='1127' y='639'/>
+      <part name='1' x='1204' y='597'/>
+      <part name='2' x='1156' y='629'/>
+      <part name='3' x='1175' y='668'/>
+    </box>
     <box top='693' left='477' width='190' height='184' ignore='1'/>
-    <box top='720' left='4080' width='214' height='220'/>
-    <box top='87' left='2085' width='190' height='199'/>
-    <box top='915' left='1986' width='223' height='229'/>
+    <box top='720' left='4080' width='214' height='220'>
+      <part name='0' x='4116' y='780'/>
+      <part name='1' x='4210' y='770'/>
+      <part name='2' x='4152' y='790'/>
+      <part name='3' x='4152' y='832'/>
+    </box>
+    <box top='87' left='2085' width='190' height='199'>
+      <part name='0' x='2141' y='154'/>
+      <part name='1' x='2217' y='153'/>
+      <part name='2' x='2186' y='178'/>
+      <part name='3' x='2187' y='207'/>
+    </box>
+    <box top='915' left='1986' width='223' height='229'>
+      <part name='0' x='2034' y='975'/>
+      <part name='1' x='2127' y='1003'/>
+      <part name='2' x='2045' y='1013'/>
+      <part name='3' x='2033' y='1055'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4876.JPG'>
-    <box top='1059' left='1050' width='199' height='178'/>
-    <box top='684' left='1764' width='202' height='178'/>
+    <box top='1059' left='1050' width='199' height='178'>
+      <part name='0' x='1098' y='1128'/>
+      <part name='1' x='1192' y='1118'/>
+      <part name='2' x='1142' y='1132'/>
+      <part name='3' x='1140' y='1174'/>
+    </box>
+    <box top='684' left='1764' width='202' height='178'>
+      <part name='0' x='1808' y='748'/>
+      <part name='1' x='1908' y='742'/>
+      <part name='2' x='1852' y='762'/>
+      <part name='3' x='1848' y='806'/>
+    </box>
     <box top='594' left='3954' width='217' height='202' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4877.JPG'>
     <box top='356' left='116' width='181' height='181' ignore='1'/>
-    <box top='1128' left='1160' width='249' height='229'/>
+    <box top='1128' left='1160' width='249' height='229'>
+      <part name='0' x='1233' y='1194'/>
+      <part name='1' x='1341' y='1197'/>
+      <part name='2' x='1269' y='1221'/>
+      <part name='3' x='1263' y='1281'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4879.JPG'>
-    <box top='790' left='3286' width='255' height='229'/>
-    <box top='612' left='3934' width='229' height='217'/>
-    <box top='384' left='3898' width='193' height='193'/>
+    <box top='790' left='3286' width='255' height='229'>
+      <part name='0' x='3345' y='855'/>
+      <part name='1' x='3459' y='885'/>
+      <part name='2' x='3375' y='897'/>
+      <part name='3' x='3363' y='948'/>
+    </box>
+    <box top='612' left='3934' width='229' height='217'>
+      <part name='0' x='4010' y='698'/>
+      <part name='1' x='4108' y='700'/>
+      <part name='2' x='4066' y='736'/>
+      <part name='3' x='4064' y='780'/>
+    </box>
+    <box top='384' left='3898' width='193' height='193'>
+      <part name='0' x='3938' y='476'/>
+      <part name='1' x='4032' y='446'/>
+      <part name='2' x='3992' y='494'/>
+      <part name='3' x='4004' y='534'/>
+    </box>
     <box top='834' left='1626' width='208' height='208' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4880.JPG'>
     <box top='318' left='46' width='171' height='161' ignore='1'/>
-    <box top='710' left='54' width='191' height='177'/>
-    <box top='1002' left='2241' width='235' height='208'/>
+    <box top='710' left='54' width='191' height='177'>
+      <part name='0' x='88' y='788'/>
+      <part name='1' x='171' y='742'/>
+      <part name='2' x='130' y='779'/>
+      <part name='3' x='146' y='820'/>
+    </box>
+    <box top='1002' left='2241' width='235' height='208'>
+      <part name='0' x='2300' y='1068'/>
+      <part name='1' x='2416' y='1074'/>
+      <part name='2' x='2340' y='1100'/>
+      <part name='3' x='2340' y='1144'/>
+    </box>
     <box top='231' left='456' width='190' height='181' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4881.JPG'>
     <box top='519' left='2180' width='205' height='183' ignore='1'/>
-    <box top='489' left='3220' width='205' height='183'/>
+    <box top='489' left='3220' width='205' height='183'>
+      <part name='0' x='3260' y='528'/>
+      <part name='1' x='3364' y='524'/>
+      <part name='2' x='3264' y='556'/>
+      <part name='3' x='3276' y='600'/>
+    </box>
     <box top='621' left='2934' width='171' height='153' ignore='1'/>
-    <box top='210' left='2786' width='177' height='167'/>
-    <box top='86' left='3306' width='171' height='161'/>
+    <box top='210' left='2786' width='177' height='167'>
+      <part name='0' x='2836' y='280'/>
+      <part name='1' x='2908' y='248'/>
+      <part name='2' x='2900' y='288'/>
+      <part name='3' x='2908' y='324'/>
+    </box>
+    <box top='86' left='3306' width='171' height='161'>
+      <part name='0' x='3356' y='136'/>
+      <part name='1' x='3424' y='132'/>
+      <part name='2' x='3404' y='156'/>
+      <part name='3' x='3404' y='204'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4884.JPG'>
-    <box top='463' left='235' width='246' height='219'/>
+    <box top='463' left='235' width='246' height='219'>
+      <part name='0' x='304' y='532'/>
+      <part name='1' x='428' y='540'/>
+      <part name='2' x='356' y='552'/>
+      <part name='3' x='344' y='600'/>
+    </box>
     <box top='177' left='2304' width='246' height='220' ignore='1'/>
-    <box top='806' left='2458' width='271' height='249'/>
-    <box top='410' left='3242' width='275' height='259'/>
+    <box top='806' left='2458' width='271' height='249'>
+      <part name='0' x='2516' y='884'/>
+      <part name='1' x='2660' y='880'/>
+      <part name='2' x='2576' y='916'/>
+      <part name='3' x='2576' y='960'/>
+    </box>
+    <box top='410' left='3242' width='275' height='259'>
+      <part name='0' x='3324' y='508'/>
+      <part name='1' x='3440' y='488'/>
+      <part name='2' x='3400' y='536'/>
+      <part name='3' x='3396' y='584'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4887.JPG'>
-    <box top='436' left='236' width='231' height='215'/>
-    <box top='232' left='2882' width='261' height='229'/>
+    <box top='436' left='236' width='231' height='215'>
+      <part name='0' x='296' y='496'/>
+      <part name='1' x='420' y='496'/>
+      <part name='2' x='344' y='516'/>
+      <part name='3' x='344' y='548'/>
+    </box>
+    <box top='232' left='2882' width='261' height='229'>
+      <part name='0' x='2948' y='296'/>
+      <part name='1' x='3076' y='296'/>
+      <part name='2' x='3008' y='328'/>
+      <part name='3' x='3000' y='376'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4890.JPG'>
-    <box top='168' left='3140' width='253' height='237'/>
+    <box top='168' left='3140' width='253' height='237'>
+      <part name='0' x='3212' y='244'/>
+      <part name='1' x='3332' y='248'/>
+      <part name='2' x='3264' y='264'/>
+      <part name='3' x='3260' y='320'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4891.JPG'>
     <box top='507' left='3678' width='510' height='454' ignore='1'/>
-    <box top='348' left='3364' width='317' height='305'/>
+    <box top='348' left='3364' width='317' height='305'>
+      <part name='0' x='3440' y='436'/>
+      <part name='1' x='3620' y='448'/>
+      <part name='2' x='3532' y='472'/>
+      <part name='3' x='3524' y='552'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4892.JPG'>
-    <box top='276' left='2600' width='325' height='313'/>
+    <box top='276' left='2600' width='325' height='313'>
+      <part name='0' x='2692' y='364'/>
+      <part name='1' x='2856' y='368'/>
+      <part name='2' x='2784' y='392'/>
+      <part name='3' x='2780' y='468'/>
+    </box>
     <box top='360' left='2932' width='329' height='301' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4894.JPG'>
-    <box top='276' left='3204' width='317' height='305'/>
+    <box top='276' left='3204' width='317' height='305'>
+      <part name='0' x='3288' y='360'/>
+      <part name='1' x='3444' y='376'/>
+      <part name='2' x='3376' y='396'/>
+      <part name='3' x='3368' y='464'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4897.JPG'>
-    <box top='620' left='188' width='305' height='313'/>
-    <box top='964' left='1468' width='297' height='273'/>
+    <box top='620' left='188' width='305' height='313'>
+      <part name='0' x='324' y='864'/>
+      <part name='1' x='268' y='732'/>
+      <part name='2' x='392' y='728'/>
+      <part name='3' x='444' y='736'/>
+    </box>
+    <box top='964' left='1468' width='297' height='273'>
+      <part name='0' x='1548' y='1048'/>
+      <part name='1' x='1696' y='1048'/>
+      <part name='2' x='1648' y='1076'/>
+      <part name='3' x='1624' y='1140'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4898.JPG'>
-    <box top='694' left='1465' width='295' height='264'/>
-    <box top='1008' left='1512' width='357' height='333'/>
+    <box top='694' left='1465' width='295' height='264'>
+      <part name='0' x='1544' y='780'/>
+      <part name='1' x='1704' y='780'/>
+      <part name='2' x='1624' y='808'/>
+      <part name='3' x='1648' y='872'/>
+    </box>
+    <box top='1008' left='1512' width='357' height='333'>
+      <part name='0' x='1600' y='1100'/>
+      <part name='1' x='1764' y='1116'/>
+      <part name='2' x='1656' y='1136'/>
+      <part name='3' x='1644' y='1228'/>
+    </box>
     <box top='260' left='2252' width='345' height='309' ignore='1'/>
-    <box top='680' left='2940' width='329' height='325'/>
-    <box top='652' left='4120' width='333' height='321'/>
+    <box top='680' left='2940' width='329' height='325'>
+      <part name='0' x='3052' y='828'/>
+      <part name='1' x='3196' y='808'/>
+      <part name='2' x='3168' y='884'/>
+      <part name='3' x='3108' y='964'/>
+    </box>
+    <box top='652' left='4120' width='333' height='321'>
+      <part name='0' x='4264' y='896'/>
+      <part name='1' x='4200' y='752'/>
+      <part name='2' x='4340' y='780'/>
+      <part name='3' x='4388' y='780'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4899.JPG'>
-    <box top='752' left='224' width='301' height='265'/>
-    <box top='1304' left='0' width='309' height='297'/>
-    <box top='236' left='1604' width='261' height='241'/>
-    <box top='136' left='1348' width='277' height='261'/>
+    <box top='752' left='224' width='301' height='265'>
+      <part name='0' x='292' y='796'/>
+      <part name='1' x='464' y='828'/>
+      <part name='2' x='372' y='820'/>
+      <part name='3' x='364' y='880'/>
+    </box>
+    <box top='1304' left='0' width='309' height='297'>
+      <part name='0' x='44' y='1392'/>
+      <part name='1' x='208' y='1368'/>
+      <part name='2' x='144' y='1408'/>
+      <part name='3' x='152' y='1476'/>
+    </box>
+    <box top='236' left='1604' width='261' height='241'>
+      <part name='0' x='1644' y='324'/>
+      <part name='1' x='1776' y='272'/>
+      <part name='2' x='1712' y='324'/>
+      <part name='3' x='1736' y='384'/>
+    </box>
+    <box top='136' left='1348' width='277' height='261'>
+      <part name='0' x='1428' y='216'/>
+      <part name='1' x='1560' y='212'/>
+      <part name='2' x='1492' y='248'/>
+      <part name='3' x='1484' y='316'/>
+    </box>
     <box top='651' left='1743' width='295' height='298' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4900.JPG'>
-    <box top='676' left='520' width='285' height='245'/>
-    <box top='848' left='1820' width='301' height='265'/>
+    <box top='676' left='520' width='285' height='245'>
+      <part name='0' x='572' y='732'/>
+      <part name='1' x='712' y='740'/>
+      <part name='2' x='612' y='756'/>
+      <part name='3' x='604' y='820'/>
+    </box>
+    <box top='848' left='1820' width='301' height='265'>
+      <part name='0' x='1876' y='920'/>
+      <part name='1' x='2044' y='924'/>
+      <part name='2' x='1984' y='952'/>
+      <part name='3' x='1992' y='1016'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4901.JPG'>
-    <box top='168' left='-4' width='265' height='265'/>
-    <box top='152' left='2692' width='209' height='205'/>
+    <box top='168' left='-4' width='265' height='265'>
+      <part name='0' x='28' y='248'/>
+      <part name='1' x='124' y='236'/>
+      <part name='2' x='88' y='276'/>
+      <part name='3' x='88' y='332'/>
+    </box>
+    <box top='152' left='2692' width='209' height='205'>
+      <part name='0' x='2744' y='216'/>
+      <part name='1' x='2852' y='216'/>
+      <part name='2' x='2804' y='248'/>
+      <part name='3' x='2812' y='288'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4902.JPG'>
-    <box top='116' left='304' width='233' height='221'/>
+    <box top='116' left='304' width='233' height='221'>
+      <part name='0' x='344' y='188'/>
+      <part name='1' x='464' y='176'/>
+      <part name='2' x='420' y='196'/>
+      <part name='3' x='428' y='244'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4903.JPG'>
-    <box top='344' left='1704' width='289' height='265'/>
+    <box top='344' left='1704' width='289' height='265'>
+      <part name='0' x='1776' y='416'/>
+      <part name='1' x='1924' y='424'/>
+      <part name='2' x='1860' y='432'/>
+      <part name='3' x='1852' y='520'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4904.JPG'>
-    <box top='420' left='764' width='321' height='289'/>
+    <box top='420' left='764' width='321' height='289'>
+      <part name='0' x='832' y='560'/>
+      <part name='1' x='972' y='500'/>
+      <part name='2' x='964' y='576'/>
+      <part name='3' x='976' y='632'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4905.JPG'>
-    <box top='532' left='456' width='297' height='309'/>
-    <box top='884' left='2272' width='293' height='269'/>
+    <box top='532' left='456' width='297' height='309'>
+      <part name='0' x='588' y='764'/>
+      <part name='1' x='516' y='640'/>
+      <part name='2' x='696' y='684'/>
+      <part name='3' x='708' y='660'/>
+    </box>
+    <box top='884' left='2272' width='293' height='269'>
+      <part name='0' x='2336' y='956'/>
+      <part name='1' x='2488' y='968'/>
+      <part name='2' x='2408' y='988'/>
+      <part name='3' x='2408' y='1044'/>
+    </box>
     <box top='812' left='3748' width='277' height='257' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4906.JPG'>
-    <box top='917' left='3453' width='354' height='316'/>
+    <box top='917' left='3453' width='354' height='316'>
+      <part name='0' x='3536' y='976'/>
+      <part name='1' x='3688' y='992'/>
+      <part name='2' x='3576' y='1020'/>
+      <part name='3' x='3572' y='1092'/>
+    </box>
     <box top='170' left='3391' width='295' height='263' ignore='1'/>
-    <box top='428' left='1348' width='309' height='281'/>
-    <box top='572' left='3024' width='293' height='245'/>
-    <box top='1120' left='136' width='313' height='273'/>
-    <box top='1242' left='1041' width='406' height='349'/>
+    <box top='428' left='1348' width='309' height='281'>
+      <part name='0' x='1428' y='528'/>
+      <part name='1' x='1560' y='508'/>
+      <part name='2' x='1528' y='548'/>
+      <part name='3' x='1532' y='620'/>
+    </box>
+    <box top='572' left='3024' width='293' height='245'>
+      <part name='0' x='3092' y='644'/>
+      <part name='1' x='3256' y='652'/>
+      <part name='2' x='3200' y='676'/>
+      <part name='3' x='3200' y='736'/>
+    </box>
+    <box top='1120' left='136' width='313' height='273'>
+      <part name='0' x='224' y='1188'/>
+      <part name='1' x='364' y='1204'/>
+      <part name='2' x='292' y='1240'/>
+      <part name='3' x='284' y='1300'/>
+    </box>
+    <box top='1242' left='1041' width='406' height='349'>
+      <part name='0' x='1140' y='1336'/>
+      <part name='1' x='1292' y='1368'/>
+      <part name='2' x='1128' y='1392'/>
+      <part name='3' x='1128' y='1444'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4909.JPG'>
-    <box top='162' left='1682' width='205' height='183'/>
+    <box top='162' left='1682' width='205' height='183'>
+      <part name='0' x='1732' y='212'/>
+      <part name='1' x='1828' y='212'/>
+      <part name='2' x='1780' y='220'/>
+      <part name='3' x='1772' y='272'/>
+    </box>
     <box top='281' left='4297' width='206' height='183' ignore='1'/>
-    <box top='852' left='916' width='241' height='221'/>
-    <box top='940' left='1648' width='233' height='217'/>
-    <box top='396' left='952' width='213' height='209'/>
-    <box top='532' left='3148' width='229' height='233'/>
+    <box top='852' left='916' width='241' height='221'>
+      <part name='0' x='984' y='908'/>
+      <part name='1' x='1092' y='916'/>
+      <part name='2' x='1036' y='952'/>
+      <part name='3' x='1032' y='992'/>
+    </box>
+    <box top='940' left='1648' width='233' height='217'>
+      <part name='0' x='1696' y='996'/>
+      <part name='1' x='1812' y='1016'/>
+      <part name='2' x='1720' y='1044'/>
+      <part name='3' x='1720' y='1088'/>
+    </box>
+    <box top='396' left='952' width='213' height='209'>
+      <part name='0' x='1012' y='496'/>
+      <part name='1' x='1100' y='448'/>
+      <part name='2' x='1084' y='496'/>
+      <part name='3' x='1108' y='540'/>
+    </box>
+    <box top='532' left='3148' width='229' height='233'>
+      <part name='0' x='3220' y='616'/>
+      <part name='1' x='3324' y='616'/>
+      <part name='2' x='3300' y='660'/>
+      <part name='3' x='3300' y='704'/>
+    </box>
     <box top='736' left='2836' width='193' height='201' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4910.JPG'>
     <box top='820' left='3406' width='205' height='183' ignore='1'/>
-    <box top='464' left='1408' width='233' height='229'/>
-    <box top='576' left='2836' width='225' height='209'/>
+    <box top='464' left='1408' width='233' height='229'>
+      <part name='0' x='1468' y='560'/>
+      <part name='1' x='1564' y='536'/>
+      <part name='2' x='1540' y='576'/>
+      <part name='3' x='1564' y='628'/>
+    </box>
+    <box top='576' left='2836' width='225' height='209'>
+      <part name='0' x='2916' y='644'/>
+      <part name='1' x='3020' y='644'/>
+      <part name='2' x='2980' y='672'/>
+      <part name='3' x='2984' y='720'/>
+    </box>
     <box top='484' left='128' width='233' height='185' ignore='1'/>
     <box top='468' left='4308' width='253' height='245' ignore='1'/>
-    <box top='1020' left='2180' width='265' height='225'/>
-    <box top='940' left='1536' width='253' height='221'/>
+    <box top='1020' left='2180' width='265' height='225'>
+      <part name='0' x='2244' y='1076'/>
+      <part name='1' x='2364' y='1092'/>
+      <part name='2' x='2276' y='1116'/>
+      <part name='3' x='2272' y='1148'/>
+    </box>
+    <box top='940' left='1536' width='253' height='221'>
+      <part name='0' x='1624' y='1004'/>
+      <part name='1' x='1728' y='1008'/>
+      <part name='2' x='1696' y='1040'/>
+      <part name='3' x='1692' y='1080'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4912.JPG'>
     <box top='337' left='2975' width='205' height='183' ignore='1'/>
     <box top='1028' left='152' width='273' height='241' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4916.JPG'>
-    <box top='168' left='540' width='213' height='201'/>
+    <box top='168' left='540' width='213' height='201'>
+      <part name='0' x='592' y='224'/>
+      <part name='1' x='692' y='232'/>
+      <part name='2' x='624' y='260'/>
+      <part name='3' x='616' y='300'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4918.JPG'>
-    <box top='432' left='396' width='265' height='233'/>
-    <box top='80' left='1224' width='269' height='253'/>
-    <box top='436' left='2152' width='245' height='221'/>
-    <box top='672' left='2820' width='257' height='237'/>
+    <box top='432' left='396' width='265' height='233'>
+      <part name='0' x='508' y='592'/>
+      <part name='1' x='528' y='496'/>
+      <part name='2' x='588' y='532'/>
+      <part name='3' x='624' y='536'/>
+    </box>
+    <box top='80' left='1224' width='269' height='253'>
+      <part name='0' x='1276' y='184'/>
+      <part name='1' x='1376' y='152'/>
+      <part name='2' x='1312' y='220'/>
+      <part name='3' x='1344' y='272'/>
+    </box>
+    <box top='436' left='2152' width='245' height='221'>
+      <part name='0' x='2232' y='516'/>
+      <part name='1' x='2356' y='504'/>
+      <part name='2' x='2312' y='532'/>
+      <part name='3' x='2312' y='572'/>
+    </box>
+    <box top='672' left='2820' width='257' height='237'>
+      <part name='0' x='2888' y='732'/>
+      <part name='1' x='3000' y='740'/>
+      <part name='2' x='2908' y='760'/>
+      <part name='3' x='2908' y='824'/>
+    </box>
     <box top='1168' left='3716' width='277' height='217' ignore='1'/>
-    <box top='504' left='3504' width='249' height='257'/>
+    <box top='504' left='3504' width='249' height='257'>
+      <part name='0' x='3576' y='596'/>
+      <part name='1' x='3696' y='608'/>
+      <part name='2' x='3668' y='668'/>
+      <part name='3' x='3664' y='712'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4920.JPG'>
     <box top='608' left='969' width='205' height='183' ignore='1'/>
     <box top='876' left='820' width='205' height='183' ignore='1'/>
     <box top='444' left='2284' width='257' height='237' ignore='1'/>
-    <box top='408' left='3764' width='273' height='241'/>
+    <box top='408' left='3764' width='273' height='241'>
+      <part name='0' x='3836' y='528'/>
+      <part name='1' x='3932' y='504'/>
+      <part name='2' x='3912' y='548'/>
+      <part name='3' x='3932' y='592'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4922.JPG'>
-    <box top='769' left='2449' width='295' height='263'/>
+    <box top='769' left='2449' width='295' height='263'>
+      <part name='0' x='2516' y='828'/>
+      <part name='1' x='2656' y='836'/>
+      <part name='2' x='2572' y='860'/>
+      <part name='3' x='2572' y='912'/>
+    </box>
     <box top='213' left='4163' width='246' height='219' ignore='1'/>
     <box top='213' left='1238' width='247' height='219' ignore='1'/>
-    <box top='116' left='396' width='269' height='237'/>
-    <box top='504' left='1564' width='245' height='229'/>
-    <box top='660' left='3004' width='269' height='257'/>
+    <box top='116' left='396' width='269' height='237'>
+      <part name='0' x='468' y='192'/>
+      <part name='1' x='588' y='184'/>
+      <part name='2' x='544' y='220'/>
+      <part name='3' x='552' y='276'/>
+    </box>
+    <box top='504' left='1564' width='245' height='229'>
+      <part name='0' x='1640' y='580'/>
+      <part name='1' x='1768' y='572'/>
+      <part name='2' x='1720' y='604'/>
+      <part name='3' x='1720' y='656'/>
+    </box>
+    <box top='660' left='3004' width='269' height='257'>
+      <part name='0' x='3096' y='752'/>
+      <part name='1' x='3216' y='752'/>
+      <part name='2' x='3192' y='820'/>
+      <part name='3' x='3200' y='868'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4923.JPG'>
-    <box top='988' left='3248' width='309' height='245'/>
+    <box top='988' left='3248' width='309' height='245'>
+      <part name='0' x='3328' y='1076'/>
+      <part name='1' x='3472' y='1080'/>
+      <part name='2' x='3412' y='1112'/>
+      <part name='3' x='3408' y='1160'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4924.JPG'>
-    <box top='320' left='133' width='246' height='219'/>
+    <box top='320' left='133' width='246' height='219'>
+      <part name='0' x='204' y='392'/>
+      <part name='1' x='312' y='400'/>
+      <part name='2' x='272' y='408'/>
+      <part name='3' x='272' y='468'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4925.JPG'>
-    <box top='192' left='3980' width='269' height='233'/>
+    <box top='192' left='3980' width='269' height='233'>
+      <part name='0' x='4064' y='264'/>
+      <part name='1' x='4168' y='272'/>
+      <part name='2' x='4120' y='300'/>
+      <part name='3' x='4104' y='348'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4927.JPG'>
-    <box top='312' left='3552' width='229' height='233'/>
+    <box top='312' left='3552' width='229' height='233'>
+      <part name='0' x='3608' y='380'/>
+      <part name='1' x='3712' y='380'/>
+      <part name='2' x='3660' y='392'/>
+      <part name='3' x='3664' y='448'/>
+    </box>
     <box top='483' left='1854' width='277' height='265' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4928.JPG'>
-    <box top='576' left='1536' width='249' height='233'/>
-    <box top='624' left='2739' width='278' height='288'/>
-    <box top='819' left='2604' width='280' height='262'/>
+    <box top='576' left='1536' width='249' height='233'>
+      <part name='0' x='1616' y='660'/>
+      <part name='1' x='1736' y='652'/>
+      <part name='2' x='1700' y='692'/>
+      <part name='3' x='1696' y='740'/>
+    </box>
+    <box top='624' left='2739' width='278' height='288'>
+      <part name='0' x='2812' y='700'/>
+      <part name='1' x='2940' y='692'/>
+      <part name='2' x='2904' y='736'/>
+      <part name='3' x='2888' y='804'/>
+    </box>
+    <box top='819' left='2604' width='280' height='262'>
+      <part name='0' x='2672' y='884'/>
+      <part name='1' x='2804' y='896'/>
+      <part name='2' x='2724' y='928'/>
+      <part name='3' x='2724' y='984'/>
+    </box>
     <box top='846' left='1362' width='220' height='199' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4929.JPG'>
     <box top='296' left='2930' width='205' height='183' ignore='1'/>
-    <box top='474' left='1836' width='238' height='211'/>
+    <box top='474' left='1836' width='238' height='211'>
+      <part name='0' x='1900' y='536'/>
+      <part name='1' x='2020' y='548'/>
+      <part name='2' x='1960' y='568'/>
+      <part name='3' x='1960' y='624'/>
+    </box>
     <box top='108' left='3774' width='253' height='244' ignore='1'/>
     <box top='684' left='309' width='253' height='247' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4931.JPG'>
-    <box top='115' left='2522' width='246' height='219'/>
-    <box top='390' left='324' width='235' height='220'/>
-    <box top='126' left='2196' width='256' height='217'/>
-    <box top='513' left='3333' width='274' height='244'/>
+    <box top='115' left='2522' width='246' height='219'>
+      <part name='0' x='2584' y='180'/>
+      <part name='1' x='2700' y='180'/>
+      <part name='2' x='2644' y='212'/>
+      <part name='3' x='2644' y='256'/>
+    </box>
+    <box top='390' left='324' width='235' height='220'>
+      <part name='0' x='364' y='456'/>
+      <part name='1' x='480' y='448'/>
+      <part name='2' x='416' y='476'/>
+      <part name='3' x='408' y='532'/>
+    </box>
+    <box top='126' left='2196' width='256' height='217'>
+      <part name='0' x='2260' y='184'/>
+      <part name='1' x='2356' y='184'/>
+      <part name='2' x='2300' y='220'/>
+      <part name='3' x='2292' y='272'/>
+    </box>
+    <box top='513' left='3333' width='274' height='244'>
+      <part name='0' x='3424' y='688'/>
+      <part name='1' x='3416' y='564'/>
+      <part name='2' x='3528' y='604'/>
+      <part name='3' x='3564' y='620'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4932.JPG'>
-    <box top='146' left='2059' width='246' height='220'/>
-    <box top='477' left='1722' width='256' height='268'/>
-    <box top='213' left='3174' width='238' height='235'/>
+    <box top='146' left='2059' width='246' height='220'>
+      <part name='0' x='2120' y='224'/>
+      <part name='1' x='2228' y='208'/>
+      <part name='2' x='2200' y='240'/>
+      <part name='3' x='2212' y='296'/>
+    </box>
+    <box top='477' left='1722' width='256' height='268'>
+      <part name='0' x='1768' y='560'/>
+      <part name='1' x='1884' y='584'/>
+      <part name='2' x='1796' y='616'/>
+      <part name='3' x='1788' y='664'/>
+    </box>
+    <box top='213' left='3174' width='238' height='235'>
+      <part name='0' x='3220' y='288'/>
+      <part name='1' x='3336' y='288'/>
+      <part name='2' x='3268' y='324'/>
+      <part name='3' x='3264' y='372'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4933.JPG'>
-    <box top='231' left='2023' width='246' height='219'/>
+    <box top='231' left='2023' width='246' height='219'>
+      <part name='0' x='2088' y='292'/>
+      <part name='1' x='2200' y='280'/>
+      <part name='2' x='2144' y='308'/>
+      <part name='3' x='2144' y='356'/>
+    </box>
     <box top='259' left='1699' width='171' height='153' ignore='1'/>
-    <box top='390' left='3894' width='232' height='211'/>
-    <box top='570' left='2660' width='231' height='211'/>
+    <box top='390' left='3894' width='232' height='211'>
+      <part name='0' x='3956' y='456'/>
+      <part name='1' x='4076' y='456'/>
+      <part name='2' x='4012' y='476'/>
+      <part name='3' x='4020' y='524'/>
+    </box>
+    <box top='570' left='2660' width='231' height='211'>
+      <part name='0' x='2740' y='720'/>
+      <part name='1' x='2724' y='608'/>
+      <part name='2' x='2832' y='648'/>
+      <part name='3' x='2868' y='648'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4936.JPG'>
     <box top='423' left='3271' width='246' height='219' ignore='1'/>
     <box top='209' left='97' width='246' height='219' ignore='1'/>
     <box top='137' left='3913' width='246' height='220' ignore='1'/>
-    <box top='632' left='336' width='229' height='189'/>
-    <box top='436' left='1884' width='221' height='185'/>
+    <box top='632' left='336' width='229' height='189'>
+      <part name='0' x='388' y='676'/>
+      <part name='1' x='508' y='692'/>
+      <part name='2' x='464' y='692'/>
+      <part name='3' x='452' y='732'/>
+    </box>
+    <box top='436' left='1884' width='221' height='185'>
+      <part name='0' x='1964' y='496'/>
+      <part name='1' x='2060' y='496'/>
+      <part name='2' x='2040' y='532'/>
+      <part name='3' x='2024' y='568'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4938.JPG'>
     <box top='475' left='2336' width='205' height='183' ignore='1'/>
-    <box top='690' left='1107' width='259' height='259'/>
-    <box top='438' left='1215' width='304' height='253'/>
-    <box top='198' left='3810' width='226' height='229'/>
-    <box top='165' left='4131' width='229' height='223'/>
-    <box top='660' left='-3' width='274' height='283'/>
+    <box top='690' left='1107' width='259' height='259'>
+      <part name='0' x='1168' y='772'/>
+      <part name='1' x='1272' y='792'/>
+      <part name='2' x='1200' y='820'/>
+      <part name='3' x='1192' y='868'/>
+    </box>
+    <box top='438' left='1215' width='304' height='253'>
+      <part name='0' x='1276' y='524'/>
+      <part name='1' x='1400' y='504'/>
+      <part name='2' x='1368' y='556'/>
+      <part name='3' x='1380' y='612'/>
+    </box>
+    <box top='198' left='3810' width='226' height='229'>
+      <part name='0' x='3856' y='272'/>
+      <part name='1' x='3972' y='268'/>
+      <part name='2' x='3916' y='288'/>
+      <part name='3' x='3904' y='340'/>
+    </box>
+    <box top='165' left='4131' width='229' height='223'>
+      <part name='0' x='4184' y='228'/>
+      <part name='1' x='4288' y='232'/>
+      <part name='2' x='4236' y='256'/>
+      <part name='3' x='4232' y='316'/>
+    </box>
+    <box top='660' left='-3' width='274' height='283'>
+      <part name='0' x='20' y='760'/>
+      <part name='1' x='124' y='776'/>
+      <part name='2' x='24' y='828'/>
+      <part name='3' x='24' y='876'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4940.JPG'>
     <box top='200' left='2085' width='247' height='219' ignore='1'/>
-    <box top='708' left='3628' width='289' height='229'/>
-    <box top='60' left='3884' width='225' height='217'/>
+    <box top='708' left='3628' width='289' height='229'>
+      <part name='0' x='3716' y='784'/>
+      <part name='1' x='3836' y='784'/>
+      <part name='2' x='3792' y='808'/>
+      <part name='3' x='3792' y='860'/>
+    </box>
+    <box top='60' left='3884' width='225' height='217'>
+      <part name='0' x='3924' y='120'/>
+      <part name='1' x='4024' y='120'/>
+      <part name='2' x='3960' y='152'/>
+      <part name='3' x='3960' y='200'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4942.JPG'>
     <box top='393' left='3851' width='206' height='183' ignore='1'/>
-    <box top='204' left='812' width='229' height='213'/>
-    <box top='304' left='1648' width='225' height='209'/>
-    <box top='200' left='3396' width='237' height='225'/>
+    <box top='204' left='812' width='229' height='213'>
+      <part name='0' x='856' y='264'/>
+      <part name='1' x='956' y='264'/>
+      <part name='2' x='880' y='320'/>
+      <part name='3' x='872' y='352'/>
+    </box>
+    <box top='304' left='1648' width='225' height='209'>
+      <part name='0' x='1680' y='364'/>
+      <part name='1' x='1784' y='384'/>
+      <part name='2' x='1724' y='404'/>
+      <part name='3' x='1712' y='448'/>
+    </box>
+    <box top='200' left='3396' width='237' height='225'>
+      <part name='0' x='3436' y='264'/>
+      <part name='1' x='3548' y='260'/>
+      <part name='2' x='3484' y='284'/>
+      <part name='3' x='3476' y='340'/>
+    </box>
     <box top='633' left='2301' width='286' height='259' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4943.JPG'>
     <box top='352' left='3272' width='205' height='183' ignore='1'/>
     <box top='217' left='980' width='246' height='220' ignore='1'/>
-    <box top='232' left='200' width='241' height='225'/>
-    <box top='156' left='2800' width='237' height='217'/>
+    <box top='232' left='200' width='241' height='225'>
+      <part name='0' x='240' y='292'/>
+      <part name='1' x='348' y='304'/>
+      <part name='2' x='276' y='356'/>
+      <part name='3' x='276' y='388'/>
+    </box>
+    <box top='156' left='2800' width='237' height='217'>
+      <part name='0' x='2844' y='212'/>
+      <part name='1' x='2944' y='216'/>
+      <part name='2' x='2888' y='252'/>
+      <part name='3' x='2880' y='308'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4944.JPG'>
     <box top='170' left='3851' width='206' height='183' ignore='1'/>
     <box top='348' left='1801' width='205' height='183' ignore='1'/>
-    <box top='312' left='3864' width='249' height='233'/>
-    <box top='192' left='1316' width='245' height='221'/>
+    <box top='312' left='3864' width='249' height='233'>
+      <part name='0' x='3912' y='376'/>
+      <part name='1' x='4020' y='384'/>
+      <part name='2' x='3936' y='436'/>
+      <part name='3' x='3924' y='476'/>
+    </box>
+    <box top='192' left='1316' width='245' height='221'>
+      <part name='0' x='1368' y='252'/>
+      <part name='1' x='1464' y='252'/>
+      <part name='2' x='1412' y='272'/>
+      <part name='3' x='1388' y='328'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4945.JPG'>
-    <box top='644' left='1848' width='285' height='257'/>
+    <box top='644' left='1848' width='285' height='257'>
+      <part name='0' x='1936' y='712'/>
+      <part name='1' x='2028' y='760'/>
+      <part name='2' x='1916' y='780'/>
+      <part name='3' x='1912' y='832'/>
+    </box>
     <box top='268' left='160' width='213' height='209'/>
     <box top='306' left='939' width='289' height='283' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4947.JPG'>
     <box top='224' left='1316' width='245' height='229' ignore='1'/>
-    <box top='232' left='2216' width='233' height='217'/>
-    <box top='368' left='2784' width='241' height='225'/>
-    <box top='152' left='3960' width='237' height='225'/>
+    <box top='232' left='2216' width='233' height='217'>
+      <part name='0' x='2264' y='296'/>
+      <part name='1' x='2360' y='308'/>
+      <part name='2' x='2280' y='336'/>
+      <part name='3' x='2268' y='384'/>
+    </box>
+    <box top='368' left='2784' width='241' height='225'>
+      <part name='0' x='2840' y='448'/>
+      <part name='1' x='2932' y='460'/>
+      <part name='2' x='2864' y='496'/>
+      <part name='3' x='2856' y='540'/>
+    </box>
+    <box top='152' left='3960' width='237' height='225'>
+      <part name='0' x='4008' y='216'/>
+      <part name='1' x='4112' y='216'/>
+      <part name='2' x='4048' y='248'/>
+      <part name='3' x='4048' y='292'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4949.JPG'>
     <box top='196' left='4089' width='206' height='183' ignore='1'/>
     <box top='244' left='382' width='247' height='220' ignore='1'/>
-    <box top='264' left='1536' width='225' height='209'/>
+    <box top='264' left='1536' width='225' height='209'>
+      <part name='0' x='1582' y='334'/>
+      <part name='1' x='1686' y='326'/>
+      <part name='2' x='1616' y='358'/>
+      <part name='3' x='1618' y='404'/>
+    </box>
     <box top='364' left='2092' width='245' height='205' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4950.JPG'>
     <box top='441' left='77' width='205' height='183' ignore='1'/>
-    <box top='411' left='1117' width='206' height='183'/>
+    <box top='411' left='1117' width='206' height='183'>
+      <part name='0' x='1164' y='460'/>
+      <part name='1' x='1256' y='456'/>
+      <part name='2' x='1208' y='488'/>
+      <part name='3' x='1208' y='532'/>
+    </box>
     <box top='240' left='1624' width='172' height='153' ignore='1'/>
     <box top='292' left='1831' width='205' height='184' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4951.JPG'>
-    <box top='465' left='1443' width='241' height='223'/>
-    <box top='441' left='3777' width='199' height='181'/>
+    <box top='465' left='1443' width='241' height='223'>
+      <part name='0' x='1508' y='552'/>
+      <part name='1' x='1604' y='540'/>
+      <part name='2' x='1572' y='572'/>
+      <part name='3' x='1572' y='620'/>
+    </box>
+    <box top='441' left='3777' width='199' height='181'>
+      <part name='0' x='3824' y='492'/>
+      <part name='1' x='3924' y='492'/>
+      <part name='2' x='3876' y='512'/>
+      <part name='3' x='3876' y='552'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4953.JPG'>
     <box top='252' left='3555' width='199' height='169' ignore='1'/>
@@ -2282,38 +3333,98 @@
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4957.JPG'>
     <box top='386' left='3767' width='171' height='153' ignore='1'/>
-    <box top='225' left='2463' width='184' height='175'/>
+    <box top='225' left='2463' width='184' height='175'>
+      <part name='0' x='2504' y='280'/>
+      <part name='1' x='2600' y='280'/>
+      <part name='2' x='2560' y='292'/>
+      <part name='3' x='2560' y='332'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4960.JPG'>
-    <box top='186' left='3843' width='178' height='163'/>
+    <box top='186' left='3843' width='178' height='163'>
+      <part name='0' x='3896' y='240'/>
+      <part name='1' x='3992' y='236'/>
+      <part name='2' x='3964' y='252'/>
+      <part name='3' x='3964' y='288'/>
+    </box>
     <box top='264' left='1482' width='208' height='226' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4963.JPG'>
-    <box top='387' left='63' width='208' height='187'/>
-    <box top='408' left='2337' width='223' height='205'/>
+    <box top='387' left='63' width='208' height='187'>
+      <part name='0' x='132' y='456'/>
+      <part name='1' x='204' y='444'/>
+      <part name='2' x='180' y='484'/>
+      <part name='3' x='208' y='516'/>
+    </box>
+    <box top='408' left='2337' width='223' height='205'>
+      <part name='0' x='2372' y='480'/>
+      <part name='1' x='2460' y='492'/>
+      <part name='2' x='2400' y='524'/>
+      <part name='3' x='2408' y='580'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4964.JPG'>
     <box top='436' left='775' width='246' height='219' ignore='1'/>
-    <box top='672' left='390' width='196' height='184'/>
+    <box top='672' left='390' width='196' height='184'>
+      <part name='0' x='452' y='732'/>
+      <part name='1' x='536' y='724'/>
+      <part name='2' x='524' y='764'/>
+      <part name='3' x='524' y='796'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4965.JPG'>
-    <box top='114' left='1327' width='171' height='152'/>
-    <box top='492' left='2072' width='193' height='173'/>
-    <box top='540' left='2544' width='213' height='193'/>
+    <box top='114' left='1327' width='171' height='152'>
+      <part name='0' x='1360' y='156'/>
+      <part name='1' x='1440' y='140'/>
+      <part name='2' x='1396' y='160'/>
+      <part name='3' x='1392' y='204'/>
+    </box>
+    <box top='492' left='2072' width='193' height='173'>
+      <part name='0' x='2128' y='536'/>
+      <part name='1' x='2216' y='540'/>
+      <part name='2' x='2168' y='572'/>
+      <part name='3' x='2168' y='604'/>
+    </box>
+    <box top='540' left='2544' width='213' height='193'>
+      <part name='0' x='2600' y='588'/>
+      <part name='1' x='2676' y='600'/>
+      <part name='2' x='2632' y='628'/>
+      <part name='3' x='2628' y='668'/>
+    </box>
     <box top='405' left='4278' width='178' height='184' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4966.JPG'>
     <box top='86' left='3135' width='171' height='152' ignore='1'/>
     <box top='234' left='658' width='172' height='153' ignore='1'/>
-    <box top='432' left='180' width='197' height='169'/>
+    <box top='432' left='180' width='197' height='169'>
+      <part name='0' x='252' y='504'/>
+      <part name='1' x='316' y='484'/>
+      <part name='2' x='324' y='520'/>
+      <part name='3' x='320' y='568'/>
+    </box>
     <box top='728' left='600' width='221' height='181' ignore='1'/>
-    <box top='356' left='2532' width='173' height='157'/>
-    <box top='224' left='3780' width='165' height='157'/>
+    <box top='356' left='2532' width='173' height='157'>
+      <part name='0' x='2580' y='404'/>
+      <part name='1' x='2668' y='408'/>
+      <part name='2' x='2628' y='420'/>
+      <part name='3' x='2624' y='460'/>
+    </box>
+    <box top='224' left='3780' width='165' height='157'>
+      <part name='0' x='3824' y='272'/>
+      <part name='1' x='3904' y='268'/>
+      <part name='2' x='3860' y='284'/>
+      <part name='3' x='3856' y='324'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4967.JPG'>
     <box top='470' left='2987' width='171' height='152' ignore='1'/>
     <box top='371' left='2217' width='205' height='183' ignore='1'/>
-    <box top='606' left='1898' width='187' height='159'/>
+    <box top='606' left='1898' width='187' height='159'>
+      <part name='0' x='1948' y='652'/>
+      <part name='1' x='2036' y='648'/>
+      <part name='2' x='2028' y='692'/>
+      <part name='3' x='2024' y='732'/>
+    </box>
     <box top='534' left='4119' width='241' height='229' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4968.JPG'>
@@ -2324,20 +3435,45 @@
     <box top='330' left='1641' width='172' height='175' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4971.JPG'>
-    <box top='598' left='522' width='191' height='177'/>
+    <box top='598' left='522' width='191' height='177'>
+      <part name='0' x='564' y='664'/>
+      <part name='1' x='656' y='652'/>
+      <part name='2' x='612' y='684'/>
+      <part name='3' x='624' y='720'/>
+    </box>
     <box top='368' left='686' width='201' height='165' ignore='1'/>
-    <box top='273' left='4428' width='175' height='166'/>
+    <box top='273' left='4428' width='175' height='166'>
+      <part name='0' x='4476' y='328'/>
+      <part name='1' x='4564' y='328'/>
+      <part name='2' x='4532' y='344'/>
+      <part name='3' x='4520' y='388'/>
+    </box>
     <box top='330' left='2133' width='187' height='172' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4972.JPG'>
-    <box top='356' left='1504' width='205' height='183'/>
+    <box top='356' left='1504' width='205' height='183'>
+      <part name='0' x='1560' y='404'/>
+      <part name='1' x='1640' y='396'/>
+      <part name='2' x='1616' y='424'/>
+      <part name='3' x='1616' y='456'/>
+    </box>
     <box top='541' left='2120' width='171' height='152' ignore='1'/>
-    <box top='282' left='1845' width='190' height='172'/>
+    <box top='282' left='1845' width='190' height='172'>
+      <part name='0' x='1884' y='328'/>
+      <part name='1' x='1960' y='312'/>
+      <part name='2' x='1940' y='352'/>
+      <part name='3' x='1940' y='392'/>
+    </box>
     <box top='472' left='976' width='199' height='185' ignore='1'/>
     <box top='454' left='1904' width='199' height='187' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4973.JPG'>
-    <box top='310' left='112' width='207' height='219'/>
+    <box top='310' left='112' width='207' height='219'>
+      <part name='0' x='148' y='376'/>
+      <part name='1' x='220' y='384'/>
+      <part name='2' x='164' y='420'/>
+      <part name='3' x='168' y='480'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4975.JPG'>
     <box top='152' left='776' width='227' height='215' ignore='1'/>
@@ -2345,86 +3481,316 @@
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4977.JPG'>
     <box top='381' left='150' width='190' height='178' ignore='1'/>
-    <box top='285' left='912' width='202' height='175'/>
-    <box top='237' left='2382' width='172' height='151'/>
+    <box top='285' left='912' width='202' height='175'>
+      <part name='0' x='952' y='344'/>
+      <part name='1' x='1028' y='336'/>
+      <part name='2' x='984' y='356'/>
+      <part name='3' x='980' y='400'/>
+    </box>
+    <box top='237' left='2382' width='172' height='151'>
+      <part name='0' x='2412' y='292'/>
+      <part name='1' x='2492' y='280'/>
+      <part name='2' x='2452' y='304'/>
+      <part name='3' x='2452' y='348'/>
+    </box>
     <box top='531' left='2853' width='220' height='187' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4979.JPG'>
-    <box top='169' left='2315' width='171' height='153'/>
-    <box top='244' left='853' width='172' height='152'/>
-    <box top='213' left='1323' width='196' height='193'/>
-    <box top='435' left='2817' width='220' height='211'/>
+    <box top='169' left='2315' width='171' height='153'>
+      <part name='0' x='2344' y='220'/>
+      <part name='1' x='2424' y='200'/>
+      <part name='2' x='2392' y='224'/>
+      <part name='3' x='2396' y='260'/>
+    </box>
+    <box top='244' left='853' width='172' height='152'>
+      <part name='0' x='884' y='288'/>
+      <part name='1' x='964' y='288'/>
+      <part name='2' x='940' y='308'/>
+      <part name='3' x='948' y='340'/>
+    </box>
+    <box top='213' left='1323' width='196' height='193'>
+      <part name='0' x='1356' y='276'/>
+      <part name='1' x='1440' y='292'/>
+      <part name='2' x='1368' y='312'/>
+      <part name='3' x='1376' y='360'/>
+    </box>
+    <box top='435' left='2817' width='220' height='211'>
+      <part name='0' x='2868' y='484'/>
+      <part name='1' x='2956' y='504'/>
+      <part name='2' x='2884' y='532'/>
+      <part name='3' x='2884' y='568'/>
+    </box>
     <box top='75' left='3360' width='160' height='145' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4980.JPG'>
-    <box top='147' left='2268' width='190' height='160'/>
-    <box top='192' left='816' width='181' height='169'/>
-    <box top='345' left='84' width='178' height='178'/>
+    <box top='147' left='2268' width='190' height='160'>
+      <part name='0' x='2304' y='188'/>
+      <part name='1' x='2388' y='188'/>
+      <part name='2' x='2352' y='204'/>
+      <part name='3' x='2356' y='252'/>
+    </box>
+    <box top='192' left='816' width='181' height='169'>
+      <part name='0' x='864' y='244'/>
+      <part name='1' x='944' y='244'/>
+      <part name='2' x='892' y='264'/>
+      <part name='3' x='896' y='304'/>
+    </box>
+    <box top='345' left='84' width='178' height='178'>
+      <part name='0' x='108' y='396'/>
+      <part name='1' x='184' y='384'/>
+      <part name='2' x='148' y='448'/>
+      <part name='3' x='164' y='484'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4981.JPG'>
     <box top='146' left='4124' width='143' height='127' ignore='1'/>
-    <box top='273' left='540' width='175' height='157'/>
+    <box top='273' left='540' width='175' height='157'>
+      <part name='0' x='584' y='332'/>
+      <part name='1' x='660' y='324'/>
+      <part name='2' x='612' y='344'/>
+      <part name='3' x='612' y='380'/>
+    </box>
     <box top='150' left='933' width='244' height='184' ignore='1'/>
-    <box top='228' left='1983' width='184' height='166'/>
-    <box top='489' left='2538' width='202' height='190'/>
-    <box top='370' left='4096' width='221' height='217'/>
-    <box top='240' left='4034' width='163' height='159'/>
-    <box top='74' left='4408' width='185' height='183'/>
+    <box top='228' left='1983' width='184' height='166'>
+      <part name='0' x='2028' y='284'/>
+      <part name='1' x='2100' y='268'/>
+      <part name='2' x='2060' y='308'/>
+      <part name='3' x='2064' y='344'/>
+    </box>
+    <box top='489' left='2538' width='202' height='190'>
+      <part name='0' x='2600' y='544'/>
+      <part name='1' x='2668' y='568'/>
+      <part name='2' x='2592' y='584'/>
+      <part name='3' x='2596' y='636'/>
+    </box>
+    <box top='370' left='4096' width='221' height='217'>
+      <part name='0' x='4144' y='420'/>
+      <part name='1' x='4220' y='456'/>
+      <part name='2' x='4148' y='472'/>
+      <part name='3' x='4148' y='512'/>
+    </box>
+    <box top='240' left='4034' width='163' height='159'>
+      <part name='0' x='4076' y='280'/>
+      <part name='1' x='4144' y='280'/>
+      <part name='2' x='4116' y='288'/>
+      <part name='3' x='4112' y='348'/>
+    </box>
+    <box top='74' left='4408' width='185' height='183'>
+      <part name='0' x='4440' y='140'/>
+      <part name='1' x='4508' y='104'/>
+      <part name='2' x='4500' y='152'/>
+      <part name='3' x='4516' y='192'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4982.JPG'>
-    <box top='500' left='1528' width='219' height='203'/>
-    <box top='166' left='1738' width='173' height='157'/>
-    <box top='258' left='2198' width='193' height='173'/>
-    <box top='243' left='1473' width='172' height='157'/>
+    <box top='500' left='1528' width='219' height='203'>
+      <part name='0' x='1568' y='548'/>
+      <part name='1' x='1644' y='576'/>
+      <part name='2' x='1588' y='600'/>
+      <part name='3' x='1584' y='640'/>
+    </box>
+    <box top='166' left='1738' width='173' height='157'>
+      <part name='0' x='1780' y='220'/>
+      <part name='1' x='1840' y='196'/>
+      <part name='2' x='1836' y='240'/>
+      <part name='3' x='1844' y='248'/>
+    </box>
+    <box top='258' left='2198' width='193' height='173'>
+      <part name='0' x='2312' y='300'/>
+      <part name='1' x='2312' y='364'/>
+      <part name='2' x='2252' y='344'/>
+      <part name='3' x='2228' y='348'/>
+    </box>
+    <box top='243' left='1473' width='172' height='157'>
+      <part name='0' x='1520' y='284'/>
+      <part name='1' x='1588' y='280'/>
+      <part name='2' x='1592' y='304'/>
+      <part name='3' x='1596' y='336'/>
+    </box>
     <box top='366' left='1446' width='166' height='151' ignore='1'/>
-    <box top='177' left='4413' width='184' height='187'/>
+    <box top='177' left='4413' width='184' height='187'>
+      <part name='0' x='4436' y='248'/>
+      <part name='1' x='4500' y='244'/>
+      <part name='2' x='4476' y='288'/>
+      <part name='3' x='4488' y='308'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4983.JPG'>
-    <box top='256' left='2764' width='171' height='153'/>
-    <box top='297' left='2286' width='187' height='163'/>
+    <box top='256' left='2764' width='171' height='153'>
+      <part name='0' x='2888' y='284'/>
+      <part name='1' x='2892' y='348'/>
+      <part name='2' x='2836' y='336'/>
+      <part name='3' x='2804' y='340'/>
+    </box>
+    <box top='297' left='2286' width='187' height='163'>
+      <part name='0' x='2328' y='356'/>
+      <part name='1' x='2412' y='332'/>
+      <part name='2' x='2388' y='360'/>
+      <part name='3' x='2412' y='396'/>
+    </box>
     <box top='225' left='2367' width='157' height='139' ignore='1'/>
-    <box top='591' left='624' width='217' height='217'/>
+    <box top='591' left='624' width='217' height='217'>
+      <part name='0' x='672' y='652'/>
+      <part name='1' x='752' y='660'/>
+      <part name='2' x='680' y='692'/>
+      <part name='3' x='680' y='736'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4984.JPG'>
     <box top='293' left='1379' width='143' height='128' ignore='1'/>
     <box top='355' left='1648' width='142' height='127' ignore='1'/>
     <box top='430' left='180' width='207' height='179' ignore='1'/>
-    <box top='502' left='1460' width='193' height='189'/>
+    <box top='502' left='1460' width='193' height='189'>
+      <part name='0' x='1504' y='544'/>
+      <part name='1' x='1588' y='572'/>
+      <part name='2' x='1520' y='588'/>
+      <part name='3' x='1496' y='644'/>
+    </box>
     <box top='345' left='1812' width='178' height='160' ignore='1'/>
     <box top='117' left='3336' width='190' height='184' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4985.JPG'>
     <box top='332' left='369' width='119' height='107' ignore='1'/>
-    <box top='267' left='972' width='208' height='184'/>
-    <box top='162' left='2265' width='208' height='205'/>
+    <box top='267' left='972' width='208' height='184'>
+      <part name='0' x='1068' y='300'/>
+      <part name='1' x='1088' y='364'/>
+      <part name='2' x='1020' y='324'/>
+      <part name='3' x='1004' y='348'/>
+    </box>
+    <box top='162' left='2265' width='208' height='205'>
+      <part name='0' x='2344' y='240'/>
+      <part name='1' x='2424' y='212'/>
+      <part name='2' x='2420' y='256'/>
+      <part name='3' x='2424' y='308'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4987.JPG'>
-    <box top='497' left='1179' width='171' height='153'/>
-    <box top='401' left='1132' width='142' height='128'/>
-    <box top='492' left='123' width='166' height='154'/>
-    <box top='483' left='3100' width='158' height='143'/>
-    <box top='282' left='2877' width='211' height='190'/>
+    <box top='497' left='1179' width='171' height='153'>
+      <part name='0' x='1224' y='540'/>
+      <part name='1' x='1280' y='540'/>
+      <part name='2' x='1232' y='560'/>
+      <part name='3' x='1228' y='608'/>
+    </box>
+    <box top='401' left='1132' width='142' height='128'>
+      <part name='0' x='1172' y='440'/>
+      <part name='1' x='1232' y='444'/>
+      <part name='2' x='1204' y='464'/>
+      <part name='3' x='1204' y='496'/>
+    </box>
+    <box top='492' left='123' width='166' height='154'>
+      <part name='0' x='160' y='524'/>
+      <part name='1' x='244' y='520'/>
+      <part name='2' x='216' y='524'/>
+      <part name='3' x='224' y='580'/>
+    </box>
+    <box top='483' left='3100' width='158' height='143'>
+      <part name='0' x='3164' y='544'/>
+      <part name='1' x='3220' y='528'/>
+      <part name='2' x='3228' y='560'/>
+      <part name='3' x='3228' y='604'/>
+    </box>
+    <box top='282' left='2877' width='211' height='190'>
+      <part name='0' x='2968' y='356'/>
+      <part name='1' x='3040' y='332'/>
+      <part name='2' x='3048' y='372'/>
+      <part name='3' x='3060' y='400'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4988.JPG'>
-    <box top='268' left='6' width='171' height='169'/>
-    <box top='196' left='1878' width='177' height='149'/>
-    <box top='436' left='2128' width='201' height='185'/>
-    <box top='342' left='3098' width='179' height='157'/>
+    <box top='268' left='6' width='171' height='169'>
+      <part name='0' x='36' y='316'/>
+      <part name='1' x='116' y='316'/>
+      <part name='2' x='84' y='332'/>
+      <part name='3' x='84' y='368'/>
+    </box>
+    <box top='196' left='1878' width='177' height='149'>
+      <part name='0' x='1928' y='240'/>
+      <part name='1' x='2000' y='240'/>
+      <part name='2' x='1980' y='256'/>
+      <part name='3' x='1984' y='296'/>
+    </box>
+    <box top='436' left='2128' width='201' height='185'>
+      <part name='0' x='2192' y='488'/>
+      <part name='1' x='2256' y='544'/>
+      <part name='2' x='2184' y='544'/>
+      <part name='3' x='2164' y='588'/>
+    </box>
+    <box top='342' left='3098' width='179' height='157'>
+      <part name='0' x='3140' y='364'/>
+      <part name='1' x='3208' y='388'/>
+      <part name='2' x='3164' y='408'/>
+      <part name='3' x='3160' y='456'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4989.JPG'>
-    <box top='123' left='3918' width='163' height='145'/>
-    <box top='480' left='681' width='193' height='163'/>
-    <box top='480' left='2540' width='193' height='185'/>
-    <box top='428' left='3420' width='201' height='189'/>
+    <box top='123' left='3918' width='163' height='145'>
+      <part name='0' x='3960' y='160'/>
+      <part name='1' x='4036' y='168'/>
+      <part name='2' x='4012' y='188'/>
+      <part name='3' x='4012' y='232'/>
+    </box>
+    <box top='480' left='681' width='193' height='163'>
+      <part name='0' x='724' y='512'/>
+      <part name='1' x='796' y='528'/>
+      <part name='2' x='740' y='548'/>
+      <part name='3' x='740' y='580'/>
+    </box>
+    <box top='480' left='2540' width='193' height='185'>
+      <part name='0' x='2604' y='544'/>
+      <part name='1' x='2668' y='536'/>
+      <part name='2' x='2664' y='576'/>
+      <part name='3' x='2668' y='612'/>
+    </box>
+    <box top='428' left='3420' width='201' height='189'>
+      <part name='0' x='3476' y='464'/>
+      <part name='1' x='3544' y='492'/>
+      <part name='2' x='3488' y='500'/>
+      <part name='3' x='3480' y='528'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4991.JPG'>
-    <box top='164' left='540' width='159' height='153'/>
-    <box top='570' left='1086' width='185' height='161'/>
-    <box top='322' left='2408' width='151' height='141'/>
-    <box top='426' left='2624' width='159' height='137'/>
-    <box top='248' left='3080' width='177' height='173'/>
-    <box top='344' left='208' width='165' height='141'/>
-    <box top='480' left='88' width='185' height='165'/>
+    <box top='164' left='540' width='159' height='153'>
+      <part name='0' x='576' y='196'/>
+      <part name='1' x='648' y='204'/>
+      <part name='2' x='616' y='240'/>
+      <part name='3' x='620' y='276'/>
+    </box>
+    <box top='570' left='1086' width='185' height='161'>
+      <part name='0' x='1140' y='604'/>
+      <part name='1' x='1208' y='628'/>
+      <part name='2' x='1152' y='640'/>
+      <part name='3' x='1140' y='664'/>
+    </box>
+    <box top='322' left='2408' width='151' height='141'>
+      <part name='0' x='2452' y='356'/>
+      <part name='1' x='2512' y='360'/>
+      <part name='2' x='2492' y='376'/>
+      <part name='3' x='2492' y='404'/>
+    </box>
+    <box top='426' left='2624' width='159' height='137'>
+      <part name='0' x='2672' y='468'/>
+      <part name='1' x='2748' y='460'/>
+      <part name='2' x='2732' y='508'/>
+      <part name='3' x='2744' y='536'/>
+    </box>
+    <box top='248' left='3080' width='177' height='173'>
+      <part name='0' x='3120' y='292'/>
+      <part name='1' x='3184' y='296'/>
+      <part name='2' x='3144' y='324'/>
+      <part name='3' x='3144' y='360'/>
+    </box>
+    <box top='344' left='208' width='165' height='141'>
+      <part name='0' x='264' y='424'/>
+      <part name='1' x='328' y='376'/>
+      <part name='2' x='316' y='420'/>
+      <part name='3' x='336' y='440'/>
+    </box>
+    <box top='480' left='88' width='185' height='165'>
+      <part name='0' x='132' y='500'/>
+      <part name='1' x='204' y='532'/>
+      <part name='2' x='132' y='536'/>
+      <part name='3' x='132' y='580'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4993.JPG'>
     <box top='392' left='163' width='171' height='153' ignore='1'/>
@@ -2433,32 +3799,97 @@
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4995.JPG'>
     <box top='195' left='2618' width='142' height='127' ignore='1'/>
     <box top='525' left='2267' width='143' height='128' ignore='1'/>
-    <box top='555' left='1416' width='172' height='154'/>
+    <box top='555' left='1416' width='172' height='154'>
+      <part name='0' x='1476' y='612'/>
+      <part name='1' x='1536' y='604'/>
+      <part name='2' x='1524' y='640'/>
+      <part name='3' x='1536' y='660'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4996.JPG'>
     <box top='231' left='327' width='143' height='128' ignore='1'/>
-    <box top='502' left='1140' width='191' height='171'/>
-    <box top='194' left='2026' width='157' height='145'/>
-    <box top='298' left='3368' width='153' height='145'/>
-    <box top='356' left='3516' width='175' height='163'/>
-    <box top='440' left='2562' width='187' height='171'/>
+    <box top='502' left='1140' width='191' height='171'>
+      <part name='0' x='1204' y='536'/>
+      <part name='1' x='1272' y='560'/>
+      <part name='2' x='1208' y='584'/>
+      <part name='3' x='1200' y='616'/>
+    </box>
+    <box top='194' left='2026' width='157' height='145'>
+      <part name='0' x='2076' y='240'/>
+      <part name='1' x='2140' y='232'/>
+      <part name='2' x='2116' y='260'/>
+      <part name='3' x='2112' y='300'/>
+    </box>
+    <box top='298' left='3368' width='153' height='145'>
+      <part name='0' x='3408' y='336'/>
+      <part name='1' x='3472' y='340'/>
+      <part name='2' x='3436' y='360'/>
+      <part name='3' x='3436' y='392'/>
+    </box>
+    <box top='356' left='3516' width='175' height='163'>
+      <part name='0' x='3552' y='400'/>
+      <part name='1' x='3616' y='408'/>
+      <part name='2' x='3564' y='436'/>
+      <part name='3' x='3564' y='468'/>
+    </box>
+    <box top='440' left='2562' width='187' height='171'>
+      <part name='0' x='2624' y='472'/>
+      <part name='1' x='2696' y='528'/>
+      <part name='2' x='2616' y='524'/>
+      <part name='3' x='2612' y='560'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4998.JPG'>
-    <box top='282' left='90' width='179' height='179'/>
-    <box top='146' left='790' width='159' height='139'/>
-    <box top='194' left='1274' width='193' height='179'/>
+    <box top='282' left='90' width='179' height='179'>
+      <part name='0' x='132' y='340'/>
+      <part name='1' x='196' y='336'/>
+      <part name='2' x='160' y='380'/>
+      <part name='3' x='160' y='412'/>
+    </box>
+    <box top='146' left='790' width='159' height='139'>
+      <part name='0' x='848' y='176'/>
+      <part name='1' x='900' y='172'/>
+      <part name='2' x='876' y='200'/>
+      <part name='3' x='872' y='228'/>
+    </box>
+    <box top='194' left='1274' width='193' height='179'>
+      <part name='0' x='1328' y='260'/>
+      <part name='1' x='1400' y='260'/>
+      <part name='2' x='1356' y='292'/>
+      <part name='3' x='1352' y='336'/>
+    </box>
     <box top='88' left='1864' width='125' height='115' ignore='1'/>
-    <box top='150' left='2130' width='159' height='151'/>
+    <box top='150' left='2130' width='159' height='151'>
+      <part name='0' x='2172' y='184'/>
+      <part name='1' x='2244' y='188'/>
+      <part name='2' x='2200' y='208'/>
+      <part name='3' x='2216' y='256'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN4999.JPG'>
-    <box top='324' left='1570' width='155' height='149'/>
+    <box top='324' left='1570' width='155' height='149'>
+      <part name='0' x='1616' y='360'/>
+      <part name='1' x='1684' y='364'/>
+      <part name='2' x='1664' y='380'/>
+      <part name='3' x='1656' y='420'/>
+    </box>
     <box top='414' left='4272' width='155' height='147' ignore='1'/>
-    <box top='576' left='316' width='209' height='197'/>
+    <box top='576' left='316' width='209' height='197'>
+      <part name='0' x='408' y='632'/>
+      <part name='1' x='492' y='660'/>
+      <part name='2' x='440' y='668'/>
+      <part name='3' x='436' y='700'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5000.JPG'>
     <box top='168' left='702' width='167' height='131' ignore='1'/>
     <box top='498' left='504' width='157' height='135' ignore='1'/>
-    <box top='544' left='1458' width='169' height='153'/>
+    <box top='544' left='1458' width='169' height='153'>
+      <part name='0' x='1516' y='576'/>
+      <part name='1' x='1560' y='588'/>
+      <part name='2' x='1512' y='608'/>
+      <part name='3' x='1504' y='632'/>
+    </box>
     <box top='294' left='2636' width='161' height='133' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5001.JPG'>
@@ -2468,76 +3899,212 @@
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5004.JPG'>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5008.JPG'>
-    <box top='735' left='2187' width='232' height='208'/>
+    <box top='735' left='2187' width='232' height='208'>
+      <part name='0' x='2244' y='796'/>
+      <part name='1' x='2336' y='808'/>
+      <part name='2' x='2280' y='824'/>
+      <part name='3' x='2264' y='868'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5010.JPG'>
     <box top='651' left='1473' width='229' height='208' ignore='1'/>
-    <box top='352' left='2840' width='217' height='233'/>
+    <box top='352' left='2840' width='217' height='233'>
+      <part name='0' x='2908' y='404'/>
+      <part name='1' x='3008' y='412'/>
+      <part name='2' x='2992' y='424'/>
+      <part name='3' x='2992' y='476'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5013.JPG'>
-    <box top='477' left='2253' width='289' height='253'/>
-    <box top='348' left='1053' width='283' height='250'/>
+    <box top='477' left='2253' width='289' height='253'>
+      <part name='0' x='2316' y='528'/>
+      <part name='1' x='2436' y='580'/>
+      <part name='2' x='2332' y='588'/>
+      <part name='3' x='2312' y='632'/>
+    </box>
+    <box top='348' left='1053' width='283' height='250'>
+      <part name='0' x='1164' y='416'/>
+      <part name='1' x='1204' y='516'/>
+      <part name='2' x='1116' y='452'/>
+      <part name='3' x='1092' y='476'/>
+    </box>
     <box top='312' left='604' width='269' height='253' ignore='1'/>
     <box top='428' left='3428' width='273' height='269' ignore='1'/>
     <box top='172' left='4052' width='249' height='237' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5014.JPG'>
     <box top='333' left='4149' width='205' height='183' ignore='1'/>
-    <box top='291' left='3186' width='286' height='265'/>
-    <box top='372' left='880' width='249' height='229'/>
+    <box top='291' left='3186' width='286' height='265'>
+      <part name='0' x='3312' y='356'/>
+      <part name='1' x='3340' y='464'/>
+      <part name='2' x='3260' y='420'/>
+      <part name='3' x='3224' y='420'/>
+    </box>
+    <box top='372' left='880' width='249' height='229'>
+      <part name='0' x='960' y='440'/>
+      <part name='1' x='1044' y='440'/>
+      <part name='2' x='1000' y='468'/>
+      <part name='3' x='996' y='512'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5015.JPG'>
-    <box top='176' left='276' width='273' height='269'/>
+    <box top='176' left='276' width='273' height='269'>
+      <part name='0' x='348' y='260'/>
+      <part name='1' x='440' y='268'/>
+      <part name='2' x='392' y='308'/>
+      <part name='3' x='388' y='356'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5016.JPG'>
     <box top='371' left='2039' width='205' height='183' ignore='1'/>
     <box top='182' left='2808' width='246' height='219' ignore='1'/>
-    <box top='356' left='3880' width='249' height='225'/>
+    <box top='356' left='3880' width='249' height='225'>
+      <part name='0' x='3932' y='428'/>
+      <part name='1' x='4036' y='420'/>
+      <part name='2' x='4004' y='448'/>
+      <part name='3' x='4008' y='508'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5017.JPG'>
-    <box top='188' left='3396' width='253' height='245'/>
-    <box top='252' left='2536' width='241' height='209'/>
-    <box top='276' left='1640' width='273' height='281'/>
+    <box top='188' left='3396' width='253' height='245'>
+      <part name='0' x='3464' y='252'/>
+      <part name='1' x='3560' y='260'/>
+      <part name='2' x='3508' y='308'/>
+      <part name='3' x='3508' y='348'/>
+    </box>
+    <box top='252' left='2536' width='241' height='209'>
+      <part name='0' x='2600' y='312'/>
+      <part name='1' x='2676' y='308'/>
+      <part name='2' x='2636' y='336'/>
+      <part name='3' x='2624' y='400'/>
+    </box>
+    <box top='276' left='1640' width='273' height='281'>
+      <part name='0' x='1692' y='388'/>
+      <part name='1' x='1788' y='356'/>
+      <part name='2' x='1756' y='408'/>
+      <part name='3' x='1768' y='480'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5018.JPG'>
-    <box top='296' left='2484' width='253' height='233'/>
-    <box top='348' left='4312' width='237' height='209'/>
-    <box top='304' left='1656' width='269' height='277'/>
+    <box top='296' left='2484' width='253' height='233'>
+      <part name='0' x='2548' y='376'/>
+      <part name='1' x='2648' y='368'/>
+      <part name='2' x='2584' y='408'/>
+      <part name='3' x='2580' y='448'/>
+    </box>
+    <box top='348' left='4312' width='237' height='209'>
+      <part name='0' x='4392' y='428'/>
+      <part name='1' x='4476' y='412'/>
+      <part name='2' x='4448' y='448'/>
+      <part name='3' x='4456' y='500'/>
+    </box>
+    <box top='304' left='1656' width='269' height='277'>
+      <part name='0' x='1716' y='412'/>
+      <part name='1' x='1828' y='376'/>
+      <part name='2' x='1780' y='444'/>
+      <part name='3' x='1796' y='520'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5020.JPG'>
-    <box top='608' left='1276' width='245' height='213'/>
+    <box top='608' left='1276' width='245' height='213'>
+      <part name='0' x='1353' y='663'/>
+      <part name='1' x='1440' y='687'/>
+      <part name='2' x='1377' y='708'/>
+      <part name='3' x='1371' y='759'/>
+    </box>
     <box top='548' left='1772' width='221' height='217' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5024.JPG'>
-    <box top='576' left='1380' width='237' height='201'/>
-    <box top='572' left='744' width='233' height='225'/>
+    <box top='576' left='1380' width='237' height='201'>
+      <part name='0' x='1434' y='642'/>
+      <part name='1' x='1530' y='645'/>
+      <part name='2' x='1491' y='687'/>
+      <part name='3' x='1461' y='744'/>
+    </box>
+    <box top='572' left='744' width='233' height='225'>
+      <part name='0' x='807' y='597'/>
+      <part name='1' x='912' y='639'/>
+      <part name='2' x='849' y='654'/>
+      <part name='3' x='837' y='693'/>
+    </box>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5026.JPG'>
     <box top='524' left='2688' width='245' height='209' ignore='1'/>
     <box top='516' left='2120' width='221' height='217' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5027.JPG'>
-    <box top='312' left='544' width='233' height='213'/>
-    <box top='324' left='1316' width='273' height='257'/>
-    <box top='320' left='2224' width='285' height='237'/>
+    <box top='312' left='544' width='233' height='213'>
+      <part name='0' x='597' y='381'/>
+      <part name='1' x='702' y='369'/>
+      <part name='2' x='642' y='405'/>
+      <part name='3' x='648' y='459'/>
+    </box>
+    <box top='324' left='1316' width='273' height='257'>
+      <part name='0' x='1389' y='426'/>
+      <part name='1' x='1482' y='408'/>
+      <part name='2' x='1449' y='465'/>
+      <part name='3' x='1443' y='519'/>
+    </box>
+    <box top='320' left='2224' width='285' height='237'>
+      <part name='0' x='2286' y='387'/>
+      <part name='1' x='2412' y='390'/>
+      <part name='2' x='2355' y='423'/>
+      <part name='3' x='2367' y='477'/>
+    </box>
     <box top='352' left='-4' width='197' height='261' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5029.JPG'>
-    <box top='596' left='3252' width='257' height='237'/>
-    <box top='676' left='4084' width='233' height='205'/>
+    <box top='596' left='3252' width='257' height='237'>
+      <part name='0' x='3327' y='657'/>
+      <part name='1' x='3408' y='690'/>
+      <part name='2' x='3339' y='708'/>
+      <part name='3' x='3318' y='750'/>
+    </box>
+    <box top='676' left='4084' width='233' height='205'>
+      <part name='0' x='4158' y='747'/>
+      <part name='1' x='4245' y='738'/>
+      <part name='2' x='4239' y='783'/>
+      <part name='3' x='4242' y='828'/>
+    </box>
     <box top='532' left='204' width='233' height='221' ignore='1'/>
-    <box top='728' left='2152' width='313' height='289'/>
+    <box top='728' left='2152' width='313' height='289'>
+      <part name='0' x='2304' y='777'/>
+      <part name='1' x='2379' y='855'/>
+      <part name='2' x='2319' y='846'/>
+      <part name='3' x='2283' y='876'/>
+    </box>
     <box top='916' left='712' width='257' height='253' ignore='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5030.JPG'>
     <box top='508' left='3762' width='206' height='183' ignore='1'/>
     <box top='436' left='748' width='213' height='185' ignore='1'/>
-    <box top='644' left='2740' width='257' height='273'/>
-    <box top='832' left='3004' width='285' height='245'/>
+    <box top='644' left='2740' width='257' height='273'>
+      <part name='0' x='2832' y='708'/>
+      <part name='1' x='2901' y='768'/>
+      <part name='2' x='2817' y='762'/>
+      <part name='3' x='2790' y='792'/>
+    </box>
+    <box top='832' left='3004' width='285' height='245'>
+      <part name='0' x='3072' y='888'/>
+      <part name='1' x='3168' y='906'/>
+      <part name='2' x='3126' y='939'/>
+      <part name='3' x='3123' y='996'/>
+    </box>
+    <box top='696' left='2832' width='1' height='1'/>
   </image>
   <image file='../data/Mitchell_Field_Singles_1_31/DSCN5031.JPG'>
-    <box top='276' left='108' width='249' height='221'/>
-    <box top='292' left='848' width='273' height='241'/>
+    <box top='276' left='108' width='249' height='221'>
+      <part name='0' x='147' y='336'/>
+      <part name='1' x='252' y='336'/>
+      <part name='2' x='213' y='357'/>
+      <part name='3' x='207' y='420'/>
+    </box>
+    <box top='292' left='848' width='273' height='241'>
+      <part name='0' x='909' y='357'/>
+      <part name='1' x='1005' y='363'/>
+      <part name='2' x='942' y='402'/>
+      <part name='3' x='954' y='465'/>
+    </box>
     <box top='304' left='1656' width='261' height='221' ignore='1'/>
     <box top='594' left='3627' width='244' height='235' ignore='1'/>
   </image>

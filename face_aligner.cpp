@@ -1,137 +1,102 @@
 // include
+#include <iostream>
+#include <string> 
+#include <math.h>
+#include <opencv2/opencv.hpp>
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
+#include <dlib/data_io.h>
+#include <dlib/image_processing.h>
 
-//------------------------------------------------------------------------
-// Find Face Chips
-//  args: : vector of boxes (bounds bear face & coords of face features)
-//  		image of bear
-//			transform_features: return features used
-//			face_features: return transformed features
-//  return: vector of facechips.
-//  actions:write out
-//------------------------------------------------------------------------
-std::vector<matrix<rgb_pixel> > find_chips(
-    std::vector<image_dataset_metadata::box> &boxes,
-    matrix<rgb_pixel> &img,
-    const float padding,
-    std::vector<float> eyes_loc,
-    std::string &transform_features,                     // features used in transformation
-    std::vector<dlib::vector<double, 2> > &face_features // for all features
-)
-{
-    std::vector<matrix<rgb_pixel> > faces;
-    point part[6];
-    // display face lear, rear, nose on uniform grey canvas
-    std::vector<image_window::overlay_circle> chip_circles;
-    const rgb_pixel color_r(255, 0, 0);
-    const rgb_pixel color_g(0, 255, 0);
-    const rgb_pixel color_b(0, 0, 255);
-    float nose_x = .50, nose_y = .70;
-    float leye_x = eyes_loc[0], leye_y = eyes_loc[1];
-    float reye_x = eyes_loc[2], reye_y = eyes_loc[3];
-    std::string bearID;
-    //---------------
-    for (auto &&b : boxes) // for each face
-    {
-        part[0] = b.parts["head_top"];
-        part[1] = b.parts["lear"];
-        part[2] = b.parts["leye"];
-        part[3] = b.parts["nose"];
-        part[4] = b.parts["rear"];
-        part[5] = b.parts["reye"];
+#define PI 3.14159265
 
-        // chip_details based on get_face_chip_details
-        const double mean_face_shape_x[] = {0, 0, leye_x, nose_x, 0, reye_x};
-        const double mean_face_shape_y[] = {0, 0, leye_y, nose_y, 0, reye_y};
-        //const double mean_face_shape_x[] = { 0, 0, 0.62, 0.54, 0, 0.38 }; // derrived from HOG image
-        //const double mean_face_shape_y[] = { 0, 0, 0.45, 0.62, 0, 0.45 }; // derrived from HOG image
-        // double padding = -0.12; // using negative padding so we don't have to adjust mean face shape
-        chip_details face_chip_details;
+const int CHIP_SIZE = 112;
+const double DESIRED_LEFTEYE[2] = {0.3, 0.3};
 
-        std::vector<dlib::vector<double, 2> > from_points, to_points;
-        //for (unsigned long i : {3, 5, 2})  // follow the order from face pose (nose, reye, leye)
-        // --------------------!!!!!!!
-        transform_features = "reye leye";
-        // --------------------!!!!!!!
-        // MAKE SURE transform_features REFLECTS FEATURES USED BELOW
-        for (unsigned long i : {5, 2}) // follow order from face pose (reye, leye) EYES_ONLY
-        {
-            // Ignore top and ears
-            if ((i == 0) || (i == 1) || (i == 4))
-                continue;
-
-            dlib::vector<double, 2> p;
-            p.x() = (padding + mean_face_shape_x[i]) / (2 * padding + 1);
-            p.y() = (padding + mean_face_shape_y[i]) / (2 * padding + 1);
-            from_points.push_back(p * g_chip_size);
-            to_points.push_back(part[i]);
-            //cout << "from:" << p*g_chip_size << endl;
-            //cout << "to:" << shape.part(i) << endl;
-        }
-
-        face_chip_details = chip_details(from_points, to_points, chip_dims(g_chip_size, g_chip_size));
-
-        // ---------------------------------------
-        // get mapping for display
-        point_transform_affine pta = get_mapping_to_chip(face_chip_details);
-        auto leye = pta(part[2]);
-        auto nose = pta(part[3]);
-        auto reye = pta(part[5]);
-        clean_xy(leye);
-        clean_xy(reye);
-        clean_xy(nose);
-        auto leye_new = leye * chip_x;
-        auto nose_new = nose * chip_x;
-        nose_new.x() = std::min(nose_new.x(), (double)(g_chip_size * chip_x - g_feature_radius - 1));
-        nose_new.y() = std::min(nose_new.y(), (double)(g_chip_size * chip_x - g_feature_radius - 1));
-        if (nose_new.y() < 0)
-            nose_new.y() = g_feature_radius;
-        if (nose_new.x() < 0)
-            nose_new.x() = g_feature_radius;
-        auto reye_new = reye * chip_x;
-        face_features.push_back(leye);
-        face_features.push_back(nose);
-        face_features.push_back(reye);
-
-        chip_circles.push_back(image_window::overlay_circle(reye_new, g_feature_radius, color_r));
-        add_overlay_circle(reye_new, g_feature_radius, color_r);
-        chip_circles.push_back(image_window::overlay_circle(leye_new, g_feature_radius, color_b));
-        add_overlay_circle(leye_new, g_feature_radius, color_b);
-        chip_circles.push_back(image_window::overlay_circle(nose_new, g_feature_radius, color_g));
-        add_overlay_circle(nose_new, g_feature_radius, color_g);
-        // WIN: g_win_chip.add_overlay (chip_circles);
-
-        // extract the face chip
-        matrix<rgb_pixel> face_chip;
-        extract_image_chip(img, face_chip_details, face_chip);
-
-        // save the face chip
-        faces.push_back(face_chip);
-    }
-    return (faces);
-}
+using namespace dlib::image_dataset_metadata;
+using namespace cv;
+using namespace std;
 
 void align(std::string face_file)
-{   
-    using namespace dlib::image_dataset_metadata;
+{
     // load the data
-    dataset data;
-    load_image_dataset_metadata(data, face_file);
+    dataset metadata;
+    load_image_dataset_metadata(metadata, face_file);
 
     // for each image
     for (int i = 0; i < metadata.images.size(); i++)
     {
         // load the image;
+        int count = 0;
         string curImageFile = metadata.images[i].filename;
-        matrix<rgb_pixel> img;
-        try {
-            load_image(img, curImageFile);
-        } catch (image_load_error& e) {
-            cout << "Error loading image " << curImageFile << endl; 
+        Mat img = imread(curImageFile, IMREAD_COLOR);
+
+        if (img.empty())
+        {
+            std::cout << "Could not read the image: " << curImageFile << std::endl;
+            return;
         }
 
-        for (int j = 0; j < metadata.images[i].boxes.size(); j++){
+        for (int j = 0; j < metadata.images[i].boxes.size(); j++)
+        {
             box b = metadata.images[i].boxes[j];
-            if (b.ignore || b.parts.size() == 0) continue;
-            
+            if (b.ignore || b.parts.size() == 0)
+                continue;
+
+            // 0,1,2,3 corresponds to the center of left eye, right eye, nose, mouth
+            dlib::point leye = b.parts["0"];
+            dlib::point reye = b.parts["1"];
+            dlib::point nose = b.parts["2"];
+            dlib::point mouth = b.parts["3"];
+
+            // compute the angle between the eye centroids
+            double dY = reye.y() - leye.y();
+            double dX = reye.x() - leye.x();
+            double angle = atan(dY / dX) * 180 / PI;
+
+            // compute the desired right eye x-coordinate based on the
+            // desired x-coordinate of the left eye
+            const double DESIRED_RIGHTEYE[2] = {1.0 - DESIRED_LEFTEYE[0], 1.0 - DESIRED_LEFTEYE[1]};
+            // determine the scale of the new resulting image by taking
+            // the ratio of the distance between eyes in the *current*
+            // image to the ratio of distance between eyes in the
+            // *desired* image
+            double dist = sqrt((dX * dX) + (dY * dY));
+            double desiredDist = (DESIRED_RIGHTEYE[0] - DESIRED_LEFTEYE[0]);
+            desiredDist *= CHIP_SIZE;
+            double scale = desiredDist / dist;
+
+            // compute center (x, y)-coordinates (i.e., the median point)
+            // between the two eyes in the input image
+            Point2d eyesCenter((reye.x() + leye.x()) / 2, (reye.y() + leye.y()) / 2);
+            Mat M = getRotationMatrix2D(eyesCenter, angle, scale); // M is the rotational matrix
+
+            // update the translation component of the matrix
+            double tX = CHIP_SIZE * 0.5;
+            double tY = CHIP_SIZE * DESIRED_LEFTEYE[1];
+            M.at<double>(0, 2) += (tX - eyesCenter.x);
+            M.at<double>(1, 2) += (tY - eyesCenter.y);
+
+            // apply the affine transformation
+            Mat output;
+            warpAffine(img, output, M, cv::Size(CHIP_SIZE, CHIP_SIZE));
+
+            // save the photo
+            count++;
+            cv::imwrite(curImageFile + to_string(count), output);
         }
+    }
+}
+
+int main(int argc, char** argv){
+    if (argc != 2)
+    {
+        cout << "Give the path to your xml file as an argument to this" << endl;
+        cout << "program.  For example, execute this program by running:" << endl;
+        cout << "       ./align ./final.xml" << endl;
+        cout << endl;
+        return 0;
+
+        align(argv[1]);
+    }
 }

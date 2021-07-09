@@ -3,6 +3,7 @@ imglab/build
 run/imglab
 run/seal
 run/program
+run/align
 .vscode
 run/program
 .ccls-cache
