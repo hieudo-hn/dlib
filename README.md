@@ -23,26 +23,34 @@ If typing `brew` in your terminal returns `command not found` run the following 
   + (MacOS) Just run `brew install cmake`
   + (Others/General) You can download CMake using this link: https://cmake.org/download/. Make sure to download CMake that is compatible with your operating system. You can skip this step if CMake is already installed.
 
-5. Download Ninja:
+5. Download OpenCV:
+  + (MacOS) Just run `brew install opencv`
+  + (General) https://docs.opencv.org/4.5.2/d3/d52/tutorial_windows_install.html
+
+6. Download Ninja:
 
   + (MacOS) Just run `brew install ninja`
   + (Other/General) Follow the instructions on this page: https://ninja-build.org/
 
-6. Download XServer
+7. Download XServer
   + (MacOS) `brew install --cask xquartz`
   + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
 
 # Important folders:
-1. imglab/src: source code to run imglab
+1. imglab/src: source code to run imglab. Most of the edits are in /imglab/src/metadata_editor.cpp (includes automatic chipping and auto alignment)
 
-2. include/dlib: dlib source code
+2. include/dlib: dlib source code (check http://dlib.net/ for more information)
 
-3. sealdnn: contains sealFindr.cpp and dnn_seal_chip.cpp to execute face-chipping and store the result in the xmlFile
+3. sealdnn: contains dnn_seal_chip.cpp to execute face-chipping and store the result in the xmlFile (you can call this executable in the command line or in the GUI)
 
-4. run: folder to run the program
+4. run: folder containing all of the executable to run the program
+
+5. trainedModel: containing all of the trained face detection model to start automatic chipping
+
+6. data: where your dataset should be stored.
 
 # Important files:
-1. run/seal.dat: Trained model to detect seal face. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
+1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
 
 2. run/config.txt: Configuration file. The config.txt file should be written as follow:
 ```
@@ -57,6 +65,8 @@ model=seal.dat
 picfolder=Whaleboat_1_1 Mitchell_Field_1_31
 ```
 Note: picfolder contains the relative path to the photo directory. If you are not familiar with directory pathing, move all of your photo directories into the "run" folders and put the name of those directories in picfolder like in the above example
+
+3. run/final.xml: XML file contains all of the metadata on our training dataset (including truth boxes and parts' location)
 
 # Running the program:
 1. `cd` to your local repository
