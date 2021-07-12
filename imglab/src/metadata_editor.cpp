@@ -904,7 +904,7 @@ void metadata_editor::chipImage()
             int left = face_chip_details.rect.left(), top = face_chip_details.rect.top();
             int right = face_chip_details.rect.right(), bottom = face_chip_details.rect.bottom();
 
-            string location = "_" + to_string(left) + "_" + to_string(top) + "_" + to_string(right) + "_" + to_string(bottom);
+            string location = to_string(left) + "_" + to_string(top) + "_" + to_string(right) + "_" + to_string(bottom);
             string filename = curImg + "_ChippedAt_" + location + ".jpeg";
             string filedir = chipFolder + "/" + filename;
 
