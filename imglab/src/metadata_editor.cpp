@@ -21,10 +21,18 @@
 #include <stdio.h>
 #include <dirent.h>
 
-// #include <filesystem>
+#include <math.h>
+#include <opencv2/opencv.hpp>
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
 
 using namespace std;
 using namespace dlib;
+
+#define PI 3.14159265
+
+const int CHIP_SIZE = 112;
+const double DESIRED_LEFTEYE[2] = {0.25, 0.28};
 
 extern const char *VERSION;
 
@@ -82,7 +90,7 @@ metadata_editor::
     mbar.menu(0).add_menu_item(menu_item_separator());
     mbar.menu(0).add_menu_item(menu_item_text("Exit", static_cast<base_window &>(*this), &drawable_window::close_window, 'x'));
 
-    mbar.menu(1).add_menu_item(menu_item_text("Start", *this, &metadata_editor::chipToXML));
+    mbar.menu(1).add_menu_item(menu_item_text("Start", *this, &metadata_editor::startFaceDetection));
 
     mbar.menu(2).add_menu_item(menu_item_text("About", *this, &metadata_editor::display_about, 'A'));
 
@@ -706,7 +714,14 @@ void metadata_editor::
 }
 
 // ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ------------------------ ADDITION TO IMGLAB BY HIEU & ZACH -----------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
 
+/**
+ * Refresh the GUI on finish
+ */
 void metadata_editor::refresh()
 {
     load_image_dataset_metadata(metadata, filename);
@@ -746,49 +761,112 @@ void metadata_editor::refresh()
     show();
 }
 
-void metadata_editor::toSet()
+// ----------------------------------------------------------------------------------------
+
+/**
+ * Calling the seal executable to detect seals and store the result in the XML file
+ * For more information, check /sealdnn/src/dnn_seal_chip.cpp
+ */
+void metadata_editor::runSealExecutable()
 {
-
     std::ostringstream sout;
-
-    // char tmp[256];
-    // getcwd(tmp, 256);
-    // cout << "Current working directory: " << tmp << endl;
 
     string prog = "./seal"; //running the executable seal (compiled from sealdnn/src/dnn_seal_chip.cpp)
     const char *command = prog.c_str();
     system(command);
-    sout << wrap_string("Chipping Complete!", 0, 0) << endl;
+    sout << wrap_string("Chipping Complete!", 0, 0) << endl; //show messagebox upon finish
     message_box("Done", sout.str());
-    metadata_editor::refresh();
-}
-void metadata_editor::
-    chipToXML()
-{
-    std::ostringstream sout;
-    sout << wrap_string("Please wait: This prompt will automatically close when chipping completes.", 0, 0) << endl;
-    mymessage_box("Buffering", sout.str(), 1, *this, &metadata_editor::toSet);
+    metadata_editor::refresh(); //refresh the page to show the result
 }
 
 // ----------------------------------------------------------------------------------------
 
+/**
+ * Show the message box that the program is currently running the seal executable
+ * This will start detecting seal faces and store the results in the XML file
+ */
+void metadata_editor::
+    startFaceDetection()
+{
+    std::ostringstream sout;
+    sout << wrap_string("Please wait: This prompt will automatically close when chipping completes.", 0, 0) << endl;
+    mymessage_box("Buffering", sout.str(), 1, *this, &metadata_editor::runSealExecutable);
+}
+
+// ----------------------------------------------------------------------------------------
+
+cv::Mat align(
+    dlib::image_dataset_metadata::image i,
+    dlib::image_dataset_metadata::box b)
+{
+    cv::Mat img = cv::imread(i.filename, cv::IMREAD_COLOR);
+
+    // 0,1,2,3 corresponds to the center of left eye, right eye, nose, mouth
+    dlib::point leye = b.parts["0"];
+    dlib::point reye = b.parts["1"];
+    dlib::point nose = b.parts["2"];
+    dlib::point mouth = b.parts["3"];
+
+    // compute the angle between the eye centroids
+    double dY = reye.y() - leye.y();
+    double dX = reye.x() - leye.x();
+    double angle = atan(dY / dX) * 180 / PI;
+
+    // compute the desired right eye x-coordinate based on the
+    // desired x-coordinate of the left eye
+    const double DESIRED_RIGHTEYE[2] = {1.0 - DESIRED_LEFTEYE[0], 1.0 - DESIRED_LEFTEYE[1]};
+    // determine the scale of the new resulting image by taking
+    // the ratio of the distance between eyes in the *current*
+    // image to the ratio of distance between eyes in the
+    // *desired* image
+    double dist = sqrt((dX * dX) + (dY * dY));
+    double desiredDist = (DESIRED_RIGHTEYE[0] - DESIRED_LEFTEYE[0]);
+    desiredDist *= CHIP_SIZE;
+    double scale = desiredDist / dist;
+
+    // compute center (x, y)-coordinates (i.e., the median point)
+    // between the two eyes in the input image
+    cv::Point2d eyesCenter((reye.x() + leye.x()) / 2, (reye.y() + leye.y()) / 2);
+    cv::Mat M = getRotationMatrix2D(eyesCenter, angle, scale); // M is the rotational matrix
+
+    // update the translation component of the matrix
+    double tX = CHIP_SIZE * 0.5;
+    double tY = CHIP_SIZE * DESIRED_LEFTEYE[1];
+    M.at<double>(0, 2) += (tX - eyesCenter.x);
+    M.at<double>(1, 2) += (tY - eyesCenter.y);
+
+    // apply the affine transformation
+    cv::Mat output;
+    cv::warpAffine(img, output, M, cv::Size(CHIP_SIZE, CHIP_SIZE));
+
+    return output;
+}
+
+// ----------------------------------------------------------------------------------------
+
+/**
+ * Chip (i.e export) the images and store them in corresponding folders 
+ * The name of the chipped images will contain relevant information regarding the seals
+ */
 void metadata_editor::chipImage()
 {
     const unsigned CHIP_SIZE = 112;
 
     using namespace dlib::image_dataset_metadata;
 
+    // for each image
     for (image i : metadata.images)
     {
         matrix<rgb_pixel> img;
         dlib::load_image(img, i.filename);
+        // for each box in the image
         for (box b : i.boxes)
         {
             if (b.ignore)
                 continue;
             matrix<rgb_pixel> face_chip;
-            chip_details face_chip_details = chip_details(b.rect, chip_dims(CHIP_SIZE, CHIP_SIZE)); //Optionally add angle
-            extract_image_chip(img, face_chip_details, face_chip);                                  //Img, rectangle for each chip, chip destination
+            chip_details face_chip_details = chip_details(b.rect, chip_dims(CHIP_SIZE, CHIP_SIZE));
+            extract_image_chip(img, face_chip_details, face_chip); //Img, rectangle for each chip, chip destination
 
             //Get the directory and remove the .jpg part of the curImg
             string temp = i.filename;
@@ -821,15 +899,20 @@ void metadata_editor::chipImage()
 
             // save the face chip
             // the name of the chipped photo will be in the format:
-            // <count>_<original_photo>_ChippedAt_<top_left_coordinate_of_the_chipped_photo_within_the_original_photo>.jpeg
+            // <count>_<original_photo>_ChippedAt_<top_left_coordinate_of_the_chipped_photo_within_the_original_photo>_<bottom_right_coordinate_of_the_chipped_photo_within_the_original_photo>.jpeg
             // located in the folder <original_folder>Chips
             int left = face_chip_details.rect.left(), top = face_chip_details.rect.top();
             int right = face_chip_details.rect.right(), bottom = face_chip_details.rect.bottom();
 
-            string location = "(" + to_string(left) + "," + to_string(top) + "),(" + to_string(right) + "," + to_string(bottom) + ")";
+            string location = "_" + to_string(left) + "_" + to_string(top) + "_" + to_string(right) + "_" + to_string(bottom);
             string filename = curImg + "_ChippedAt_" + location + ".jpeg";
             string filedir = chipFolder + "/" + filename;
-            save_jpeg(face_chip, filedir, 100);
+
+            // only align boxes that have locations of the eyes
+            if (b.parts.size() == 0)
+                save_jpeg(face_chip, filedir, 100);
+            else
+                cv::imwrite(filedir, align(i, b)); // align and export
         }
     }
 

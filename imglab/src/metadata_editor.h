@@ -92,9 +92,9 @@ private:
     void on_overlay_rect_selected(const dlib::image_display::overlay_rect& orect);
 
     void display_about();
-    void chipToXML();
+    void startFaceDetection();
     void refresh();
-    void toSet();
+    void runSealExecutable();
     void chipImage();
 
     std::string filename;
