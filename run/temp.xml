@@ -3,20 +3,10 @@
 <dataset>
 <name>Data Set</name>
 <comment>Created by imglab tools.</comment>
-<folderList>../data/temp</folderList>
+<folderList>../../../../Downloads/Trial</folderList>
 <images>
-  <image file='/Users/aylab/Documents/Hieu/dlibSealGUI/data/temp/DSCN4803.JPG'>
-    <box top='860' left='1476' width='270' height='245'>
-      <part name='0' x='1533' y='939'/>
-      <part name='1' x='1671' y='927'/>
-      <part name='2' x='1608' y='1023'/>
-    </box>
-    <box top='538' left='708' width='270' height='245'/>
-    <box top='612' left='2640' width='270' height='246'>
-      <part name='0' x='2667' y='702'/>
-      <part name='1' x='2799' y='669'/>
-      <part name='2' x='2709' y='765'/>
-    </box>
+  <image file='/Users/Hieudo/Downloads/Trial/DSCN1662.JPG'>
+    <box top='1670' left='2909' width='450' height='409'/>
   </image>
 </images>
 </dataset>

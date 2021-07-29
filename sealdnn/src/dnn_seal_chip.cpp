@@ -48,6 +48,7 @@
 #include <sys/types.h>
 #include <libgen.h>
 #include <string.h>
+//#include <chrono>
 
 using namespace std;
 using namespace dlib;
@@ -66,7 +67,7 @@ using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<inpu
 
 const unsigned CHIP_SIZE = 112;
 const unsigned UPSCALE = 2;
-const double ADJUST_THRESHOLD = 1; 
+const double ADJUST_THRESHOLD = 0; 
 
 // ----------------------------------------------------------------------------------------
 
@@ -129,17 +130,18 @@ void configRead(std::string *config)
  * Main function to execute chipping. It takes an xmlFile and chips all the photos in that file using a specified model
  */ 
 void executeChipping(const std::string xmlFile, const std::string model){
-    // load the xmlFile
+    // Load the xmlFile
     dlib::image_dataset_metadata::dataset metadata; 
     load_image_dataset_metadata(metadata, xmlFile); 
 
-    // load the models
+    // Load the models
     net_type detector;
     deserialize(model) >> detector;
 
     int num_chips = 0;
 
-    //go through and chip each image
+    // Go through and chip each image
+    //auto start = chrono::high_resolution_clock::now();
     for (int i = 0; i < metadata.images.size(); i++)
     {
         string curImageFile = metadata.images[i].filename;
@@ -149,7 +151,8 @@ void executeChipping(const std::string xmlFile, const std::string model){
         } catch (image_load_error& e) {
             cout << "Error loading image " << curImageFile << endl; 
         }
-        bool isPyramidUp;
+        cout << img.size() << endl;
+        bool isPyramidUp = false;
 
         // dets contains the chipped boxes
         std::vector<dlib::mmod_rect> dets;
@@ -157,13 +160,20 @@ void executeChipping(const std::string xmlFile, const std::string model){
 
         try {
             cout << "try pyramid up " << curImageFile << endl; //upscaling image
-            pyramid_up(img, pyramid_down<UPSCALE>());
+            /*
+            Uncomment line 169 - 175 to enable upsampling images and detection with 
+            the specified ADJUST_THRESHOLD. The trade-off is increase in how long it
+            takes to detect faces per photos.
+            */
+
+            //pyramid_up(img, pyramid_down<UPSCALE>());
 
             // use the detector to chip the image
-            detector.to_tensor(&img, &img+1, temp);
-            detector.subnet().forward(temp);
-            detector.loss_details().to_label(temp, detector.subnet(), &dets, ADJUST_THRESHOLD);
-            isPyramidUp = true;
+            // detector.to_tensor(&img, &img+1, temp);
+            // detector.subnet().forward(temp);
+            // detector.loss_details().to_label(temp, detector.subnet(), &dets, ADJUST_THRESHOLD);
+            // isPyramidUp = true;
+            dets = detector(img);
         }
         catch(std::bad_alloc& ba) { //Catches bad alllocation (too big)
             cout << "bad alloc pyramid up" << endl;
@@ -173,7 +183,6 @@ void executeChipping(const std::string xmlFile, const std::string model){
                 detector.to_tensor(&img, &img+1, temp);
                 detector.subnet().forward(temp);
                 detector.loss_details().to_label(temp, detector.subnet(), &dets, ADJUST_THRESHOLD);
-                isPyramidUp = false;
             }
             catch(std::bad_alloc& ba) {
                 cout << "bad alloc pyramid down, skipping" << endl;
@@ -196,8 +205,11 @@ void executeChipping(const std::string xmlFile, const std::string model){
             const dlib::image_dataset_metadata::box b(rect);
             metadata.images[i].boxes.push_back(b);
         }
+      save_image_dataset_metadata(metadata, xmlFile);
     }
-    save_image_dataset_metadata(metadata, xmlFile);
+    // auto stop = chrono::high_resolution_clock::now();
+    // auto duration = chrono::duration_cast<chrono::microseconds>(stop - start);
+  
+    // cout << duration.count() << endl;
     cout << "Done Chipping" << endl;
-
 }
