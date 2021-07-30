@@ -31,7 +31,7 @@ using namespace dlib;
 
 #define PI 3.14159265
 
-const int CHIP_SIZE = 112;
+//const int CHIP_SIZE = 112;
 const double DESIRED_LEFTEYE[2] = {0.25, 0.28};
 
 extern const char *VERSION;
@@ -799,6 +799,9 @@ cv::Mat align(
     dlib::image_dataset_metadata::image i,
     dlib::image_dataset_metadata::box b)
 {
+    const int width = b.rect.right() - b.rect.left();
+    const int height = b.rect.bottom() - b.rect.top();
+
     cv::Mat img = cv::imread(i.filename, cv::IMREAD_COLOR);
 
     // 0,1,2,3 corresponds to the center of left eye, right eye, nose, mouth
@@ -819,10 +822,13 @@ cv::Mat align(
     // the ratio of the distance between eyes in the *current*
     // image to the ratio of distance between eyes in the
     // *desired* image
-    double dist = sqrt((dX * dX) + (dY * dY));
-    double desiredDist = (DESIRED_RIGHTEYE[0] - DESIRED_LEFTEYE[0]);
-    desiredDist *= CHIP_SIZE;
-    double scale = desiredDist / dist;
+
+    // double dist = sqrt((dX * dX) + (dY * dY));
+    // double desiredDist = (DESIRED_RIGHTEYE[0] - DESIRED_LEFTEYE[0]);
+    // desiredDist *= CHIP_SIZE;
+    // double scale = desiredDist / dist;
+
+    double scale = 1;
 
     // compute center (x, y)-coordinates (i.e., the median point)
     // between the two eyes in the input image
@@ -830,14 +836,14 @@ cv::Mat align(
     cv::Mat M = getRotationMatrix2D(eyesCenter, angle, scale); // M is the rotational matrix
 
     // update the translation component of the matrix
-    double tX = CHIP_SIZE * 0.5;
-    double tY = CHIP_SIZE * DESIRED_LEFTEYE[1];
+    double tX = width * 0.5;
+    double tY = height * DESIRED_LEFTEYE[1];
     M.at<double>(0, 2) += (tX - eyesCenter.x);
     M.at<double>(1, 2) += (tY - eyesCenter.y);
 
     // apply the affine transformation
     cv::Mat output;
-    cv::warpAffine(img, output, M, cv::Size(CHIP_SIZE, CHIP_SIZE));
+    cv::warpAffine(img, output, M, cv::Size(width, height));
 
     return output;
 }
@@ -853,6 +859,8 @@ void metadata_editor::chipImage()
     const unsigned CHIP_SIZE = 112;
 
     using namespace dlib::image_dataset_metadata;
+
+    std::cout << "Start chipping. Please wait..." << std::endl;
 
     // for each image
     for (image i : metadata.images)

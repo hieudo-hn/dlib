@@ -16,39 +16,44 @@ If typing `brew` in your terminal returns `command not found` run the following 
 ```
 
 3. Download C++ Compiler:
-
+  + (MacOS) Ignore this step
   + You can download C++ Compiler using this link: https://gcc.gnu.org/. Make sure to download a compiler that is compatible with your operating system, for Windows you might need to add a PATH to make it work. You can skip this step if you already have a compiler.
 
 4. Download CMake:
-
+  + If typing `cmake` in your terminal returns `command not found` run the following to install cmake:
   + (MacOS) Just run `brew install cmake`
   + (Others/General) You can download CMake using this link: https://cmake.org/download/. Make sure to download CMake that is compatible with your operating system. You can skip this step if CMake is already installed.
 
 5. Download OpenCV:
+  + If typing `opencv` in your terminal returns `command not found` run the following to install opencv:
   + (MacOS) Just run `brew install opencv`
   + (General) https://docs.opencv.org/4.5.2/d3/d52/tutorial_windows_install.html
 
 6. Download Ninja:
-
+  + If typing `ninja` in your terminal returns `command not found` run the following to install ninja:
   + (MacOS) Just run `brew install ninja`
   + (Other/General) Follow the instructions on this page: https://ninja-build.org/
 
 7. Download XServer
+  + If typing `xquartz` in your terminal returns `command not found` run the following to install XServer:
   + (MacOS) `brew install --cask xquartz`
   + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
 
-# Important folders:
-1. imglab/src: source code to run imglab. Most of the edits are in /imglab/src/metadata_editor.cpp (includes automatic chipping and auto alignment)
+# Running the program:
+1. `cd` to your local repository:
+```
+cd ~/Desktop/dlibSealGUI
+```
 
-2. include/dlib: dlib source code (check http://dlib.net/ for more information)
+2. run `./sealbuild` or `./sealbuildAWS` (if you run this program on the AWS machine) in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
 
-3. sealdnn: contains dnn_seal_chip.cpp to execute face-chipping and store the result in the xmlFile (you can call this executable in the command line or in the GUI)
+  + (Optional) To run the build command from anywhere navigate to the main project directory and execute: `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
 
-4. run: folder containing all of the executable to run the program
+3. `cd run`
 
-5. trainedModel: containing all of the trained face detection model to start automatic chipping
+4. Edit config.txt file using an editor. Please follow the guidelines in the section below in writing config.txt file for our programs to run smoothly.
 
-6. data: where your dataset should be stored.
+5. run the program with `./imglab`
 
 # Important files:
 1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
@@ -69,21 +74,18 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 
 3. run/final.xml: XML file contains all of the metadata on our training dataset (including truth boxes and parts' location)
 
-# Running the program:
-1. `cd` to your local repository:
-```
-cd ~/Desktop/dlibSealGUI
-```
+# Important folders:
+1. imglab/src: source code to run imglab. Most of the edits are in /imglab/src/metadata_editor.cpp (includes automatic chipping and auto alignment)
 
-2. run `./sealbuild` or `./sealbuildAWS` (if you run this program on the AWS machine) in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
+2. include/dlib: dlib source code (check http://dlib.net/ for more information)
 
-  + (Optional) To run the build command from anywhere navigate to the main project directory and execute: `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
+3. sealdnn: contains dnn_seal_chip.cpp to execute face-chipping and store the result in the xmlFile (you can call this executable in the command line or in the GUI)
 
-3. `cd run`
+4. run: folder containing all of the executable to run the program
 
-4. Edit config.txt file using an editor. Please follow the guidelines above in writing config.txt file for our programs to run smoothly.
+5. trainedModel: containing all of the trained face detection model to start automatic chipping
 
-5. run the program with `./imglab`
+6. data: where your dataset should be stored.
 
 # How to use the program:
 You can use imglab to mark the bounding boxes that indicate the seal faces to be trained. 
