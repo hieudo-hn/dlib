@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>Data Set</name>
+<comment>Created by imglab tools.</comment>
+<folderList>../data/July_19th_French_Island ../data/July_19th_Little_Whaleboat_NW ../data/July_19th_Little_Whaleboat_S ../data/July_19th_Little_Whaleboat_SW</folderList>
+<images>
+  <image file='../data/July_19th_French_Island/DSCN2203.JPG'>
+    <box top='467' left='1296' width='324' height='295'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2204.JPG'>
+    <box top='445' left='374' width='324' height='294'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2206.JPG'>
+    <box top='408' left='1831' width='324' height='294'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2210.JPG'>
+    <box top='427' left='204' width='389' height='353'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2211.JPG'>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2214.JPG'>
+    <box top='369' left='2665' width='389' height='353'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2215.JPG'>
+    <box top='775' left='3904' width='467' height='423'/>
+    <box top='494' left='632' width='389' height='353'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2216.JPG'>
+    <box top='530' left='1274' width='389' height='353'/>
+    <box top='637' left='97' width='389' height='353'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2217.JPG'>
+    <box top='807' left='2663' width='467' height='423'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2218.JPG'>
+    <box top='491' left='170' width='467' height='424'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2221.JPG'>
+    <box top='930' left='951' width='467' height='423'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2222.JPG'>
+    <box top='705' left='1553' width='559' height='508'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2224.JPG'>
+    <box top='538' left='2836' width='560' height='508'/>
+    <box top='235' left='2273' width='388' height='353'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2226.JPG'>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2229.JPG'>
+    <box top='507' left='3562' width='466' height='424'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2231.JPG'>
+    <box top='737' left='609' width='466' height='424'/>
+  </image>
+  <image file='../data/July_19th_French_Island/DSCN2232.JPG'>
+    <box top='652' left='1165' width='467' height='423'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2018.JPG'>
+    <box top='259' left='852' width='110' height='99'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2020.JPG'>
+    <box top='356' left='3361' width='131' height='119'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2022.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2024.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2027.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2029.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2031.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2032.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2034.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2036.JPG'>
+    <box top='124' left='2258' width='157' height='143'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2038.JPG'>
+    <box top='128' left='660' width='157' height='143'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2039.JPG'>
+    <box top='162' left='29' width='157' height='143'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2041.JPG'>
+    <box top='377' left='801' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2042.JPG'>
+    <box top='311' left='902' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2044.JPG'>
+    <box top='262' left='1276' width='225' height='205'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2046.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2048.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2051.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2053.JPG'>
+    <box top='561' left='3216' width='226' height='205'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2055.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2057.JPG'>
+    <box top='152' left='1478' width='188' height='170'/>
+    <box top='381' left='229' width='109' height='99'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2058.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2060.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2062.JPG'>
+    <box top='364' left='184' width='156' height='143'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2065.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2067.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2069.JPG'>
+    <box top='474' left='1934' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2071.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2072.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2078.JPG'>
+    <box top='519' left='523' width='324' height='295'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2079.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2083.JPG'>
+    <box top='681' left='4020' width='389' height='353'/>
+    <box top='203' left='2811' width='324' height='295'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2086.JPG'>
+    <box top='414' left='1872' width='270' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2087.JPG'>
+    <box top='612' left='2484' width='325' height='294'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2090.JPG'>
+    <box top='432' left='2788' width='271' height='246'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2092.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2095.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2098.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2099.JPG'>
+    <box top='528' left='2169' width='271' height='246'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2101.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2102.JPG'>
+    <box top='445' left='535' width='270' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2105.JPG'>
+    <box top='507' left='1723' width='271' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2107.JPG'>
+    <box top='652' left='430' width='225' height='205'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2112.JPG'>
+    <box top='417' left='1971' width='270' height='246'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2113.JPG'>
+    <box top='442' left='4101' width='270' height='245'/>
+    <box top='194' left='2045' width='271' height='246'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2115.JPG'>
+    <box top='389' left='3346' width='324' height='295'/>
+    <box top='349' left='956' width='270' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2117.JPG'>
+    <box top='479' left='2689' width='271' height='245'/>
+    <box top='504' left='1649' width='270' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2119.JPG'>
+    <box top='797' left='1038' width='389' height='353'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2121.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2122.JPG'>
+    <box top='296' left='1801' width='324' height='295'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2123.JPG'>
+    <box top='437' left='3911' width='324' height='295'/>
+    <box top='247' left='1451' width='270' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2125.JPG'>
+    <box top='292' left='1504' width='324' height='295'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2126.JPG'>
+    <box top='806' left='1167' width='389' height='353'/>
+    <box top='628' left='668' width='389' height='353'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2128.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2132.JPG'>
+    <box top='278' left='3799' width='157' height='143'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2133.JPG'>
+    <box top='262' left='882' width='157' height='143'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_NW/DSCN2134.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2141.JPG'>
+    <box top='450' left='1868' width='131' height='119'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2142.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2145.JPG'>
+    <box top='391' left='2541' width='157' height='143'/>
+    <box top='610' left='135' width='109' height='99'/>
+    <box top='271' left='304' width='109' height='100'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2147.JPG'>
+    <box top='872' left='1600' width='270' height='246'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2153.JPG'>
+    <box top='244' left='559' width='271' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2154.JPG'>
+    <box top='213' left='1421' width='225' height='205'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2155.JPG'>
+    <box top='271' left='1971' width='270' height='246'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2156.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2158.JPG'>
+    <box top='376' left='3404' width='226' height='204'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2161.JPG'>
+    <box top='453' left='2246' width='226' height='205'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2165.JPG'>
+    <box top='223' left='2863' width='188' height='170'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2169.JPG'>
+    <box top='148' left='2308' width='157' height='142'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2173.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2174.JPG'>
+    <box top='337' left='825' width='188' height='170'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2176.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2178.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2180.JPG'>
+    <box top='361' left='302' width='157' height='142'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2182.JPG'>
+    <box top='307' left='1595' width='157' height='143'/>
+    <box top='313' left='1128' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2185.JPG'>
+    <box top='413' left='2247' width='157' height='142'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2188.JPG'>
+    <box top='395' left='782' width='188' height='170'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_S/DSCN2192.JPG'>
+    <box top='835' left='1680' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1941.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1947.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1951.JPG'>
+    <box top='467' left='1296' width='324' height='295'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1956.JPG'>
+    <box top='347' left='882' width='389' height='353'/>
+    <box top='311' left='2344' width='389' height='353'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1958.JPG'>
+    <box top='266' left='775' width='389' height='354'/>
+    <box top='266' left='2201' width='389' height='354'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1960.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1961.JPG'>
+    <box top='467' left='2059' width='388' height='353'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1962.JPG'>
+    <box top='266' left='3378' width='389' height='354'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1969.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1971.JPG'>
+    <box top='690' left='3343' width='388' height='353'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1975.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1976.JPG'>
+    <box top='886' left='1417' width='389' height='353'/>
+    <box top='539' left='3134' width='466' height='424'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1978.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1981.JPG'>
+    <box top='304' left='1208' width='466' height='424'/>
+    <box top='396' left='3093' width='389' height='353'/>
+    <box top='646' left='1850' width='466' height='424'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1982.JPG'>
+    <box top='411' left='2021' width='467' height='424'/>
+    <box top='325' left='3776' width='466' height='424'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1985.JPG'>
+    <box top='339' left='628' width='157' height='143'/>
+    <box top='289' left='2564' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1987.JPG'>
+    <box top='347' left='2123' width='188' height='171'/>
+    <box top='244' left='2673' width='189' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1988.JPG'>
+    <box top='214' left='558' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1990.JPG'>
+    <box top='433' left='3271' width='188' height='171'/>
+    <box top='261' left='1276' width='188' height='171'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1993.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1995.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN1999.JPG'>
+    <box top='435' left='533' width='225' height='205'/>
+    <box top='371' left='3160' width='270' height='245'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN2000.JPG'>
+    <box top='368' left='2040' width='225' height='205'/>
+    <box top='265' left='2514' width='226' height='205'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN2002.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN2005.JPG'>
+    <box top='260' left='2164' width='225' height='204'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN2008.JPG'>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN2009.JPG'>
+    <box top='497' left='1709' width='226' height='205'/>
+  </image>
+  <image file='../data/July_19th_Little_Whaleboat_SW/DSCN2010.JPG'>
+    <box top='469' left='2556' width='225' height='204'/>
+    <box top='469' left='1875' width='225' height='204'/>
+  </image>
+</images>
+</dataset>

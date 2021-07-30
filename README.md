@@ -2,11 +2,12 @@
 This project is based on Davis King's Imglab & source code of dlib - a C++ machine learning toolkit.
 
 # Prerequisite to running the program:
-1. Clone/Download this repo:
+1. Clone/Download this repo into Desktop by first opening your terminal:
 ```
+cd ~/Desktop
 git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
-or download the zip file and unzip it in your laptop if you do not have git.
+or download the zip file and unzip it in your laptop if you do not have git and store it in /Desktop.
 
 2. (MacOS) Check if you have homebrew
 If typing `brew` in your terminal returns `command not found` run the following to install homebrew:
@@ -69,17 +70,18 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 3. run/final.xml: XML file contains all of the metadata on our training dataset (including truth boxes and parts' location)
 
 # Running the program:
-1. `cd` to your local repository
+1. `cd` to your local repository:
+```
+cd ~/Desktop/dlibSealGUI
+```
 
-2. run `sealbuild` or `sealbuildAWS` (if you run this program on the AWS machine) in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
+2. run `./sealbuild` or `./sealbuildAWS` (if you run this program on the AWS machine) in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
 
-  + (Optional) To run the build command from anywhere navigate to the main project directory and execute: 
-
-  + `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
+  + (Optional) To run the build command from anywhere navigate to the main project directory and execute: `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
 
 3. `cd run`
 
-4. Edit config.txt file using an editor or using `nano config.txt` in the terminal. At the end you can do Ctrl-X then Y and hit Enter to save. Please follow the guidelines in writing config.txt file for our programs to run smoothly.
+4. Edit config.txt file using an editor. Please follow the guidelines above in writing config.txt file for our programs to run smoothly.
 
 5. run the program with `./imglab`
 
