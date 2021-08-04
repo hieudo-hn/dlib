@@ -1,0 +1,18 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /Users/laurenhorstmyer/Desktop/dlibSealGUI/build/dlib_build/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6adb0 && [1/2] Building CXX object CMakeFiles/cmTC_6adb0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_6adb0
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /Users/laurenhorstmyer/Desktop/dlibSealGUI/build/dlib_build/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ca9e4 && [1/2] Building CXX object CMakeFiles/cmTC_ca9e4.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ca9e4
+
+
+Source file was:
+int main() { return 0; }

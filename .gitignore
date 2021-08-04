@@ -1,9 +1,0 @@
-build
-imglab/build
-run/imglab
-run/seal
-run/program
-.vscode
-run/program
-.ccls-cache
-

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>Data Set</name>
+<comment>Created by imglab tools.</comment>
+<folderList>../data/Trial</folderList>
+<images>
+  <image file='/Users/laurenhorstmyer/Desktop/dlibSealGUI/data/Trial/DSCN1662.JPG'>
+  </image>
+  <image file='/Users/laurenhorstmyer/Desktop/dlibSealGUI/data/Trial/DSCN1664.JPG'>
+  </image>
+  <image file='/Users/laurenhorstmyer/Desktop/dlibSealGUI/data/Trial/DSCN1666.JPG'>
+  </image>
+</images>
+</dataset>

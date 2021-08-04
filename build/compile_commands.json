@@ -1,0 +1,562 @@
+[
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/seal.dir/sealdnn/src/dnn_seal_chip.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/sealdnn/src/dnn_seal_chip.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/sealdnn/src/dnn_seal_chip.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/main.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/main.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/main.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/metadata_editor.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/metadata_editor.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/metadata_editor.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/convert_pascal_xml.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/convert_pascal_xml.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/convert_pascal_xml.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/convert_pascal_v1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/convert_pascal_v1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/convert_pascal_v1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/convert_idl.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/convert_idl.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/convert_idl.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/common.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/common.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/common.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/cluster.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/cluster.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/cluster.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I../include/dlib/.. -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o CMakeFiles/imglab.dir/imglab/src/flip_dataset.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/flip_dataset.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/imglab/src/flip_dataset.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/base64/base64_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/base64/base64_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bigint/bigint_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bigint/bigint_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bigint/bigint_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bigint/bigint_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bit_stream/bit_stream_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bit_stream/bit_stream_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/fonts.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/fonts.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/md5/md5_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/md5/md5_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/tokenizer/tokenizer_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/tokenizer/tokenizer_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/unicode/unicode.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/unicode/unicode.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/test_for_odr_violations.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/test_for_odr_violations.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockets/sockets_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockets/sockets_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bsp/bsp.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/bsp/bsp.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/dir_nav/dir_nav_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/dir_nav/dir_nav_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/dir_nav/dir_nav_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/dir_nav/dir_nav_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/dir_nav/dir_nav_extensions.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/dir_nav/dir_nav_extensions.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/linker/linker_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/linker/linker_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/logger/extra_logger_headers.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/logger/extra_logger_headers.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/logger/logger_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/logger/logger_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/logger/logger_config_file.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/logger/logger_config_file.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/misc_api/misc_api_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/misc_api/misc_api_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/misc_api/misc_api_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/misc_api/misc_api_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockets/sockets_extensions.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockets/sockets_extensions.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockets/sockets_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockets/sockets_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockstreambuf/sockstreambuf.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockstreambuf/sockstreambuf.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/server/server_kernel.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/server/server_kernel.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/server/server_iostream.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/server/server_iostream.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/server/server_http.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/server/server_http.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/multithreaded_object_extension.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/multithreaded_object_extension.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threaded_object_extension.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threaded_object_extension.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threads_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threads_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threads_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threads_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threads_kernel_shared.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/threads_kernel_shared.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/thread_pool_extension.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/thread_pool_extension.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/async.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/threads/async.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/timer/timer.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/timer/timer.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/stack_trace.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/stack_trace.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/cuda/cpu_dlib.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/cuda/cpu_dlib.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/cuda/tensor_tools.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/cuda/tensor_tools.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/data_io/image_dataset_metadata.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/data_io/image_dataset_metadata.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/data_io/mnist.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/data_io/mnist.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/data_io/cifar.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/data_io/cifar.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/global_optimization/global_function_search.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/global_optimization/global_function_search.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/filtering/kalman_filter.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/filtering/kalman_filter.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/svm/auto.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/svm/auto.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/widgets.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/widgets.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/drawable.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/drawable.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/canvas_drawing.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/canvas_drawing.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/style.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/style.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/base_widgets.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_widgets/base_widgets.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_core/gui_core_kernel_1.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_core/gui_core_kernel_1.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_core/gui_core_kernel_2.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/gui_core/gui_core_kernel_2.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_loader/png_loader.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_loader/png_loader.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_saver/save_png.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_saver/save_png.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jaricom.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jaricom.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcapimin.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcapimin.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcapistd.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcapistd.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcarith.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcarith.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jccoefct.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jccoefct.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jccolor.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jccolor.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcdctmgr.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcdctmgr.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jchuff.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jchuff.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcinit.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcinit.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcmainct.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcmainct.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcmarker.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcmarker.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcmaster.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcmaster.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcomapi.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcomapi.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcparam.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcparam.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcprepct.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcprepct.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcsample.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jcsample.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdapimin.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdapimin.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdapistd.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdapistd.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdarith.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdarith.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdatadst.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdatadst.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdatasrc.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdatasrc.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdcoefct.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdcoefct.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdcolor.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdcolor.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jddctmgr.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jddctmgr.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdhuff.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdhuff.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdinput.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdinput.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmainct.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmainct.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmarker.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmarker.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmaster.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmaster.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmerge.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdmerge.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdpostct.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdpostct.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdsample.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jdsample.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jerror.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jerror.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jfdctflt.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jfdctflt.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jfdctfst.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jfdctfst.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jfdctint.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jfdctint.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jidctflt.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jidctflt.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jidctfst.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jidctfst.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jidctint.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jidctint.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jmemmgr.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jmemmgr.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jmemnobs.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jmemnobs.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jquant1.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jquant1.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jquant2.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jquant2.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -o dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jutils.c",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/external/libjpeg/jutils.c"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_loader/jpeg_loader.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_loader/jpeg_loader.cpp"
+},
+{
+  "directory": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DDLIB_JPEG_STATIC -I/usr/X11R6/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT -DLAPACK_FORCE_UNDERSCORE -ftemplate-depth=500 -std=gnu++17 -o dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o -c /Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_saver/save_jpeg.cpp",
+  "file": "/Users/laurenhorstmyer/Desktop/dlibSealGUI/include/dlib/image_saver/save_jpeg.cpp"
+}
+]
