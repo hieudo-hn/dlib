@@ -1,8 +1,17 @@
 cmake_minimum_required(VERSION 3.16)
 set(CMAKE_EXPORT_COMPILE_COMMANDS YES)
+set(CMAKE_OSX_DEPLOYMENT_TARGET 10.15.6)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CONFIGURATION_TYPES "Debug" CACHE STRING "" FORCE)
 project(ChipTool)
+
+find_package( X11 REQUIRED )
+include_directories(${X11_INCLUDE_DIR})
+set (dlib_needed_libraries ${dlib_needed_libraries} ${X11_LIBRARIES})
+find_library(xlib X11)
+include_directories(${x11_path})
+set(dlib_needed_libraries ${dlib_needed_libraries} ${xlib} )
 
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
