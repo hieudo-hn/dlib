@@ -22,8 +22,6 @@ Note that the next few commands are only for first time setup. DO NOT DO ANY OF 
 Run them line by line.
 ```
 cd ~/Downloads/docker
-docker pull zbirenbaum/sealgui
-docker build . --tag imglab
 ./rundocker.sh
 ```
 
