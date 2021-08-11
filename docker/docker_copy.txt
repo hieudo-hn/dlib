@@ -1,0 +1,15 @@
+Copying Data to the docker Container:
+1. Place the folder you wish to copy in Downloads
+2. Run the following command
+docker cp `docker ps -a -q`:/dlibSealGUI/data/<your folder name here> ~/Downloads/<your folder name here>
+
+Copying File from your computer to container:
+1. Run the following command
+docker cp ~/Downloads/<your folder/file name here> `docker ps -a -q`:/dlibSealGUI/data/<your folder/file name here>
+
+Editing config.txt in container:
+1. To change the data folder loaded by the program, enter the container with 
+docker start  `docker ps -q -l` && docker attach `docker ps -q -l`
+2. run the command:
+nano run/config.txt
+once you have edited the line with the data files, press CTRL+o to save the file and ctrl+x to exit
