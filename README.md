@@ -2,6 +2,8 @@
 This project is based on Davis King's Imglab & source code of dlib - a C++ machine learning toolkit.
 
 ## Prerequisite to running the program:
+If you are a returning user, you can skip this section and go to the returning user section.
+
 1. Clone/Download this repo into Desktop by first opening your terminal:
 ```
 cd ~/Desktop
@@ -37,8 +39,13 @@ cd ~/Downloads/dlibSealGUI/docker
 ./initializedocker.sh
 ```
 
-## Returning User
-To reopen the container (e.g. run the program) run:
+## Returning User 
+1. Open the terminal and go to this repo by running:
+```
+cd ~/Desktop/dlibSealGUI
+```
+2. Run `git pull` to get any updates
+3. To reopen the container (e.g. run the program) run:
 ```
 docker start -a -i `docker ps -q -l`
 ```

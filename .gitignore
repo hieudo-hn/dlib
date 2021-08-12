@@ -7,4 +7,5 @@ run/temp.xml
 .vscode
 run/program
 .ccls-cache
+data/*Chips
 
