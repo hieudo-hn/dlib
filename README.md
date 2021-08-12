@@ -37,7 +37,7 @@ cd ~/Downloads/dlibSealGUI/docker
 ```
 
 # Returning User
-To reopen the container run:
+To reopen the container (e.g. run the program) run:
 ```
 docker start -a -i `docker ps -q -l`
 ```
