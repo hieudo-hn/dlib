@@ -21,7 +21,7 @@ brew install --cask xquartz
 ``` 
 3. Download XServer
   + If typing `xquartz` does not output anything, xquartz is installed, you can type CTRL+c and move on to the next step
-  + If it returns `command not found` run the following to install XServer:
+  + If it returns `command not found` run the following to install XServer, then log out and log back in:
     + (MacOS) `brew install --cask xquartz`
     + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
 
@@ -35,7 +35,7 @@ brew install --cask xquartz
 ### First Time Docker Setup
 Note that the next few commands are only for first time setup. Run them line by line.
 ```
-cd ~/Downloads/dlibSealGUI/docker
+cd ~/Desktop/dlibSealGUI/docker
 ./initializedocker.sh
 ```
 
