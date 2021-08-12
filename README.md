@@ -10,20 +10,20 @@ cd ~/Desktop
 git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
 ### First Time XQuartz Setup
-* You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop. Check your chip in "About This Mac".
+* You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop. If you are on Mac devices, you can click on the Apple Icon > "About This Mac" to know which chip you have (Intel or Apple chip).
 
 * You need to set up xquartz by following these steps:
-1. Run: "xhost +" in a terminal. If you see "Access control disabled, clients can connect from any host" then move on to the next step.
+1. Run: `xhost +`. If you see "Access control disabled, clients can connect from any host" then move on to the next step.
 2. Ignore this step if you already have brew. You can check if you have brew by typing brew in the terminal, else download brew by running:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install --cask xquartz
 ``` 
 3. Download XServer
-  + If typing `xquartz` in your terminal returns `command not found` run the following to install XServer:
+  + If typing `xquartz` does not output anything, xquartz is installed, you can type CTRL+c and move on to the next step
+  + If it returns `command not found` run the following to install XServer:
     + (MacOS) `brew install --cask xquartz`
     + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
-  + If it does not output anything, xquartz is installed, you can type CTRL+c and move on to the next step
 
 4. Open xquartz (type CMD+spacebar and search for XQuartz), go to XQuartz>preferences menu in the top left, choose the Security tab
   + check allow connections from network clients. 
