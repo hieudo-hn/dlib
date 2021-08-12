@@ -1,4 +1,4 @@
-### SealNet FaceChipping 
+# SealNet FaceChipping 
 This project is based on Davis King's Imglab & source code of dlib - a C++ machine learning toolkit.
 
 ## Prerequisite to running the program:
@@ -7,7 +7,7 @@ This project is based on Davis King's Imglab & source code of dlib - a C++ machi
 cd ~/Desktop
 git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
-# First Time XQuartz Setup
+### First Time XQuartz Setup
 * You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop to your Download folders
 * You need to download this folder to your download folder
 * You need to set up xquartz by following these steps:
@@ -23,21 +23,21 @@ brew install --cask xquartz
     + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
   + If it does not output anything, xquartz is installed, you can type CTRL+c and move on to the next step
 
-4. Open xquartz, go to XQuartz>preferences menu in the top left, choose the Security tab
+4. Open xquartz (type CMD+spacebar and search for XQuartz), go to XQuartz>preferences menu in the top left, choose the Security tab
   + check allow connections from network clients. 
   + Make sure authenticate connections is unchecked
 5. Completely quit out of xquartz via pressing and holding the icon in your taskbar
 6. Start xquartz again, a shortcut to do so is to press CMD+Space to open search menu, typing xquartz, and then press enter.
 7. Go to first time docker setup
 
-# First Time Docker Setup
+### First Time Docker Setup
 Note that the next few commands are only for first time setup. Run them line by line.
 ```
 cd ~/Downloads/dlibSealGUI/docker
 ./initializedocker.sh
 ```
 
-# Returning User
+## Returning User
 To reopen the container (e.g. run the program) run:
 ```
 docker start -a -i `docker ps -q -l`
@@ -48,7 +48,7 @@ cd ~/Downloads/dlibSealGUI/docker
 ./runprogram.sh
 ```
 
-# Important files:
+## Important files:
 1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
 
 2. run/config.txt: Configuration file. The config.txt file should be written as follow:
@@ -67,7 +67,7 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 
 3. run/final.xml: XML file contains all of the metadata on our training dataset (including truth boxes and parts' location)
 
-# Important folders:
+## Important folders:
 1. imglab/src: source code to run imglab. Most of the edits are in /imglab/src/metadata_editor.cpp (includes automatic chipping and auto alignment)
 
 2. include/dlib: dlib source code (check http://dlib.net/ for more information)
@@ -80,7 +80,7 @@ Note: picfolder contains the relative path to the photo directory. If you are no
 
 6. data: where your dataset should be stored.
 
-# How to use the program:
+## How to use the program:
 You can use imglab to mark the bounding boxes that indicate the seal faces to be trained. 
 Imglab is a simple graphical tool for annotating images with object bounding
 boxes and optionally their part locations.  Generally, you use it when you want
@@ -103,7 +103,7 @@ whether your model should detect such faces or not, indicate "ignore" option on 
 press "i". Example:
 ![Imglab Example](https://ibb.co/sj3pTpQ)
 
-# Additional information:
+## Additional information:
 [GUI Extensions and Functionality](docs/GUI.md)
 
 [Searching Source Code For Specifics](docs/SEARCH.md)
