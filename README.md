@@ -37,24 +37,17 @@ Make sure authenticate connections is unchecked
 cd ~/Desktop/dlibSealGUI
 ```
 # Fist Time Docker Setup
-Note that the next few commands are only for first time setup. DO NOT DO ANY OF THOSE STEPS AGAIN YOU WILL LOSE YOUR DATA.
-Run them line by line.
+Note that the next few commands are only for first time setup. Run them line by line.
 ```
-cd ~/Downloads/docker
-./rundocker.sh
+cd ~/Downloads/dlibSealGUI/docker
+./initializedocker.sh
 ```
 
 # Returning User
-5: to reopen the container run:
+To reopen the container run:
 docker start -a -i `docker ps -q -l`
 or:
-./openprogram.sh
-
-# Open the GUI:
-1. Run `./sealbuild` to build the program (only need to do this the first time)
-2. Run `./run/imglab` to open the GUI
-
-```
+`./runprogram.sh`
 
 # Important files:
 1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
