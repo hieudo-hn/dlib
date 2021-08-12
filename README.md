@@ -10,8 +10,10 @@ cd ~/Desktop
 git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
 ### First Time XQuartz Setup
-* You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop to your Download folders
-* You need to download this folder to your download folder
+* You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop to your Download folders. Check your chip in "About This Mac".
+
+* You need to download this folder to your download folder, open it and move it to Application.
+
 * You need to set up xquartz by following these steps:
 1. Run: "xhost +" in a terminal. If you see "Access control disabled, clients can connect from any host" then move on to the next step.
 2. Ignore this step if you already have brew. You can check if you have brew by typing brew in the terminal, else download brew by running:
