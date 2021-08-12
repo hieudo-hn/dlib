@@ -7,53 +7,54 @@ This project is based on Davis King's Imglab & source code of dlib - a C++ machi
 cd ~/Desktop
 git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
-or download the zip file and unzip it in your laptop if you do not have git and store it in /Desktop.
-
-2. (MacOS) Check if you have homebrew
-If typing `brew` in your terminal returns `command not found` run the following to install homebrew:
+# Prerequisite
+* You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop to your Download folders
+* You need to download this folder to your download folder
+* You need to set up xquartz by following these steps:
+1. Run: "xhost +" in a terminal. If you see "Access control disabled, clients can connect from any host" then move on to the next step.
+2. Ignore this step if you already have brew. You can check if you have brew by typing brew in the terminal, else download brew by running:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-3. Download C++ Compiler:
-  + (MacOS) Ignore this step
-  + You can download C++ Compiler using this link: https://gcc.gnu.org/. Make sure to download a compiler that is compatible with your operating system, for Windows you might need to add a PATH to make it work. You can skip this step if you already have a compiler.
-
-4. Download CMake:
-  + If typing `cmake` in your terminal returns `command not found` run the following to install cmake:
-  + (MacOS) Just run `brew install cmake`
-  + (Others/General) You can download CMake using this link: https://cmake.org/download/. Make sure to download CMake that is compatible with your operating system. You can skip this step if CMake is already installed.
-
-5. Download OpenCV:
-  + If typing `opencv` in your terminal returns `command not found` run the following to install opencv:
-  + (MacOS) Just run `brew install opencv`
-  + (General) https://docs.opencv.org/4.5.2/d3/d52/tutorial_windows_install.html
-
-6. Download Ninja:
-  + If typing `ninja` in your terminal returns `command not found` run the following to install ninja:
-  + (MacOS) Just run `brew install ninja`
-  + (Other/General) Follow the instructions on this page: https://ninja-build.org/
-
-7. Download XServer
+3. Ignore this step if you already have xquartz. You can check if you have brew by typing brew in the terminal, else download brew by running:
+```
+brew install --cask xquartz
+``` 
+3. Download XServer
   + If typing `xquartz` in your terminal returns `command not found` run the following to install XServer:
   + (MacOS) `brew install --cask xquartz`
   + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
+
+4. Open xquartz, go to XQuartz>preferences menu in the top left, choose the Security tab, and check allow connections from network clients. 
+Make sure authenticate connections is unchecked
+5. Completely quit out of xquartz via pressing and holding the icon in your taskbar
+6. Start xquartz again, a shortcut to do so is to press CMD+Space to open search menu, typing xquartz, and then press enter.
+7. Go to first time docker setup
 
 # Running the program:
 1. `cd` to your local repository:
 ```
 cd ~/Desktop/dlibSealGUI
 ```
+# Fist Time Docker Setup
+Note that the next few commands are only for first time setup. DO NOT DO ANY OF THOSE STEPS AGAIN YOU WILL LOSE YOUR DATA.
+Run them line by line.
+```
+cd ~/Downloads/docker
+./rundocker.sh
+```
 
-2. run `./sealbuild` or `./sealbuildAWS` (if you run this program on the AWS machine) in the main project directory (the one with imglab, run, etc) to build all of the programs and place them in the run folder. 
+# Returning User
+5: to reopen the container run:
+docker start -a -i `docker ps -q -l`
+or:
+./openprogram.sh
 
-  + (Optional) To run the build command from anywhere navigate to the main project directory and execute: `echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc`
+# Open the GUI:
+1. Run `./sealbuild` to build the program (only need to do this the first time)
+2. Run `./run/imglab` to open the GUI
 
-3. `cd run`
-
-4. Edit config.txt file using an editor. Please follow the guidelines in the section below in writing config.txt file for our programs to run smoothly.
-
-5. run the program with `./imglab`
+```
 
 # Important files:
 1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
