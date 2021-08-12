@@ -1,13 +1,13 @@
-## SealNet FaceChipping 
+### SealNet FaceChipping 
 This project is based on Davis King's Imglab & source code of dlib - a C++ machine learning toolkit.
 
-# Prerequisite to running the program:
+## Prerequisite to running the program:
 1. Clone/Download this repo into Desktop by first opening your terminal:
 ```
 cd ~/Desktop
 git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
-# Prerequisite
+# First Time XQuartz Setup
 * You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop to your Download folders
 * You need to download this folder to your download folder
 * You need to set up xquartz by following these steps:
@@ -19,8 +19,9 @@ brew install --cask xquartz
 ``` 
 3. Download XServer
   + If typing `xquartz` in your terminal returns `command not found` run the following to install XServer:
-  + (MacOS) `brew install --cask xquartz`
-  + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
+    + (MacOS) `brew install --cask xquartz`
+    + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
+  + If it does not output anything, xquartz is installed, you can type CTRL+c and move on to the next step
 
 4. Open xquartz, go to XQuartz>preferences menu in the top left, choose the Security tab
   + check allow connections from network clients. 
