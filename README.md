@@ -15,9 +15,6 @@ git clone https://github.com/hieudo-hn/dlibSealGUI.git
 2. Ignore this step if you already have brew. You can check if you have brew by typing brew in the terminal, else download brew by running:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-3. Ignore this step if you already have xquartz. You can check if you have brew by typing brew in the terminal, else download brew by running:
-```
 brew install --cask xquartz
 ``` 
 3. Download XServer
@@ -25,18 +22,14 @@ brew install --cask xquartz
   + (MacOS) `brew install --cask xquartz`
   + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
 
-4. Open xquartz, go to XQuartz>preferences menu in the top left, choose the Security tab, and check allow connections from network clients. 
-Make sure authenticate connections is unchecked
+4. Open xquartz, go to XQuartz>preferences menu in the top left, choose the Security tab
+  + check allow connections from network clients. 
+  + Make sure authenticate connections is unchecked
 5. Completely quit out of xquartz via pressing and holding the icon in your taskbar
 6. Start xquartz again, a shortcut to do so is to press CMD+Space to open search menu, typing xquartz, and then press enter.
 7. Go to first time docker setup
 
-# Running the program:
-1. `cd` to your local repository:
-```
-cd ~/Desktop/dlibSealGUI
-```
-# Fist Time Docker Setup
+# First Time Docker Setup
 Note that the next few commands are only for first time setup. Run them line by line.
 ```
 cd ~/Downloads/dlibSealGUI/docker
@@ -45,9 +38,14 @@ cd ~/Downloads/dlibSealGUI/docker
 
 # Returning User
 To reopen the container run:
+```
 docker start -a -i `docker ps -q -l`
+```
 or:
-`./runprogram.sh`
+``` 
+cd ~/Downloads/dlibSealGUI/docker
+./runprogram.sh
+```
 
 # Important files:
 1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
