@@ -37,7 +37,10 @@
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1810.JPG'>
     <box top='492' left='1060' width='126' height='115'/>
-    <box top='289' left='3152' width='151' height='137'/>
+    <box top='289' left='3152' width='151' height='137'>
+      <part name='0' x='3202' y='336'/>
+      <part name='1' x='3266' y='336'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1814.JPG'>
     <box top='106' left='3124' width='152' height='137'/>
