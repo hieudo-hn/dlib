@@ -31,11 +31,14 @@ add_executable( imglab
    imglab/src/flip_dataset.cpp
 )
 add_executable( seal sealdnn/src/dnn_seal_chip.cpp)
+add_executable( chip sealdnn/src/chipAndAlign.cpp)
 
 #target_include_directories(imglab PUBLIC include)
 #target_include_directories(seal PUBLIC include)
+#target_include_directories(chip PUBLIC include)
 
 target_link_libraries( imglab dlib::dlib ${OpenCV_LIBS})
+target_link_libraries( chip dlib::dlib ${OpenCV_LIBS})
 target_link_libraries( seal dlib::dlib)
 
 install(TARGETS imglab seal

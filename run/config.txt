@@ -1,3 +1,3 @@
-xml=final.xml
+xml=lauren.xml
 model=../trainedModel/final.dat
-picfolder=../data/Brandt_Ledges_Singles_1_10 ../data/Brandt_Ledges_Singles_1_29 ../data/Mitchell_Field_Singles_1_31 ../data/Whaleboat_Singles_1_28 ../data/Whaleboat_Singles_7_1
+picfolder=../data/July_14th_Brandt_Ledge_3 ../data/July_14th_Brandt_Ledge_4 ../data/July_14th_Branning_Ledge ../data/July_14th_Grassy_Ledge

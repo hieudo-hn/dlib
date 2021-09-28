@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>Data Set</name>
+<comment>Created by imglab tools.</comment>
+<folderList>../data/lol</folderList>
+<images>
+  <image file='/Users/aylab/Desktop/dlibSealGUI/data/lol/DSCN1537.JPG'>
+  </image>
+</images>
+</dataset>
