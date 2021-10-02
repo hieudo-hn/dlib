@@ -6,86 +6,160 @@
 <folderList>../data/July_14th_Brandt_Ledge_3 ../data/July_14th_Brandt_Ledge_4 ../data/July_14th_Branning_Ledge ../data/July_14th_Grassy_Ledge</folderList>
 <images>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1787.JPG'>
-    <box top='636' left='568' width='88' height='80'/>
-    <box top='138' left='2917' width='151' height='138'/>
-    <box top='284' left='3512' width='88' height='80'/>
-    <box top='308' left='1592' width='88' height='80'/>
-    <box top='193' left='2408' width='126' height='115'/>
+    <box top='636' left='568' width='88' height='80'>
+      <part name='0' x='596' y='662'/>
+      <part name='1' x='638' y='666'/>
+    </box>
+    <box top='193' left='2408' width='126' height='115'>
+      <part name='0' x='2450' y='258'/>
+      <part name='1' x='2478' y='220'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1789.JPG'>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1791.JPG'>
-    <box top='80' left='3290' width='152' height='137'/>
-    <box top='301' left='2889' width='152' height='137'/>
-    <box top='397' left='4216' width='127' height='115'/>
-    <box top='760' left='1643' width='181' height='164'/>
+    <box top='80' left='3290' width='152' height='137'>
+      <part name='0' x='3332' y='110'/>
+      <part name='1' x='3400' y='122'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1793.JPG'>
-    <box top='135' left='3145' width='126' height='115'/>
-    <box top='389' left='3986' width='126' height='115'/>
-    <box top='331' left='2488' width='127' height='115'/>
+    <box top='135' left='3145' width='126' height='115'>
+      <part name='0' x='3164' y='170'/>
+      <part name='1' x='3234' y='178'/>
+    </box>
+    <box top='389' left='3986' width='126' height='115'>
+      <part name='0' x='4032' y='428'/>
+      <part name='1' x='4084' y='438'/>
+    </box>
+    <box top='331' left='2488' width='127' height='115'>
+      <part name='0' x='2512' y='384'/>
+      <part name='1' x='2566' y='364'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1800.JPG'>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1805.JPG'>
-    <box top='307' left='3318' width='126' height='114'/>
-    <box top='75' left='2184' width='152' height='137'/>
-    <box top='213' left='1880' width='152' height='137'/>
+    <box top='307' left='3318' width='126' height='114'>
+      <part name='0' x='3368' y='354'/>
+      <part name='1' x='3422' y='366'/>
+    </box>
+    <box top='75' left='2184' width='152' height='137'>
+      <part name='0' x='2212' y='116'/>
+      <part name='1' x='2280' y='130'/>
+    </box>
+    <box top='213' left='1880' width='152' height='137'>
+      <part name='0' x='1916' y='284'/>
+      <part name='1' x='1972' y='248'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1808.JPG'>
-    <box top='259' left='2281' width='126' height='115'/>
+    <box top='259' left='2281' width='126' height='115'>
+      <part name='0' x='2310' y='288'/>
+      <part name='1' x='2378' y='292'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1810.JPG'>
-    <box top='492' left='1060' width='126' height='115'/>
+    <box top='492' left='1060' width='126' height='115'>
+      <part name='0' x='1096' y='528'/>
+      <part name='1' x='1160' y='526'/>
+    </box>
     <box top='289' left='3152' width='151' height='137'>
       <part name='0' x='3202' y='336'/>
       <part name='1' x='3266' y='336'/>
     </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1814.JPG'>
-    <box top='106' left='3124' width='152' height='137'/>
-    <box top='230' left='2793' width='151' height='138'/>
+    <box top='106' left='3124' width='152' height='137'>
+      <part name='0' x='3156' y='148'/>
+      <part name='1' x='3232' y='162'/>
+    </box>
+    <box top='230' left='2793' width='151' height='138'>
+      <part name='0' x='2840' y='284'/>
+      <part name='1' x='2904' y='264'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1816.JPG'>
-    <box top='400' left='3709' width='127' height='115'/>
-    <box top='289' left='2281' width='152' height='137'/>
+    <box top='400' left='3709' width='127' height='115'>
+      <part name='0' x='3760' y='432'/>
+      <part name='1' x='3814' y='452'/>
+    </box>
+    <box top='289' left='2281' width='152' height='137'>
+      <part name='0' x='2316' y='356'/>
+      <part name='1' x='2370' y='316'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1818.JPG'>
-    <box top='145' left='2737' width='152' height='138'/>
-    <box top='284' left='4023' width='151' height='137'/>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1821.JPG'>
-    <box top='386' left='2811' width='126' height='115'/>
+    <box top='386' left='2811' width='126' height='115'>
+      <part name='0' x='2842' y='428'/>
+      <part name='1' x='2900' y='410'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1825.JPG'>
-    <box top='410' left='3042' width='151' height='137'/>
+    <box top='410' left='3042' width='151' height='137'>
+      <part name='0' x='3084' y='464'/>
+      <part name='1' x='3152' y='440'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1829.JPG'>
-    <box top='228' left='2143' width='151' height='138'/>
-    <box top='104' left='2447' width='151' height='137'/>
-    <box top='321' left='3514' width='126' height='115'/>
+    <box top='228' left='2143' width='151' height='138'>
+      <part name='0' x='2176' y='298'/>
+      <part name='1' x='2246' y='262'/>
+    </box>
+    <box top='104' left='2447' width='151' height='137'>
+      <part name='0' x='2482' y='162'/>
+      <part name='1' x='2556' y='166'/>
+    </box>
+    <box top='321' left='3514' width='126' height='115'>
+      <part name='0' x='3556' y='348'/>
+      <part name='1' x='3606' y='368'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1862.JPG'>
-    <box top='522' left='2912' width='312' height='284'/>
+    <box top='522' left='2912' width='312' height='284'>
+      <part name='0' x='2985' y='669'/>
+      <part name='1' x='3099' y='600'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1869.JPG'>
-    <box top='235' left='2080' width='313' height='284'/>
+    <box top='235' left='2080' width='313' height='284'>
+      <part name='0' x='2154' y='306'/>
+      <part name='1' x='2307' y='348'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1891.JPG'>
-    <box top='217' left='1765' width='313' height='284'/>
-    <box top='393' left='1282' width='261' height='237'/>
+    <box top='217' left='1765' width='313' height='284'>
+      <part name='0' x='1812' y='291'/>
+      <part name='1' x='1959' y='348'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1892.JPG'>
-    <box top='282' left='1478' width='313' height='284'/>
-    <box top='80' left='3434' width='375' height='341'/>
-    <box top='583' left='3542' width='106' height='96'/>
+    <box top='282' left='1478' width='313' height='284'>
+      <part name='0' x='1539' y='363'/>
+      <part name='1' x='1710' y='369'/>
+    </box>
+    <box top='80' left='3434' width='375' height='341'>
+      <part name='0' x='3540' y='285'/>
+      <part name='1' x='3597' y='150'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1894.JPG'>
-    <box top='479' left='1163' width='313' height='284'/>
+    <box top='479' left='1163' width='313' height='284'>
+      <part name='0' x='1257' y='546'/>
+      <part name='1' x='1353' y='612'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1899.JPG'>
-    <box top='747' left='1749' width='375' height='340'/>
-    <box top='781' left='235' width='375' height='341'/>
+    <box top='747' left='1749' width='375' height='340'>
+      <part name='0' x='1824' y='831'/>
+      <part name='1' x='2004' y='840'/>
+    </box>
+    <box top='781' left='235' width='375' height='341'>
+      <part name='0' x='327' y='906'/>
+      <part name='1' x='477' y='894'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1902.JPG'>
   </image>
@@ -96,42 +170,90 @@
     <box top='1683' left='2668' width='261' height='236'/>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1908.JPG'>
-    <box top='467' left='3365' width='375' height='341'/>
-    <box top='478' left='1546' width='450' height='409'/>
+    <box top='467' left='3365' width='375' height='341'>
+      <part name='0' x='3447' y='558'/>
+      <part name='1' x='3624' y='558'/>
+    </box>
+    <box top='478' left='1546' width='450' height='409'>
+      <part name='0' x='1713' y='642'/>
+      <part name='1' x='1881' y='630'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1919.JPG'>
-    <box top='618' left='2248' width='450' height='408'/>
-    <box top='712' left='29' width='375' height='341'/>
+    <box top='618' left='2248' width='450' height='408'>
+      <part name='0' x='2367' y='735'/>
+      <part name='1' x='2550' y='744'/>
+    </box>
+    <box top='712' left='29' width='375' height='341'>
+      <part name='0' x='78' y='822'/>
+      <part name='1' x='240' y='807'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1927.JPG'>
-    <box top='401' left='969' width='449' height='409'/>
-    <box top='1299' left='1450' width='312' height='284'/>
+    <box top='401' left='969' width='449' height='409'>
+      <part name='0' x='1050' y='585'/>
+      <part name='1' x='1224' y='519'/>
+    </box>
+    <box top='1299' left='1450' width='312' height='284'>
+      <part name='0' x='1515' y='1368'/>
+      <part name='1' x='1677' y='1422'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1939.JPG'>
-    <box top='149' left='285' width='313' height='284'/>
+    <box top='149' left='285' width='313' height='284'>
+      <part name='0' x='339' y='246'/>
+      <part name='1' x='501' y='261'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_3/DSCN1940.JPG'>
-    <box top='224' left='213' width='313' height='284'/>
+    <box top='224' left='213' width='313' height='284'>
+      <part name='0' x='315' y='324'/>
+      <part name='1' x='477' y='342'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_4/DSCN1739.JPG'>
-    <box top='764' left='1400' width='88' height='80'/>
-    <box top='348' left='2143' width='126' height='115'/>
+    <box top='764' left='1400' width='88' height='80'>
+      <part name='0' x='1420' y='794'/>
+      <part name='1' x='1464' y='802'/>
+    </box>
+    <box top='348' left='2143' width='126' height='115'>
+      <part name='0' x='2174' y='390'/>
+      <part name='1' x='2228' y='386'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_4/DSCN1740.JPG'>
-    <box top='164' left='3192' width='88' height='80'/>
+    <box top='164' left='3192' width='88' height='80'>
+      <part name='0' x='3218' y='189'/>
+      <part name='1' x='3246' y='197'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_4/DSCN1743.JPG'>
-    <box top='437' left='2032' width='152' height='138'/>
+    <box top='437' left='2032' width='152' height='138'>
+      <part name='0' x='2067' y='481'/>
+      <part name='1' x='2131' y='480'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_4/DSCN1744.JPG'>
-    <box top='387' left='4166' width='218' height='197'/>
-    <box top='1141' left='3136' width='181' height='165'/>
+    <box top='387' left='4166' width='218' height='197'>
+      <part name='0' x='4218' y='435'/>
+      <part name='1' x='4305' y='432'/>
+    </box>
+    <box top='1141' left='3136' width='181' height='165'>
+      <part name='0' x='3180' y='1194'/>
+      <part name='1' x='3273' y='1200'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_4/DSCN1746.JPG'>
-    <box top='1136' left='2415' width='217' height='197'/>
+    <box top='1136' left='2415' width='217' height='197'>
+      <part name='0' x='2493' y='1176'/>
+      <part name='1' x='2562' y='1230'/>
+    </box>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_4/DSCN1755.JPG'>
-    <box top='274' left='2109' width='313' height='284'/>
+    <box top='274' left='2109' width='313' height='284'>
+      <part name='0' x='2190' y='354'/>
+      <part name='1' x='2331' y='381'/>
+    </box>
     <box top='1033' left='3302' width='106' height='96'/>
   </image>
   <image file='../data/July_14th_Brandt_Ledge_4/DSCN1756.JPG'>
