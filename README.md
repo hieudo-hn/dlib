@@ -54,6 +54,11 @@ or:
 cd ~/Downloads/dlibSealGUI/docker
 ./runprogram.sh
 ```
+4. Open Imglab:
+```
+cd ./run
+./imglab
+```
 
 ## Important files:
 1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
