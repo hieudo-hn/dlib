@@ -11,26 +11,23 @@ git clone https://github.com/hieudo-hn/dlibSealGUI.git
 ```
 ### First Time XQuartz Setup
 * You need to have docker in Mac from here: https://www.docker.com/products/docker-desktop. If you are on Mac devices, you can click on the Apple Icon > "About This Mac" to know which chip you have (Intel or Apple chip).
-
-* You need to set up xquartz by following these steps:
-1. Run: `xhost +`. If you see "Access control disabled, clients can connect from any host" then move on to the next step.
-2. Ignore this step if you already have brew. You can check if you have brew by typing brew in the terminal, else download brew by running:
+* Install brew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install --cask xquartz
-``` 
-3. Download XServer
+```
+* You need to set up xquartz by following these steps:
+1. Download XServer
   + If typing `xquartz` does not output anything, xquartz is installed, you can type CTRL+c and move on to the next step
   + If it returns `command not found` run the following to install XServer, then log out and log back in:
     + (MacOS) `brew install --cask xquartz`
     + (General) WSL: Setup VcXsrv, or wslg from microsoft preview builds
-
-4. Open xquartz (type CMD+spacebar and search for XQuartz), go to XQuartz>preferences menu in the top left, choose the Security tab
+2. Run: `xhost +`. If you see "Access control disabled, clients can connect from any host" then move on to the next step.
+3. Open xquartz (type CMD+spacebar and search for XQuartz), go to XQuartz>preferences menu in the top left, choose the Security tab
   + check allow connections from network clients. 
   + Make sure authenticate connections is unchecked
-5. Completely quit out of xquartz via pressing and holding the icon in your taskbar
-6. Start xquartz again, a shortcut to do so is to press CMD+Space to open search menu, typing xquartz, and then press enter.
-7. Go to first time docker setup
+4. Completely quit out of xquartz via pressing and holding the icon in your taskbar
+5. Start xquartz again, a shortcut to do so is to press CMD+Space to open search menu, typing xquartz, and then press enter.
+6. Go to first time docker setup
 
 ### First Time Docker Setup
 Note that the next few commands are only for first time setup. Run them line by line.
