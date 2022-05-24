@@ -38,10 +38,11 @@ cd ~/Desktop/dlibSealGUI/docker
 
 ## Returning User 
 1. Open Visual Studio Code and XQuartz
-2. Open this folder in Visual Studio Code by clicking File > Open Folder
-3. Run `git pull` to get any updates
-4. To open the container (e.g. run the program): go to the whale icon (Docker) on the left sidebar of VS Code, look at Containers section with Individual Containers, if you see an imglab:latest then right click on it and click start.
-5. Now underneath that container you can have access to all of the files within the container, you can edit dlibSealGUI/run/config.txt to choose which data folder to be displayed and move photos into the container as well.
+2. Go to the whale icon (Docker) on the left sidebar of VS Code, look at Containers section with Individual Containers, if you see an imglab:latest then right click on it and click start.
+3. Then you can open this container by right click imglab:latest and click on attach Vs Code, it will open up a new VS Code window for you.
+4. Open by clicking File > Open Folder > .. > dlibSealGUI
+3. Open the terminal and run `git pull` to get any updates
+5. Now you can have access to all of the files within the container, you can edit run/config.txt to choose which data folder to be displayed and move photos into the data folder as well.
 
 ## Important files:
 1. trainedModel/final.dat: Trained model using all of our training data to use for face detection. For more information on how to train the model, visit https://github.com/hieudo-hn/SealChipModel
